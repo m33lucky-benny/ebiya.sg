@@ -1,45 +1,367 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Ebiya</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EBIYASG</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    :root{
+      --bg: #0b0d10;
+      --panel: rgba(10,12,16,.72);
+      --stroke: rgba(255,255,255,.08);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.58);
+
+      --pink: #ff2f92;
+      --pink2: #ff47a7;
+      --glow: rgba(255,47,146,.55);
+    }
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      color:var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      background:
+        radial-gradient(900px 650px at 70% 30%, rgba(255,47,146,.20), transparent 55%),
+        radial-gradient(900px 650px at 25% 70%, rgba(255,47,146,.10), transparent 55%),
+        linear-gradient(180deg, #07090c 0%, #0b0d10 35%, #080a0e 100%);
+      overflow-x:hidden;
+    }
+
+    /* Top navbar */
+    .site-header{
+      position:sticky;
+      top:0;
+      z-index:50;
+      background: rgba(8,10,14,.72);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--stroke);
+    }
+    .nav-container{
+      max-width:1100px;
+      margin:0 auto;
+      padding: 18px 18px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+    }
+    .brand{
+      font-weight:800;
+      letter-spacing:.06em;
+      color:var(--pink);
+      text-decoration:none;
+      font-size: 28px;
+      text-transform:uppercase;
+      text-shadow: 0 0 10px var(--glow), 0 0 22px rgba(255,47,146,.25);
+    }
+
+    .nav-links{
+      display:flex;
+      gap:18px;
+      align-items:center;
+    }
+    .nav-links a{
+      color: rgba(255,255,255,.78);
+      text-decoration:none;
+      font-weight:600;
+      padding:8px 10px;
+      border-radius:10px;
+      transition: color .2s ease, background .2s ease;
+    }
+    .nav-links a:hover{
+      color: var(--pink);
+      background: rgba(255,255,255,.04);
+    }
+
+    /* Hamburger */
+    .icon-btn{
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(255,255,255,.02);
+      color: rgba(255,255,255,.88);
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      display:grid;
+      place-items:center;
+      cursor:pointer;
+      transition: transform .15s ease, background .2s ease, border-color .2s ease;
+    }
+    .icon-btn:hover{
+      transform: translateY(-1px);
+      background: rgba(255,255,255,.04);
+      border-color: rgba(255,47,146,.25);
+      box-shadow: 0 0 0 3px rgba(255,47,146,.08);
+    }
+    .hamburger{
+      width:20px; height:14px; position:relative;
+    }
+    .hamburger span{
+      position:absolute; left:0; right:0;
+      height:2px; border-radius:999px;
+      background: rgba(255,255,255,.88);
+    }
+    .hamburger span:nth-child(1){ top:0; }
+    .hamburger span:nth-child(2){ top:6px; opacity:.9; }
+    .hamburger span:nth-child(3){ bottom:0; opacity:.8; }
+
+    /* Hero */
+    .hero{
+      max-width:1100px;
+      margin:0 auto;
+      padding: 88px 18px 70px;
+      text-align:center;
+    }
+    .hero h1{
+      margin:0 0 18px;
+      font-size: clamp(40px, 7vw, 64px);
+      line-height: 1.08;
+      letter-spacing:-.02em;
+      font-weight: 800;
+    }
+    .hero .pink{
+      color: var(--pink);
+      text-shadow: 0 0 16px var(--glow), 0 0 34px rgba(255,47,146,.18);
+    }
+    .hero p{
+      margin: 0 auto 28px;
+      max-width: 760px;
+      font-size: 18px;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    .cta-row{
+      display:flex;
+      justify-content:center;
+      gap:14px;
+      flex-wrap:wrap;
+      margin-top: 10px;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding: 16px 22px;
+      border-radius: 14px;
+      font-weight: 800;
+      text-decoration:none;
+      border: 1px solid rgba(255,255,255,.12);
+      transition: transform .15s ease, box-shadow .25s ease, background .25s ease, border-color .25s ease;
+      min-width: 260px;
+    }
+    .btn-primary{
+      background: linear-gradient(180deg, var(--pink2), var(--pink));
+      color: #0b0d10;
+      border-color: rgba(255,47,146,.55);
+      box-shadow: 0 18px 50px rgba(255,47,146,.22);
+    }
+    .btn-primary:hover{
+      transform: translateY(-2px);
+      box-shadow: 0 24px 70px rgba(255,47,146,.28);
+    }
+    .btn-ghost{
+      background: rgba(255,255,255,.02);
+      color: rgba(255,255,255,.92);
+      border-color: rgba(255,255,255,.14);
+    }
+    .btn-ghost:hover{
+      transform: translateY(-2px);
+      border-color: rgba(255,47,146,.35);
+      box-shadow: 0 0 0 4px rgba(255,47,146,.08);
+    }
+    .arrow{
+      font-size: 18px;
+      margin-left: 6px;
+    }
+
+    /* Mobile menu overlay */
+    .overlay{
+      position:fixed;
+      inset:0;
+      z-index:100;
+      background: rgba(0,0,0,.55);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      display:none;
+    }
+    .overlay.open{ display:block; }
+
+    .sheet{
+      position:absolute;
+      top:0; left:0; right:0;
+      background: rgba(8,10,14,.90);
+      border-bottom: 1px solid rgba(255,255,255,.10);
+      padding: 18px 18px 26px;
+      box-shadow: 0 28px 60px rgba(0,0,0,.55);
+      transform: translateY(-18px);
+      animation: drop .18s ease forwards;
+    }
+    @keyframes drop{
+      to{ transform: translateY(0); }
+    }
+
+    .sheet-top{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+    }
+    .close-x{
+      width:44px; height:44px;
+      border-radius:12px;
+      border:1px solid rgba(255,255,255,.10);
+      background: rgba(255,255,255,.02);
+      color: rgba(255,255,255,.85);
+      display:grid;
+      place-items:center;
+      cursor:pointer;
+    }
+    .close-x:hover{
+      border-color: rgba(255,47,146,.25);
+      box-shadow: 0 0 0 3px rgba(255,47,146,.08);
+    }
+    .menu-links{
+      margin-top: 18px;
+      display:flex;
+      flex-direction:column;
+      gap: 14px;
+    }
+    .menu-links a{
+      text-decoration:none;
+      font-weight: 700;
+      font-size: 18px;
+      color: rgba(255,255,255,.55);
+      padding: 8px 2px;
+      width:max-content;
+    }
+    .menu-links a.active{
+      color: var(--pink);
+      text-shadow: 0 0 14px rgba(255,47,146,.25);
+    }
+    .menu-cta{
+      margin-top: 18px;
+    }
+    .menu-cta a{
+      display:block;
+      width:100%;
+      text-align:center;
+      padding: 18px 18px;
+      border-radius: 16px;
+      font-weight: 900;
+      text-decoration:none;
+      background: linear-gradient(180deg, var(--pink2), var(--pink));
+      color: #0b0d10;
+      border: 1px solid rgba(255,47,146,.55);
+      box-shadow: 0 18px 50px rgba(255,47,146,.22);
+    }
+
+    /* Responsive behavior */
+    @media (max-width: 820px){
+      .nav-links{ display:none; }
+    }
+    @media (min-width: 821px){
+      .icon-btn{ display:none; }
+      .overlay.open{ display:none; } /* desktop shouldn't show overlay */
+    }
+  </style>
 </head>
 
-
 <body>
-  <style>
-.site-header { background: red; padding: 20px; }
-.nav a { color: white; margin-right: 10px; }
-</style>
-
-
-  <!-- NAVBAR -->
   <header class="site-header">
     <div class="nav-container">
-      <div class="logo">
-        <a href="index.html">Ebiya</a>
-      </div>
+      <a class="brand" href="index.html">EBIYASG</a>
 
-      <nav class="nav">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="contact.html" class="nav-link">Contact</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="shrimp.html">Shrimp</a>
+        <a href="tank-builder.html">Tank Builder</a>
+        <a href="blog.html">Blog</a>
       </nav>
+
+      <button class="icon-btn" id="openMenu" aria-label="Open menu" aria-controls="mobileMenu" aria-expanded="false">
+        <div class="hamburger" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+      </button>
     </div>
   </header>
 
-  <!-- PAGE CONTENT -->
-  <main class="container">
-    <h1>Ebiya.sg</h1>
-    <p>GitHub Pages is working.</p>
+  <!-- Mobile Menu Overlay -->
+  <div class="overlay" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile menu">
+    <div class="sheet">
+      <div class="sheet-top">
+        <a class="brand" href="index.html">EBIYASG</a>
+        <button class="close-x" id="closeMenu" aria-label="Close menu">✕</button>
+      </div>
+
+      <div class="menu-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="shrimp.html">Shrimp</a>
+        <a href="tank-builder.html">Tank Builder</a>
+        <a href="blog.html">Blog</a>
+      </div>
+
+      <div class="menu-cta">
+        <a href="tank-builder.html">Build Your Tank</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="hero">
+    <h1>
+      Built-for-Shrimp <span class="pink">Tank</span><br />
+      <span class="pink">Systems</span>
+    </h1>
+
+    <p>
+      Premium breeding setups designed for Caridina and Neocaridina shrimp.
+      From nano tanks to professional rack systems — built by breeders, for breeders.
+    </p>
+
+    <div class="cta-row">
+      <a class="btn btn-primary" href="tank-builder.html">
+        Build Your Tank <span class="arrow">→</span>
+      </a>
+      <a class="btn btn-ghost" href="shrimp.html">
+        View Shrimp Collection
+      </a>
+    </div>
   </main>
 
-  <!-- JS -->
-  <script src="assets/js/main.js"></script>
+  <script>
+    const overlay = document.getElementById("mobileMenu");
+    const openBtn = document.getElementById("openMenu");
+    const closeBtn = document.getElementById("closeMenu");
+
+    function openMenu(){
+      overlay.classList.add("open");
+      openBtn.setAttribute("aria-expanded", "true");
+      document.body.style.overflow = "hidden";
+    }
+    function closeMenu(){
+      overlay.classList.remove("open");
+      openBtn.setAttribute("aria-expanded", "false");
+      document.body.style.overflow = "";
+    }
+
+    openBtn.addEventListener("click", openMenu);
+    closeBtn.addEventListener("click", closeMenu);
+
+    // close if tap outside the sheet
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) closeMenu();
+    });
+
+    // close on ESC
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && overlay.classList.contains("open")) closeMenu();
+    });
+  </script>
 </body>
 </html>
