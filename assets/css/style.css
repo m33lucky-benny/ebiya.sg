@@ -474,12 +474,22 @@ a:hover {
   padding: 18px 20px;
 }
 
+/* =========================================================
+   FOOTER LOGO (SMALLER, CLEAN)
+========================================================= */
+
 .footer-logo{
-  display: block;
-  margin: 0 auto 12px;   /* ← centers image */
-  height: 48px;
+  height: 36px;          /* ← smaller than before */
   width: auto;
+  max-width: 140px;      /* safety clamp */
+  display: block;
+  margin: 0 auto 10px;
+
+  filter:
+    drop-shadow(0 0 4px rgba(255,47,146,.20))
+    drop-shadow(0 0 10px rgba(255,47,146,.15));
 }
+
 
 
 
