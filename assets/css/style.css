@@ -1,4 +1,46 @@
-/* ===== NAVBAR – CHARCOAL + NEON PINK ===== */
+/* =========================================================
+   BASE / RESET
+========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Arial, sans-serif;
+  background: #0b0d10;
+  color: #ffffff;
+  line-height: 1.7;
+}
+
+a {
+  color: #ff2f92;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================================================
+   LAYOUT
+========================================================= */
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+/* =========================================================
+   NAVBAR – CHARCOAL + NEON PINK
+========================================================= */
 
 .site-header {
   position: sticky;
@@ -8,31 +50,7 @@
   border-bottom: 1px solid #222;
 }
 
-.brand {
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  font-size: 28px;
-  text-transform: lowercase;
-  display: inline-flex;
-  align-items: baseline;
-}
-
-/* "ebiya" → white */
-.brand-main {
-  color: #ffffff;
-}
-
-/* ".sg" → neon pink (unchanged) */
-.brand-sg {
-  color: #ff2f92;
-  margin-left: 2px;
-  text-shadow:
-    0 0 10px rgba(255, 47, 146, 0.6),
-    0 0 22px rgba(255, 47, 146, 0.35);
-}
-
-
+/* Wrapper */
 .nav-container {
   max-width: 1100px;
   margin: 0 auto;
@@ -42,16 +60,29 @@
   justify-content: space-between;
 }
 
-/* LOGO */
-.logo a {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
+/* BRAND */
+.brand {
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  font-size: 28px;
+  text-transform: lowercase;
+  display: inline-flex;
+  align-items: baseline;
   text-decoration: none;
+}
+
+/* "ebiya" → white */
+.brand-main {
+  color: #ffffff;
+}
+
+/* ".sg" → neon pink */
+.brand-sg {
   color: #ff2f92;
+  margin-left: 2px;
   text-shadow:
-    0 0 6px rgba(255, 47, 146, 0.6),
-    0 0 14px rgba(255, 47, 146, 0.4);
+    0 0 10px rgba(255, 47, 146, 0.6),
+    0 0 22px rgba(255, 47, 146, 0.35);
 }
 
 /* NAV LINKS */
@@ -62,9 +93,8 @@
 
 .nav-link {
   position: relative;
-  text-decoration: none;
-  color: #e5e5e5;
   font-weight: 500;
+  color: #e5e5e5;
   padding: 6px 4px;
   transition: color 0.25s ease;
 }
@@ -93,14 +123,97 @@
   width: 100%;
 }
 
-/* ACTIVE */
 .nav-link.active {
   color: #ff2f92;
 }
 
-/* MOBILE */
+/* MOBILE NAV SPACING */
 @media (max-width: 640px) {
   .nav {
     gap: 12px;
   }
+}
+
+/* =========================================================
+   BLOG LIST PAGE
+========================================================= */
+
+.blog-list {
+  display: grid;
+  gap: 22px;
+  margin-top: 40px;
+}
+
+.post-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 22px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+}
+
+.post-card h2 {
+  margin: 0 0 6px;
+  font-size: 22px;
+}
+
+.post-meta {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.post-excerpt {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* =========================================================
+   BLOG POST PAGE
+========================================================= */
+
+.post-title {
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+
+.post-content {
+  max-width: 800px;
+}
+
+.post-content h2 {
+  margin-top: 40px;
+  font-size: 26px;
+}
+
+.post-content p {
+  margin-top: 18px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* =========================================================
+   BUTTONS (OPTIONAL)
+========================================================= */
+
+.btn {
+  display: inline-block;
+  padding: 14px 22px;
+  border-radius: 14px;
+  font-weight: 800;
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(180deg, #ff47a7, #ff2f92);
+  color: #0b0d10;
+  box-shadow: 0 18px 50px rgba(255, 47, 146, 0.25);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 24px 70px rgba(255, 47, 146, 0.35);
 }
