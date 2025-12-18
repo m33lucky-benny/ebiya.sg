@@ -196,6 +196,94 @@ a:hover {
 }
 
 /* =========================================================
+   BURGER + MOBILE MENU (for Jekyll layout)
+========================================================= */
+
+/* Burger button */
+.icon-btn{
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.02);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+/* Hamburger bars */
+.hamburger{
+  width: 20px;
+  height: 14px;
+  position: relative;
+  display:block;
+}
+.hamburger span{
+  position:absolute;
+  left:0;
+  right:0;
+  height:2px;
+  border-radius:999px;
+  background:#fff;
+}
+.hamburger span:nth-child(1){ top:0; }
+.hamburger span:nth-child(2){ top:6px; opacity:.9; }
+.hamburger span:nth-child(3){ bottom:0; opacity:.85; }
+
+/* Mobile overlay */
+.overlay{
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: rgba(0,0,0,.55);
+  backdrop-filter: blur(8px);
+  display: none;
+}
+.overlay.open{ display:block; }
+
+.sheet{
+  background: rgba(18,18,18,.95);
+  border-bottom: 1px solid rgba(255,255,255,.12);
+  padding: 18px 18px 26px;
+}
+
+.sheet-top{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.close-x{
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.02);
+  color: rgba(255,255,255,.92);
+  cursor:pointer;
+  display:grid;
+  place-items:center;
+  font-size: 18px;
+}
+
+.menu-links{
+  margin-top: 18px;
+  display:flex;
+  flex-direction:column;
+  gap: 14px;
+}
+
+/* Responsive: hide desktop nav / show burger */
+@media (max-width: 820px){
+  .nav{ display:none; }
+}
+@media (min-width: 821px){
+  .icon-btn, .overlay{ display:none !important; }
+}
+
+
+/* =========================================================
    BUTTONS (OPTIONAL)
 ========================================================= */
 
