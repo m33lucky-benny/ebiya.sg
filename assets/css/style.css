@@ -427,25 +427,21 @@ a:hover {
 }
 
 /* =========================================================
-   FOOTER LOGO
+   FOOTER LOGO (SAFE FOR LARGE SOURCE IMAGES)
 ========================================================= */
 
 .footer-logo{
+  height: 48px;          /* visual size */
+  width: auto;           /* keep aspect ratio */
+  max-width: 180px;      /* safety clamp */
   display: block;
-  height: 52px;        /* adjust if needed */
-  width: auto;
   margin-bottom: 12px;
 
-  /* subtle glow to match neon theme */
+  /* optional neon polish */
   filter:
-    drop-shadow(0 0 6px rgba(255,47,146,.35))
-    drop-shadow(0 0 14px rgba(255,47,146,.25));
+    drop-shadow(0 0 6px rgba(255,47,146,.25))
+    drop-shadow(0 0 14px rgba(255,47,146,.18));
 }
-
-
-
-
-
 
 
 /* =========================================================
