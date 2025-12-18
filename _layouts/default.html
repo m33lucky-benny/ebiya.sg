@@ -5,13 +5,104 @@
   <title>{{ page.title }} – ebiya.sg</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- MAIN SITE CSS -->
+  <!-- Custom-domain safe absolute path -->
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
 
-  {{ content }}
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a class="brand" href="/">
+        <span class="brand-main">ebiya</span><span class="brand-sg">.sg</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/shrimp.html">Shrimp</a>
+        <a class="nav-link" href="/tank-builder.html">Tank Builder</a>
+        <a class="nav-link" href="/blog.html">Blog</a>
+      </nav>
+
+      <!-- Mobile burger -->
+      <button class="icon-btn" id="openMenu" aria-label="Open menu" aria-controls="mobileMenu" aria-expanded="false">
+        <span class="hamburger" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="overlay" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile menu">
+    <div class="sheet">
+      <div class="sheet-top">
+        <a class="brand" href="/">
+          <span class="brand-main">ebiya</span><span class="brand-sg">.sg</span>
+        </a>
+        <button class="close-x" id="closeMenu" aria-label="Close menu">✕</button>
+      </div>
+
+      <div class="menu-links">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/shrimp.html">Shrimp</a>
+        <a class="nav-link" href="/tank-builder.html">Tank Builder</a>
+        <a class="nav-link" href="/blog.html">Blog</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE CONTENT -->
+  <main>
+    {{ content }}
+  </main>
+
+  <script>
+    // Mobile menu open/close
+    const overlay = document.getElementById("mobileMenu");
+    const openBtn = document.getElementById("openMenu");
+    const closeBtn = document.getElementById("closeMenu");
+
+    function openMenu(){
+      overlay.classList.add("open");
+      openBtn.setAttribute("aria-expanded", "true");
+      document.body.style.overflow = "hidden";
+    }
+    function closeMenu(){
+      overlay.classList.remove("open");
+      openBtn.setAttribute("aria-expanded", "false");
+      document.body.style.overflow = "";
+    }
+
+    openBtn?.addEventListener("click", openMenu);
+    closeBtn?.addEventListener("click", closeMenu);
+
+    // Close if tap outside menu sheet
+    overlay?.addEventListener("click", (e) => {
+      if (e.target === overlay) closeMenu();
+    });
+
+    // Close on ESC
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && overlay.classList.contains("open")) closeMenu();
+    });
+
+    // Active link highlight (desktop + mobile)
+    (function setActiveNav(){
+      const path = (location.pathname || "/").toLowerCase();
+      document.querySelectorAll(".nav a.nav-link, .menu-links a.nav-link").forEach(a => {
+        const href = (a.getAttribute("href") || "").toLowerCase();
+        if (!href) return;
+
+        // Match exact path OR treat "/" as home
+        const isHome = (href === "/") && (path === "/" || path.endsWith("/index.html"));
+        const exact = href !== "/" && path.endsWith(href);
+        if (isHome || exact) a.classList.add("active");
+      });
+    })();
+  </script>
 
 </body>
 </html>
