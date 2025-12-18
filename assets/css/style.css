@@ -343,6 +343,90 @@ a:hover {
   margin-right: auto;
 }
 
+/* =========================================================
+   HERO SECTION (HOME)
+========================================================= */
+
+.hero{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 100px 18px 120px;
+  text-align: center;
+}
+
+.hero h1{
+  font-size: clamp(40px, 7vw, 64px);
+  font-weight: 800;
+  line-height: 1.08;
+  margin-bottom: 18px;
+}
+
+.pink{
+  color: #ff2f92;
+  text-shadow:
+    0 0 16px rgba(255,47,146,.55),
+    0 0 32px rgba(255,47,146,.25);
+}
+
+.hero p{
+  max-width: 760px;
+  margin: 0 auto 32px;
+  font-size: 18px;
+  color: rgba(255,255,255,.65);
+  line-height: 1.7;
+}
+
+/* CTA buttons */
+.cta-row{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 26px;
+  border-radius: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: transform .15s ease, box-shadow .2s ease;
+}
+
+.btn-primary{
+  background: linear-gradient(180deg, #ff47a7, #ff2f92);
+  color: #0b0d10;
+  box-shadow: 0 18px 50px rgba(255,47,146,.25);
+}
+
+.btn-primary:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 24px 70px rgba(255,47,146,.35);
+}
+
+.btn-ghost{
+  background: rgba(255,255,255,.04);
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,.12);
+}
+
+.btn-ghost:hover{
+  transform: translateY(-2px);
+  border-color: rgba(255,47,146,.35);
+  box-shadow: 0 0 0 4px rgba(255,47,146,.08);
+}
+
+/* SEO booster text */
+.seo-booster{
+  margin-top: 36px;
+  font-size: 14px;
+  color: rgba(255,255,255,.5);
+}
+
+
 
 
 
