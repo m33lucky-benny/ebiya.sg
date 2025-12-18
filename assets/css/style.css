@@ -475,20 +475,29 @@ a:hover {
 }
 
 /* =========================================================
-   FOOTER LOGO (SMALLER, CLEAN)
+   FOOTER LOGO (PROMINENT, RESPONSIVE)
 ========================================================= */
 
 .footer-logo{
-  height: 36px;          /* ← smaller than before */
-  width: auto;
-  max-width: 140px;      /* safety clamp */
   display: block;
-  margin: 0 auto 10px;
+  margin: 0 auto 14px;
+
+  width: 50%;          /* ← key change */
+  max-width: 220px;    /* desktop clamp */
+  height: auto;
 
   filter:
-    drop-shadow(0 0 4px rgba(255,47,146,.20))
-    drop-shadow(0 0 10px rgba(255,47,146,.15));
+    drop-shadow(0 0 6px rgba(255,47,146,.25))
+    drop-shadow(0 0 16px rgba(255,47,146,.18));
 }
+
+@media (max-width: 640px){
+  .footer-logo{
+    width: 60%;
+    max-width: 240px;
+  }
+}
+
 
 
 
