@@ -493,8 +493,8 @@ a:hover {
 
 @media (max-width: 640px){
   .footer-logo{
-    width: 60%;
-    max-width: 240px;
+    width: 80%;
+    max-width: none;
   }
 }
 
