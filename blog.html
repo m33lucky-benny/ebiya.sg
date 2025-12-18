@@ -18,6 +18,7 @@
     }
 
     *{ box-sizing:border-box; }
+
     body{
       margin:0;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -28,7 +29,7 @@
         linear-gradient(180deg, #07090c 0%, #0b0d10 35%, #080a0e 100%);
     }
 
-    /* ===== NAVBAR (same as index) ===== */
+    /* ================= NAVBAR ================= */
 
     .site-header{
       position: sticky;
@@ -57,109 +58,106 @@
       color: inherit;
     }
 
-    .brand-main{ color: #fff; }
+    .brand-main{ color:#fff; }
 
     .brand-sg{
       color: var(--pink);
       margin-left: 2px;
-      text-shadow:
-        0 0 10px var(--glow),
-        0 0 22px rgba(255,47,146,.35);
+      text-shadow: 0 0 10px var(--glow);
     }
 
     .nav-links{
-      display: flex;
-      gap: 18px;
+      display:flex;
+      gap:18px;
     }
 
     .nav-links a{
       color: rgba(255,255,255,.78);
-      text-decoration: none;
-      font-weight: 600;
-      padding: 8px 10px;
-      border-radius: 10px;
+      text-decoration:none;
+      font-weight:600;
+      padding:8px 10px;
+      border-radius:10px;
     }
 
-    .nav-links a:hover,
-    .nav-links a.active{
+    .nav-links a.active,
+    .nav-links a:hover{
       color: var(--pink);
       background: rgba(255,255,255,.04);
     }
 
     .icon-btn{
-      width: 44px;
-      height: 44px;
-      border-radius: 12px;
-      border: 1px solid rgba(255,255,255,.12);
+      width:44px;
+      height:44px;
+      border-radius:12px;
+      border:1px solid rgba(255,255,255,.12);
       background: rgba(255,255,255,.02);
-      display: grid;
-      place-items: center;
-      cursor: pointer;
+      display:grid;
+      place-items:center;
+      cursor:pointer;
     }
 
     .hamburger{
-      width: 20px;
-      height: 14px;
-      position: relative;
+      width:20px;
+      height:14px;
+      position:relative;
     }
 
     .hamburger span{
-      position: absolute;
-      left: 0;
-      right: 0;
-      height: 2px;
-      background: #fff;
-      border-radius: 2px;
+      position:absolute;
+      left:0;
+      right:0;
+      height:2px;
+      background:#fff;
     }
 
-    .hamburger span:nth-child(1){ top: 0; }
-    .hamburger span:nth-child(2){ top: 6px; }
-    .hamburger span:nth-child(3){ bottom: 0; }
+    .hamburger span:nth-child(1){ top:0; }
+    .hamburger span:nth-child(2){ top:6px; }
+    .hamburger span:nth-child(3){ bottom:0; }
 
-    @media (max-width: 820px){
+    @media (max-width:820px){
       .nav-links{ display:none; }
     }
-    @media (min-width: 821px){
+    @media (min-width:821px){
       .icon-btn{ display:none; }
     }
 
-    /* ===== BLOG ===== */
+    /* ================= BLOG ================= */
 
     .page-header{
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 80px 18px 30px;
-      text-align: center;
+      max-width:1100px;
+      margin:0 auto;
+      padding:80px 18px 30px;
+      text-align:center;
     }
 
     .page-header h1{
       font-size: clamp(36px, 6vw, 56px);
-      margin-bottom: 10px;
+      margin-bottom:10px;
     }
 
     .page-header p{
       color: var(--muted);
-      max-width: 680px;
-      margin: 0 auto;
+      max-width:680px;
+      margin:0 auto;
     }
 
     .blog-grid{
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 40px 18px 100px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 22px;
+      max-width:1100px;
+      margin:0 auto;
+      padding:40px 18px 100px;
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+      gap:22px;
     }
 
     .post-card{
       background: rgba(255,255,255,.03);
-      border: 1px solid var(--stroke);
-      border-radius: 16px;
-      padding: 22px;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
+      border:1px solid var(--stroke);
+      border-radius:16px;
+      padding:22px;
+      display:flex;
+      flex-direction:column;
+      gap:12px;
       transition: transform .2s ease, box-shadow .2s ease;
     }
 
@@ -169,27 +167,26 @@
     }
 
     .post-card h2{
-      font-size: 20px;
-      margin: 0;
+      margin:0;
+      font-size:20px;
     }
 
     .post-meta{
-      font-size: 13px;
+      font-size:13px;
       color: var(--muted);
     }
 
     .post-excerpt{
       color: rgba(255,255,255,.75);
-      line-height: 1.6;
+      line-height:1.6;
     }
 
     .read-more{
-      margin-top: auto;
-      font-weight: 700;
-      text-decoration: none;
+      margin-top:auto;
+      font-weight:700;
       color: var(--pink);
+      text-decoration:none;
     }
-
   </style>
 </head>
 
@@ -219,7 +216,7 @@
 <main>
   <section class="page-header">
     <h1>Blog</h1>
-    <p>Guides, builds, and breeder notes on shrimp tanks and systems.</p>
+    <p>Guides, builds, and breeder notes on shrimp systems.</p>
   </section>
 
   <section class="blog-grid">
@@ -227,7 +224,7 @@
       <h2>Starting Your First Shrimp Tank</h2>
       <div class="post-meta">Jan 12, 2025 · Beginner</div>
       <p class="post-excerpt">
-        A complete beginner guide to setting up your first Caridina or Neocaridina tank.
+        A complete beginner guide to setting up Caridina and Neocaridina tanks.
       </p>
       <a class="read-more" href="#">Read →</a>
     </article>
@@ -236,7 +233,7 @@
       <h2>Active Soil vs Inert Substrate</h2>
       <div class="post-meta">Feb 3, 2025 · Substrate</div>
       <p class="post-excerpt">
-        Choosing the right substrate can make or break your shrimp colony.
+        Choosing the right substrate can make or break a shrimp colony.
       </p>
       <a class="read-more" href="#">Read →</a>
     </article>
@@ -254,4 +251,3 @@
 
 </body>
 </html>
-
