@@ -5,7 +5,7 @@
   <title>{{ page.title }} – ebiya.sg</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Custom-domain safe absolute path -->
+  <!-- Main site CSS (custom-domain safe) -->
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
@@ -18,7 +18,6 @@
         <span class="brand-main">ebiya</span><span class="brand-sg">.sg</span>
       </a>
 
-      <!-- Desktop nav -->
       <nav class="nav" aria-label="Primary navigation">
         <a class="nav-link" href="/">Home</a>
         <a class="nav-link" href="/shrimp.html">Shrimp</a>
@@ -27,7 +26,7 @@
       </nav>
 
       <!-- Mobile burger -->
-      <button class="icon-btn" id="openMenu" aria-label="Open menu" aria-controls="mobileMenu" aria-expanded="false">
+      <button class="icon-btn" id="openMenu" aria-label="Open menu" aria-expanded="false">
         <span class="hamburger" aria-hidden="true">
           <span></span><span></span><span></span>
         </span>
@@ -36,7 +35,7 @@
   </header>
 
   <!-- Mobile Menu Overlay -->
-  <div class="overlay" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile menu">
+  <div class="overlay" id="mobileMenu" aria-hidden="true">
     <div class="sheet">
       <div class="sheet-top">
         <a class="brand" href="/">
@@ -59,47 +58,64 @@
     {{ content }}
   </main>
 
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="brand-main">ebiya</span><span class="brand-sg">.sg</span>
+        <p class="footer-tagline">
+          Built-for-shrimp tanks & breeder systems
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://www.instagram.com/ebiyasg" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.tiktok.com/@fish_ah_gong" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://wa.me/6589002228" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © {{ site.time | date: "%Y" }} ebiya.sg · Singapore
+    </div>
+  </footer>
+
+  <!-- NAV SCRIPT -->
   <script>
-    // Mobile menu open/close
     const overlay = document.getElementById("mobileMenu");
     const openBtn = document.getElementById("openMenu");
     const closeBtn = document.getElementById("closeMenu");
 
     function openMenu(){
       overlay.classList.add("open");
-      openBtn.setAttribute("aria-expanded", "true");
       document.body.style.overflow = "hidden";
     }
     function closeMenu(){
       overlay.classList.remove("open");
-      openBtn.setAttribute("aria-expanded", "false");
       document.body.style.overflow = "";
     }
 
     openBtn?.addEventListener("click", openMenu);
     closeBtn?.addEventListener("click", closeMenu);
 
-    // Close if tap outside menu sheet
     overlay?.addEventListener("click", (e) => {
       if (e.target === overlay) closeMenu();
     });
 
-    // Close on ESC
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && overlay.classList.contains("open")) closeMenu();
     });
 
-    // Active link highlight (desktop + mobile)
-    (function setActiveNav(){
-      const path = (location.pathname || "/").toLowerCase();
-      document.querySelectorAll(".nav a.nav-link, .menu-links a.nav-link").forEach(a => {
-        const href = (a.getAttribute("href") || "").toLowerCase();
-        if (!href) return;
-
-        // Match exact path OR treat "/" as home
-        const isHome = (href === "/") && (path === "/" || path.endsWith("/index.html"));
-        const exact = href !== "/" && path.endsWith(href);
-        if (isHome || exact) a.classList.add("active");
+    // Active nav highlight
+    (function(){
+      const path = location.pathname.toLowerCase();
+      document.querySelectorAll(".nav-link").forEach(link => {
+        const href = link.getAttribute("href").toLowerCase();
+        if (href === "/" && (path === "/" || path.endsWith("index.html"))) {
+          link.classList.add("active");
+        } else if (href !== "/" && path.endsWith(href)) {
+          link.classList.add("active");
+        }
       });
     })();
   </script>
