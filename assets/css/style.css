@@ -330,6 +330,20 @@ a:hover {
   }
 }
 
+/* =========================================================
+   SEO BOOSTER (Hidden but crawlable)
+========================================================= */
+
+.seo-booster{
+  margin-top: 32px;
+  font-size: 14px;
+  color: rgba(255,255,255,.55);
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 
 
