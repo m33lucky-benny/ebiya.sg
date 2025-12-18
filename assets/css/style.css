@@ -350,7 +350,7 @@ a:hover {
 .hero{
   max-width: 1100px;
   margin: 0 auto;
-  padding: 100px 18px 120px;
+  padding: 56px 18px 120px;
   text-align: center;
 }
 
@@ -497,6 +497,13 @@ a:hover {
     max-width: none;
   }
 }
+
+@media (max-width: 640px){
+  .hero{
+    padding-top: 40px;
+  }
+}
+
 
 
 
