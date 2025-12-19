@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: "Best Aquarium Setups for Caridina Shrimp (Proven Breeding Setup)"
 date: 2025-03-01
@@ -12,7 +12,7 @@ tags:
   - caridina beginner guide
 description: "A proven Caridina shrimp aquarium setup based on real breeding experience. Learn tank size, water parameters, filtration, and beginner mistakes to avoid."
 image: /assets/images/caridina-setup.jpg
-canonical_url: https://yourusername.github.io/best-aquarium-setups-for-caridina-shrimp/
+canonical_url: https://www.ebiya.sg/2025/03/01/best-aquarium-setup-for-caridina-shrimp.html
 ---
 
 ## Best Aquarium Setups for Caridina Shrimp  
