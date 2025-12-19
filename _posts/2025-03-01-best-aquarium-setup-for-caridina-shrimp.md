@@ -28,7 +28,7 @@ This article is not theory. It’s based on the exact aquarium setups I use toda
 
 ---
 
-## Why Aquarium Setup Matters for Caridina Shrimp
+### Why Aquarium Setup Matters for Caridina Shrimp
 
 Caridina shrimp are not difficult because they need perfect water — they are difficult because they react badly to **instability**.
 
@@ -47,7 +47,7 @@ Everything else is secondary.
 
 ---
 
-## Tank Size: What Actually Works
+### Tank Size: What Actually Works
 
 For breeding, my preferred tank size is **60 × 30 cm**.
 
@@ -60,7 +60,7 @@ Smaller tanks fluctuate faster, while larger tanks take longer to adjust. For co
 
 ---
 
-## Bare Bottom with Side UGF
+### Bare Bottom with Side UGF
 
 I run **bare-bottom tanks with a side under-gravel filter (UGF)**.
 
@@ -74,7 +74,7 @@ While full soil tanks look nice, bare-bottom setups are far more reliable for br
 
 ---
 
-## Substrate Choice
+### Substrate Choice
 
 When soil is needed, I prefer:
 - **ADA Amazonia V1** (when available)  
@@ -84,7 +84,7 @@ Soil alone does not guarantee success. I always monitor **both soil condition an
 
 ---
 
-## Water Parameters I Use
+### Water Parameters I Use
 
 I use **RO water remineralized with SL Aqua**, keeping parameters within this range:
 
@@ -99,7 +99,7 @@ These values are not magic numbers. What matters most is that they **do not fluc
 
 ---
 
-## Filtration and Water Flow
+### Filtration and Water Flow
 
 My filtration setup is simple:
 - **Bio sponge filter**  
@@ -113,7 +113,7 @@ I also use **java moss** to slow water movement in high-flow areas.
 
 ---
 
-## Plants: Functional, Not Decorative
+### Plants: Functional, Not Decorative
 
 I keep planting minimal.
 
@@ -127,7 +127,7 @@ Heavy planting is unnecessary and often hides problems like uneaten food.
 
 ---
 
-## Feeding Strategy
+### Feeding Strategy
 
 I feed **once a week** using a **green wall**.
 
@@ -137,7 +137,7 @@ Overfeeding is the fastest way to crash a Caridina tank. Healthy shrimp spend mo
 
 ---
 
-## Maintenance Routine
+### Maintenance Routine
 
 - **Water changes:** Once per week  
 - **Volume:** Small and controlled  
@@ -147,7 +147,7 @@ I avoid large corrective water changes. Small, consistent changes maintain stabi
 
 ---
 
-## Case Study: A Breeding Tank I Run
+### Case Study: A Breeding Tank I Run
 
 **Tank setup:**
 - Tank size: 60 × 30 cm  
@@ -168,7 +168,7 @@ If I had to restart this tank today, I wouldn’t change much.
 
 ---
 
-## Common Beginner Mistakes
+### Common Beginner Mistakes
 
 - Feeding too often  
 - Chasing perfect pH  
@@ -178,7 +178,7 @@ If I had to restart this tank today, I wouldn’t change much.
 
 ---
 
-## Final Thoughts
+### Final Thoughts
 
 The best aquarium setup for Caridina shrimp is not the most expensive or complicated one.
 
