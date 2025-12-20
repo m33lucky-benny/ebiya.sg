@@ -6,244 +6,83 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Build your perfect Caridina shrimp tank in Singapore. Select tank size, soil, filtration, and UGF. Follow our proven guide for happy shrimp.">
 <meta name="keywords" content="Caridina tank, shrimp tank Singapore, shrimp soil, UGF, sponge filter, tank builder, ebiyaSG">
-<meta name="robots" content="index, follow">
-
-<!-- Open Graph -->
-<meta property="og:title" content="Tank Builder – Caridina Shrimp | ebiyaSG">
-<meta property="og:description" content="Build your perfect Caridina shrimp tank in Singapore. Select tank size, soil, filtration, and UGF. Follow our proven guide for happy shrimp.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://ebiya.sg/tank-builder.html">
-<meta property="og:image" content="https://ebiya.sg/assets/images/shrimp-tank-builder.png">
+<link rel="stylesheet" href="path/to/your/ebiya.css"> <!-- Your CSS file -->
 
 <style>
-/* Branding Colors */
-:root {
-  --brand-green: #2e7d32;
-  --brand-green-light: #f4fff4;
-  --brand-text: #333;
-  --brand-bg: #f8f9fa;
-  --brand-accent: #c8f5c5;
-  --brand-button: #2e7d32;
-  --brand-button-hover: #1b4e20;
-}
-
-/* GENERAL */
-body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background: var(--brand-bg);
-  margin: 0;
-  color: var(--brand-text);
-  line-height: 1.6;
-}
-
-a { text-decoration: none; color: inherit; transition: 0.2s; }
-
-/* NAVBAR */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: var(--brand-green);
-  padding: 10px 40px;
-  flex-wrap: wrap;
-}
-
-.navbar img {
-  height: 40px;
-}
-
-.nav-links a {
-  color: #fff;
-  margin-left: 25px;
-  font-weight: 600;
-}
-
-.nav-links a:hover {
-  color: var(--brand-accent);
-}
-
-.nav-links { display: flex; align-items: center; }
-
-/* CONTAINER */
-.container {
-  max-width: 900px;
-  margin: 60px auto;
-  padding: 0 20px;
-}
-
-/* HEADINGS */
-h1, h2, h3 {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.subtitle {
-  text-align: center;
-  color: #555;
-  margin-bottom: 40px;
-}
-
-/* CARD SELECTION */
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-}
-
-.card {
-  background: #fff;
-  border: 2px solid #e5e5e5;
-  border-radius: 14px;
-  padding: 24px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-}
-
-.card:hover {
-  border-color: var(--brand-green);
-  transform: translateY(-5px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
-}
-
-.card.selected {
-  border-color: var(--brand-green);
-  background: var(--brand-green-light);
-}
-
-.tag {
-  color: var(--brand-green);
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li { margin: 6px 0; }
-
-/* BUILD RESULT */
-.section {
-  margin-top: 60px;
-  display: none;
-  background: #fff;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
-
-.section.active { display: block; }
-
-/* MEMBERSHIP CROSS-SELL */
-.membership {
-  text-align: center;
-  margin-top: 40px;
-  padding: 25px;
-  border: 2px dashed var(--brand-green);
-  border-radius: 12px;
-  background: var(--brand-green-light);
-  transition: background 0.5s, transform 0.5s;
-}
-
-.membership.highlight {
-  background: #e0ffe0;
-  transform: scale(1.03);
-}
-
-.membership h3 { margin-bottom: 12px; }
-
-.membership a {
-  display: inline-block;
-  margin-top: 12px;
-  background: var(--brand-button);
-  color: #fff;
-  padding: 12px 28px;
-  border-radius: 6px;
-  font-weight: 600;
-}
-
-.membership a:hover { background: var(--brand-button-hover); }
-
-/* RESPONSIVE */
-@media (max-width: 600px) {
-  .cards { grid-template-columns: 1fr; }
-  .navbar { flex-direction: column; align-items: flex-start; padding: 10px 20px; }
-  .nav-links { margin-top: 10px; flex-direction: column; align-items: flex-start; }
-  .nav-links a { margin-left: 0; margin-top: 8px; }
-}
+/* Tank builder specific overrides if needed */
+.tank-card.selected { border-color: #ff2f92; background: rgba(255,47,146,0.08); }
+.tank-card .tag { color: #ff2f92; text-shadow: 0 0 8px rgba(255,47,146,0.4); }
+.build-section { display: none; margin-top: 3rem; background: #121212; padding: 2rem; border-radius: 12px; }
+.build-section.active { display: block; }
+.membership-cta { margin-top: 2rem; padding: 1.5rem; border: 2px dashed #ff2f92; border-radius: 12px; text-align: center; transition: transform 0.3s, background 0.3s; }
+.membership-cta.highlight { background: rgba(255,47,146,0.05); transform: scale(1.02); }
+.membership-cta a { display: inline-block; margin-top: 0.75rem; padding: 0.7rem 1.5rem; border-radius: 14px; background: linear-gradient(180deg, #ff47a7, #ff2f92); color: #0b0d10; font-weight: 800; text-decoration: none; }
+.membership-cta a:hover { box-shadow: 0 24px 70px rgba(255,47,146,.35); transform: translateY(-2px); }
 </style>
 </head>
-
 <body>
 
 <!-- NAVBAR -->
-<div class="navbar">
-  <img src="https://ebiya.sg/assets/images/ebiya-logo.jpg" alt="ebiyaSG Logo">
-  <div class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="tank-builder.html">Tank Builder</a>
-    <a href="membership.html">Membership</a>
+<header class="site-header">
+  <div class="nav-container">
+    <a href="index.html" class="brand">
+      <span class="brand-main">ebiya</span><span class="brand-sg">.sg</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="tank-builder.html" class="nav-link active">Tank Builder</a>
+      <a href="membership.html" class="nav-link">Membership</a>
+    </nav>
   </div>
-</div>
+</header>
 
-<div class="container">
+<div class="page-wrapper">
+  <div class="page-container">
+    <h1>Caridina Shrimp Tank Builder</h1>
+    <p class="hero-subtitle">Step-by-step guide to building your perfect tank for Singapore conditions.</p>
 
-  <!-- STEP 1: TANK SIZE -->
-  <h1>Caridina Shrimp Tank Builder</h1>
-  <p class="subtitle">Proven setup guide for Singapore conditions</p>
-
-  <div class="cards">
-    <div class="card" data-size="45">
-      <h2>45cm Tank</h2>
-      <div class="tag">Recommended</div>
-      <ul>
-        <li>Beginner friendly</li>
-        <li>Lower cooling cost</li>
-        <li>10–20 Caridina</li>
-      </ul>
+    <!-- Tank Size Cards -->
+    <div class="tank-cards">
+      <div class="tank-card" data-size="45">
+        <h3>45cm Tank</h3>
+        <div class="tag">Recommended</div>
+        <ul>
+          <li>Beginner friendly</li>
+          <li>Lower cooling cost</li>
+          <li>10–20 Caridina</li>
+        </ul>
+      </div>
+      <div class="tank-card" data-size="60">
+        <h3>60cm Tank</h3>
+        <div class="tag">Colony / Breeding</div>
+        <ul>
+          <li>Higher stability</li>
+          <li>More buffering</li>
+          <li>25–40 Caridina</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="card" data-size="60">
-      <h2>60cm Tank</h2>
-      <div class="tag">Colony / Breeding</div>
-      <ul>
-        <li>Higher stability</li>
-        <li>More buffering</li>
-        <li>25–40 Caridina</li>
-      </ul>
+    <!-- Build Result -->
+    <div id="build" class="build-section">
+      <h2>Your Recommended Build</h2>
+      <h3>Soil</h3><p id="soil"></p>
+      <h3>Filtration</h3><p id="filter"></p>
+      <h3>UGF Chimney</h3><p id="chimney"></p>
+      <h3>Why This Works</h3><p id="reason"></p>
+
+      <!-- Membership CTA -->
+      <div id="membership" class="membership-cta">
+        <h3>Want Step-by-Step Guidance?</h3>
+        <p>Join <strong>ebiyaSG Membership</strong> for a full setup checklist, water parameters, and support before something goes wrong.</p>
+        <a href="membership.html">Join Now</a>
+      </div>
     </div>
   </div>
-
-  <!-- STEP 2: BUILD RESULT -->
-  <div id="build" class="section">
-    <h2>Your Recommended Build</h2>
-
-    <h3>Soil</h3>
-    <p id="soil"></p>
-
-    <h3>Filtration</h3>
-    <p id="filter"></p>
-
-    <h3>UGF Chimney</h3>
-    <p id="chimney"></p>
-
-    <h3>Why This Works</h3>
-    <p id="reason"></p>
-
-    <!-- MEMBERSHIP CROSS-SELL -->
-    <div class="membership" id="membership">
-      <h3>Want Step-by-Step Guidance?</h3>
-      <p>Join <strong>ebiyaSG Membership</strong> for a full setup checklist, water parameters, and support before something goes wrong.</p>
-      <a href="www.ebiya.sg/membership">Join Now</a>
-    </div>
-  </div>
-
 </div>
 
 <script>
-const cards = document.querySelectorAll('.card');
+const cards = document.querySelectorAll('.tank-card');
 const build = document.getElementById('build');
 const soil = document.getElementById('soil');
 const filter = document.getElementById('filter');
@@ -273,12 +112,12 @@ cards.forEach(card => {
       reason.textContent = "60cm tanks benefit from UGF for even flow, better bacterial distribution, and soil longevity.";
     }
 
-    // Auto scroll to build
+    // Smooth scroll to build section
     build.scrollIntoView({ behavior: "smooth", block: "start" });
 
     // Highlight membership CTA
     membership.classList.add('highlight');
-    setTimeout(() => { membership.classList.remove('highlight'); }, 2000);
+    setTimeout(() => membership.classList.remove('highlight'), 2000);
   });
 });
 </script>
