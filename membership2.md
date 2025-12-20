@@ -192,7 +192,7 @@ This ensures:
 
 ---
 
-### 🔒 Regular Price (Available After Promo)
+### 🔒 Regular Price $1288.00 (Available After Promo)
 
 <a href="https://buy.stripe.com/cNi6oz4ZabqGe9E5G0ao802"
    class="stripe-btn disabled">
