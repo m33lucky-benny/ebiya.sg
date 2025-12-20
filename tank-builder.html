@@ -6,20 +6,63 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Build your perfect Caridina shrimp tank in Singapore. Select tank size, soil, filtration, and UGF. Follow our proven guide for happy shrimp.">
 <meta name="keywords" content="Caridina tank, shrimp tank Singapore, shrimp soil, UGF, sponge filter, tank builder, ebiyaSG">
-<link rel="stylesheet" href="path/to/your/ebiya.css"> <!-- Your CSS file -->
-
+<link rel="stylesheet" href="path/to/your/ebiya.css"> <!-- Link to your CSS -->
 <style>
-/* Tank builder specific overrides if needed */
-.tank-card.selected { border-color: #ff2f92; background: rgba(255,47,146,0.08); }
-.tank-card .tag { color: #ff2f92; text-shadow: 0 0 8px rgba(255,47,146,0.4); }
-.build-section { display: none; margin-top: 3rem; background: #121212; padding: 2rem; border-radius: 12px; }
+/* Tank builder specific overrides for your brand */
+.tank-card {
+  background: #121212;
+  border: 2px solid rgba(255,47,146,0.4);
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tank-card:hover { border-color: #ff2f92; transform: translateY(-3px); }
+
+.tank-card.selected { border-color: #ff2f92; background: rgba(255,47,146,0.05); }
+
+.tank-card .tag { color: #ff2f92; text-shadow: 0 0 8px rgba(255,47,146,0.4); font-weight: 600; }
+
+.build-section {
+  display: none;
+  margin-top: 3rem;
+  background: #121212;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255,47,146,0.2);
+}
+
 .build-section.active { display: block; }
-.membership-cta { margin-top: 2rem; padding: 1.5rem; border: 2px dashed #ff2f92; border-radius: 12px; text-align: center; transition: transform 0.3s, background 0.3s; }
+
+.membership-cta {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 2px dashed #ff2f92;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s, background 0.3s;
+}
+
 .membership-cta.highlight { background: rgba(255,47,146,0.05); transform: scale(1.02); }
-.membership-cta a { display: inline-block; margin-top: 0.75rem; padding: 0.7rem 1.5rem; border-radius: 14px; background: linear-gradient(180deg, #ff47a7, #ff2f92); color: #0b0d10; font-weight: 800; text-decoration: none; }
-.membership-cta a:hover { box-shadow: 0 24px 70px rgba(255,47,146,.35); transform: translateY(-2px); }
+
+.membership-cta a {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  background: linear-gradient(180deg, #ff47a7, #ff2f92);
+  color: #0b0d10;
+  box-shadow: 0 18px 50px rgba(255,47,146,0.25);
+}
+
+.membership-cta a:hover { transform: translateY(-2px); box-shadow: 0 24px 70px rgba(255,47,146,0.35); }
 </style>
 </head>
+
 <body>
 
 <!-- NAVBAR -->
@@ -78,6 +121,7 @@
         <a href="membership.html">Join Now</a>
       </div>
     </div>
+
   </div>
 </div>
 
@@ -112,10 +156,7 @@ cards.forEach(card => {
       reason.textContent = "60cm tanks benefit from UGF for even flow, better bacterial distribution, and soil longevity.";
     }
 
-    // Smooth scroll to build section
     build.scrollIntoView({ behavior: "smooth", block: "start" });
-
-    // Highlight membership CTA
     membership.classList.add('highlight');
     setTimeout(() => membership.classList.remove('highlight'), 2000);
   });
