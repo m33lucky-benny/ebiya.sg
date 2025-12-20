@@ -2,8 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Tank Builder – ebiyaSG</title>
+<title>Tank Builder – Caridina Shrimp | ebiyaSG</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Build your perfect Caridina shrimp tank in Singapore. Select tank size, soil, filtration, and UGF. Follow our proven guide for happy shrimp.">
+<meta name="keywords" content="Caridina tank, shrimp tank Singapore, shrimp soil, UGF, sponge filter, tank builder, ebiyaSG">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Social -->
+<meta property="og:title" content="Tank Builder – Caridina Shrimp | ebiyaSG">
+<meta property="og:description" content="Build your perfect Caridina shrimp tank in Singapore. Select tank size, soil, filtration, and UGF. Follow our proven guide for happy shrimp.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ebiya.sg/tank-builder.html">
+<meta property="og:image" content="https://ebiya.sg/assets/images/shrimp-tank-builder.png">
 
 <style>
 body {
@@ -76,6 +86,31 @@ li {
 .section.active {
   display: block;
 }
+
+.membership {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  border: 2px dashed #2e7d32;
+  border-radius: 12px;
+  background: #f4fff4;
+}
+
+.membership a {
+  display: inline-block;
+  margin-top: 12px;
+  background: #2e7d32;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.membership a:hover {
+  background: #1b4e20;
+}
 </style>
 </head>
 
@@ -84,8 +119,8 @@ li {
 <div class="container">
 
   <!-- STEP 1: TANK SIZE -->
-  <h1>Select Tank Size</h1>
-  <p class="subtitle">Only proven Caridina sizes</p>
+  <h1>Caridina Shrimp Tank Builder</h1>
+  <p class="subtitle">Proven setup guide for Singapore conditions</p>
 
   <div class="cards">
     <div class="card" data-size="45">
@@ -124,6 +159,13 @@ li {
 
     <h3>Why This Works</h3>
     <p id="reason"></p>
+
+    <!-- MEMBERSHIP CROSS-SELL -->
+    <div class="membership">
+      <h3>Want Step-by-Step Guidance?</h3>
+      <p>Join <strong>ebiyaSG Membership</strong> for a full setup checklist, water parameters, and support before something goes wrong.</p>
+      <a href="https://ebiya.sg/membership.html">Join Now</a>
+    </div>
   </div>
 
 </div>
@@ -142,7 +184,6 @@ cards.forEach(card => {
     card.classList.add('selected');
 
     const size = card.dataset.size;
-
     build.classList.add('active');
 
     if (size === "45") {
