@@ -180,7 +180,7 @@ This ensures:
 ---
 
 <span class="promo-badge">
-🔥 Only <strong>3</strong> GOLD promo slots left
+🔥 Only <strong>88</strong> GOLD promo slots left
 </span>
 
 <a href="https://buy.stripe.com/3cI3cn3V652i3v0ecwao801"
