@@ -10,32 +10,31 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   background: #fafafa;
   margin: 0;
-  padding: 0;
 }
 
 .container {
   max-width: 900px;
   margin: 60px auto;
   padding: 0 20px;
+}
+
+h1, h2 {
   text-align: center;
 }
 
-h1 {
-  margin-bottom: 10px;
-}
-
 .subtitle {
+  text-align: center;
   color: #666;
   margin-bottom: 30px;
 }
 
-.tank-cards {
+.cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
 }
 
-.tank-card {
+.card {
   background: #fff;
   border: 2px solid #e5e5e5;
   border-radius: 14px;
@@ -44,25 +43,20 @@ h1 {
   transition: 0.2s ease;
 }
 
-.tank-card:hover {
+.card:hover {
   border-color: #2e7d32;
   transform: translateY(-3px);
 }
 
-.tank-card.selected {
+.card.selected {
   border-color: #2e7d32;
   background: #f2fff4;
 }
 
-.tank-card h2 {
-  margin-top: 0;
-}
-
 .tag {
-  font-size: 14px;
-  font-weight: 600;
   color: #2e7d32;
-  margin-bottom: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 ul {
@@ -71,12 +65,16 @@ ul {
 }
 
 li {
-  margin: 8px 0;
+  margin: 6px 0;
 }
 
-#result {
-  margin-top: 30px;
-  font-weight: 600;
+.section {
+  margin-top: 50px;
+  display: none;
+}
+
+.section.active {
+  display: block;
 }
 </style>
 </head>
@@ -84,43 +82,88 @@ li {
 <body>
 
 <div class="container">
-  <h1>Select Your Tank Size</h1>
-  <p class="subtitle">Choose the tank size you want to build</p>
 
-  <div class="tank-cards">
-    <div class="tank-card" data-size="45">
+  <!-- STEP 1: TANK SIZE -->
+  <h1>Select Tank Size</h1>
+  <p class="subtitle">Only proven Caridina sizes</p>
+
+  <div class="cards">
+    <div class="card" data-size="45">
       <h2>45cm Tank</h2>
       <div class="tag">Recommended</div>
       <ul>
-        <li>Best starting size</li>
+        <li>Beginner friendly</li>
         <li>Lower cooling cost</li>
-        <li>10–20 Caridina shrimp</li>
+        <li>10–20 Caridina</li>
       </ul>
     </div>
 
-    <div class="tank-card" data-size="60">
+    <div class="card" data-size="60">
       <h2>60cm Tank</h2>
       <div class="tag">Colony / Breeding</div>
       <ul>
         <li>Higher stability</li>
-        <li>More room to grow</li>
-        <li>25–40 Caridina shrimp</li>
+        <li>More buffering</li>
+        <li>25–40 Caridina</li>
       </ul>
     </div>
   </div>
 
-  <div id="result"></div>
+  <!-- STEP 2: BUILD RESULT -->
+  <div id="build" class="section">
+    <h2>Your Recommended Build</h2>
+
+    <h3>Soil</h3>
+    <p id="soil"></p>
+
+    <h3>Filtration</h3>
+    <p id="filter"></p>
+
+    <h3>UGF Chimney</h3>
+    <p id="chimney"></p>
+
+    <h3>Why This Works</h3>
+    <p id="reason"></p>
+  </div>
+
 </div>
 
 <script>
-const cards = document.querySelectorAll('.tank-card');
-const result = document.getElementById('result');
+const cards = document.querySelectorAll('.card');
+const build = document.getElementById('build');
+const soil = document.getElementById('soil');
+const filter = document.getElementById('filter');
+const chimney = document.getElementById('chimney');
+const reason = document.getElementById('reason');
 
 cards.forEach(card => {
   card.addEventListener('click', () => {
     cards.forEach(c => c.classList.remove('selected'));
     card.classList.add('selected');
-    result.textContent = 'Selected Tank Size: ' + card.dataset.size + 'cm';
+
+    const size = card.dataset.size;
+
+    build.classList.add('active');
+
+    if (size === "45") {
+      soil.textContent =
+        "Active shrimp soil (9–12L). Thin slope. Do not rinse.";
+      filter.textContent =
+        "Single sponge filter OR low-flow HOB with pre-filter. UGF optional.";
+      chimney.textContent = "UGF: Max 1 chimney only (sufficient for 45cm).";
+      reason.textContent =
+        "45cm tanks stabilise faster with simple filtration. Lower flow prevents stress and biofilm loss.";
+    }
+
+    if (size === "60") {
+      soil.textContent =
+        "Active shrimp soil (18–24L). Deeper bed for long-term buffering.";
+      filter.textContent =
+        "UGF + sponge OR canister with pre-filter.";
+      chimney.textContent = "UGF: Can have 1 or 2 chimneys depending on colony size.";
+      reason.textContent =
+        "60cm tanks benefit from UGF for even flow, better bacterial distribution, and soil longevity.";
+    }
   });
 });
 </script>
