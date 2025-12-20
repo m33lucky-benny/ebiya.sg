@@ -16,7 +16,7 @@ og_description: "Stop guessing and start succeeding with Caridina shrimp. Join e
 og_type: website
 ---
 
-<!-- BUTTON STYLE (insert once per page) -->
+<!-- BUTTON & PROMO STYLES (insert once per page) -->
 <style>
   .stripe-btn {
     display: inline-block;
@@ -40,6 +40,29 @@ og_type: website
   .stripe-btn:active {
     transform: translateY(0);
     box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  }
+
+  /* Disabled / Greyed-out button */
+  .stripe-btn.disabled {
+    background-color: #9ca3af;
+    color: #f3f4f6 !important;
+    cursor: not-allowed;
+    pointer-events: none;
+    box-shadow: none;
+    transform: none;
+    opacity: 0.75;
+  }
+
+  /* Promo urgency badge */
+  .promo-badge {
+    display: inline-block;
+    margin: 14px 0 8px 0;
+    padding: 6px 12px;
+    background-color: #fde68a;
+    color: #92400e;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 999px;
   }
 </style>
 
@@ -81,27 +104,22 @@ This is experience distilled into a system.
 
 ---
 
-## Choose Your Membership
-
----
-
 ## 🥈 STANDARD Membership  
 ### SGD 28 / month
 
 Perfect for hobbyists who want reliable guidance without long-term commitment.
 
 ### What You Get
-- ✔️ Proven Caridina tank setup blueprint
-- ✔️ Exact water parameters (Singapore-optimized)
-- ✔️ Step-by-step cycling guidance
-- ✔️ Ongoing tank maturity support
-- ✔️ Molting and survival troubleshooting
-- ✔️ Breeding and shrimplet survival basics
-- ✔️ Members-only guides and updates
+- ✔️ Proven Caridina tank setup blueprint  
+- ✔️ Exact water parameters (Singapore-optimized)  
+- ✔️ Step-by-step cycling guidance  
+- ✔️ Ongoing tank maturity support  
+- ✔️ Molting and survival troubleshooting  
+- ✔️ Breeding and shrimplet survival basics  
+- ✔️ Members-only guides and updates  
 
 > Cancel anytime. Access continues until the end of the billing cycle.
 
-<!-- ✅ STANDARD STRIPE BUTTON (INSERTED HERE) -->
 <a href="https://buy.stripe.com/test_aFa9ALfRV0X2gzOcaO2Nq00"
    target="_blank"
    rel="noopener"
@@ -112,9 +130,23 @@ Perfect for hobbyists who want reliable guidance without long-term commitment.
 ---
 
 ## 🥇 GOLD Membership ⭐ *(Limited Slots)*  
-### SGD 888 / year
+### **PROMO PRICE: SGD 888 / year** 🔥
 
 Designed for serious collectors and breeders who want premium access and physical rewards.
+
+---
+
+### 🛡️ Why Gold Membership Is Limited
+**Gold memberships are capped to protect shrimp quality, ensure fair allocation,  
+and maintain fast, priority support for members.**
+
+This ensures:
+- Healthy shrimp distribution  
+- Fair access for all Gold members  
+- Consistent support quality  
+- Sustainable breeding practices  
+
+---
 
 ### Everything in STANDARD, plus:
 
@@ -128,31 +160,43 @@ Designed for serious collectors and breeders who want premium access and physica
 ---
 
 #### 💎 Elite Member Shrimp Pricing
-- ✔️ Exclusive Gold-only prices
-- ✔️ Priority access to limited batches
-- ✔️ Better value for colony building
+- ✔️ Exclusive Gold-only prices  
+- ✔️ Priority access to limited batches  
+- ✔️ Better value for colony building  
 
 ---
 
 #### 🧠 Priority Support
-- ✔️ Faster response time
-- ✔️ Priority troubleshooting
-- ✔️ “Before you change anything” guidance
+- ✔️ Faster response time  
+- ✔️ Priority troubleshooting  
+- ✔️ “Before you change anything” guidance  
 
 ---
 
 #### 🔔 Early Access & Reservations
-- ✔️ Early access to new shrimp drops
-- ✔️ Priority reservation before public release
+- ✔️ Early access to new shrimp drops  
+- ✔️ Priority reservation before public release  
 
 ---
 
-> Gold membership is **annual only** to ensure quality, fairness, and sustainable shrimp allocation.
+<span class="promo-badge">
+🔥 Only <strong>3</strong> GOLD promo slots left
+</span>
 
-<!-- GOLD BUTTON PLACEHOLDER -->
-<a href="#"
+<a href="https://buy.stripe.com/3cI3cn3V652i3v0ecwao801"
+   target="_blank"
+   rel="noopener"
    class="stripe-btn">
-👉 Join GOLD Membership – SGD 888/year
+🔥 Join GOLD Membership – PROMO SGD 888/year
+</a>
+
+---
+
+### 🔒 Regular Price (Available After Promo)
+
+<a href="https://buy.stripe.com/cNi6oz4ZabqGe9E5G0ao802"
+   class="stripe-btn disabled">
+🔒 Join GOLD Membership – Regular Price
 </a>
 
 ---
@@ -167,36 +211,6 @@ Designed for serious collectors and breeders who want premium access and physica
 
 ---
 
-## Why This Membership Saves You Money
-
-One failed shrimp setup often costs more than a full year of guidance.
-
-Members avoid:
-- Rebuying shrimp
-- Wasted soil and minerals
-- Emergency tank resets
-- Preventable losses
-
-**Most members recover the cost by avoiding a single major mistake.**
-
----
-
-## Frequently Asked Questions
-
-### Is this suitable for beginners?
-Yes. The system is designed to guide beginners step by step.
-
-### Does this work with Singapore water?
-Yes. Parameters and advice are optimized for local conditions.
-
-### Can I upgrade from Standard to Gold?
-Yes, subject to Gold slot availability.
-
-### Is this for Neocaridina shrimp?
-No. This membership focuses exclusively on **Caridina shrimp**.
-
----
-
 ## Final Thought
 
 Caridina shrimp aren’t fragile.  
@@ -204,12 +218,3 @@ They require **precision, patience, and the right guidance**.
 
 If you’re ready to stop guessing and start succeeding,  
 **ebiyaSG Membership** is built for you.
-
-<a href="https://buy.stripe.com/test_aFa9ALfRV0X2gzOcaO2Nq00"
-   target="_blank"
-   rel="noopener"
-   class="stripe-btn">
-👉 Join the ebiyaSG Membership Today
-</a>
-
----
