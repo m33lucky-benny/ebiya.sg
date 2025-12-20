@@ -73,6 +73,8 @@ Perfect for hobbyists who want reliable guidance without long-term commitment.
 - ✔️ Members-only guides and updates
 
 > Cancel anytime. Access continues until the end of the billing cycle.
+>
+> https://buy.stripe.com/test_aFa9ALfRV0X2gzOcaO2Nq00
 
 👉 **[Join STANDARD Membership – SGD 28/month](#)**
 
