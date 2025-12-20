@@ -1,28 +1,129 @@
-<section class="tank-size">
-  <h2>Select Your Tank Size</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tank Builder – ebiyaSG</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.tank-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.tank-card {
+  background: #fff;
+  border: 2px solid #e5e5e5;
+  border-radius: 14px;
+  padding: 24px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.tank-card:hover {
+  border-color: #2e7d32;
+  transform: translateY(-3px);
+}
+
+.tank-card.selected {
+  border-color: #2e7d32;
+  background: #f2fff4;
+}
+
+.tank-card h2 {
+  margin-top: 0;
+}
+
+.tag {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2e7d32;
+  margin-bottom: 14px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+}
+
+#result {
+  margin-top: 30px;
+  font-weight: 600;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <h1>Select Your Tank Size</h1>
   <p class="subtitle">Choose the tank size you want to build</p>
 
   <div class="tank-cards">
     <div class="tank-card" data-size="45">
-      <h3>45cm Tank</h3>
-      <p class="tag">Most Popular</p>
+      <h2>45cm Tank</h2>
+      <div class="tag">Recommended</div>
       <ul>
-        <li>Stable for beginners</li>
+        <li>Best starting size</li>
         <li>Lower cooling cost</li>
-        <li>Ideal for 10–20 Caridina</li>
+        <li>10–20 Caridina shrimp</li>
       </ul>
     </div>
 
     <div class="tank-card" data-size="60">
-      <h3>60cm Tank</h3>
-      <p class="tag">Breeder / Advanced</p>
+      <h2>60cm Tank</h2>
+      <div class="tag">Colony / Breeding</div>
       <ul>
-        <li>Higher water stability</li>
-        <li>More space for colonies</li>
-        <li>Ideal for 25–40 Caridina</li>
+        <li>Higher stability</li>
+        <li>More room to grow</li>
+        <li>25–40 Caridina shrimp</li>
       </ul>
     </div>
   </div>
 
-  <input type="hidden" id="selectedTankSize" value="">
-</section>
+  <div id="result"></div>
+</div>
+
+<script>
+const cards = document.querySelectorAll('.tank-card');
+const result = document.getElementById('result');
+
+cards.forEach(card => {
+  card.addEventListener('click', () => {
+    cards.forEach(c => c.classList.remove('selected'));
+    card.classList.add('selected');
+    result.textContent = 'Selected Tank Size: ' + card.dataset.size + 'cm';
+  });
+});
+</script>
+
+</body>
+</html>
