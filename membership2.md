@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "ebiyaSG Shrimp Membership – Caridina Shrimp Done Right"
 description: "Join ebiyaSG Membership to build a stable Caridina shrimp tank with confidence. Get step-by-step guidance, Singapore-optimized parameters, and exclusive Gold member shrimp perks."
 keywords:
