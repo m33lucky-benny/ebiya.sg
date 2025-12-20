@@ -604,6 +604,29 @@ a:hover {
   font-weight: 600;
 }
 
+.shrimp-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.shrimp-item {
+  text-align: center;
+}
+
+.shrimp-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.shrimp-item figcaption {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
 /* =========================
    EXTRA TIGHT MOBILE MODE
 ========================= */
