@@ -10,11 +10,38 @@ keywords:
   - caridina shrimp support
 permalink: /membership/
 author: ebiyaSG
-canonical_url: https://yourdomain.com/membership/
+canonical_url: https://www.ebiya.sg/membership/
 og_title: "ebiyaSG Shrimp Membership – Build Caridina Tanks with Confidence"
 og_description: "Stop guessing and start succeeding with Caridina shrimp. Join ebiyaSG Membership for proven setup systems, ongoing guidance, and exclusive Gold perks."
 og_type: website
 ---
+
+<!-- BUTTON STYLE (insert once per page) -->
+<style>
+  .stripe-btn {
+    display: inline-block;
+    padding: 14px 24px;
+    background-color: #111;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+  }
+
+  .stripe-btn:hover {
+    background-color: #000;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  }
+
+  .stripe-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  }
+</style>
 
 # 🦐 ebiyaSG Membership  
 ## Build Your Caridina Shrimp Tank Right — The First Time
@@ -58,7 +85,7 @@ This is experience distilled into a system.
 
 ---
 
-## 🥈 STANDARD Membership
+## 🥈 STANDARD Membership  
 ### SGD 28 / month
 
 Perfect for hobbyists who want reliable guidance without long-term commitment.
@@ -73,14 +100,18 @@ Perfect for hobbyists who want reliable guidance without long-term commitment.
 - ✔️ Members-only guides and updates
 
 > Cancel anytime. Access continues until the end of the billing cycle.
->
-> https://buy.stripe.com/test_aFa9ALfRV0X2gzOcaO2Nq00
 
-👉 **[Join STANDARD Membership – SGD 28/month](#)**
+<!-- ✅ STANDARD STRIPE BUTTON (INSERTED HERE) -->
+<a href="https://buy.stripe.com/test_aFa9ALfRV0X2gzOcaO2Nq00"
+   target="_blank"
+   rel="noopener"
+   class="stripe-btn">
+👉 Join STANDARD Membership – SGD 28/month
+</a>
 
 ---
 
-## 🥇 GOLD Membership ⭐ *(Limited Slots)*
+## 🥇 GOLD Membership ⭐ *(Limited Slots)*  
 ### SGD 888 / year
 
 Designed for serious collectors and breeders who want premium access and physical rewards.
@@ -118,7 +149,11 @@ Designed for serious collectors and breeders who want premium access and physica
 
 > Gold membership is **annual only** to ensure quality, fairness, and sustainable shrimp allocation.
 
-👉 **[Join GOLD Membership – SGD 888/year](#)**
+<!-- GOLD BUTTON PLACEHOLDER -->
+<a href="#"
+   class="stripe-btn">
+👉 Join GOLD Membership – SGD 888/year
+</a>
 
 ---
 
@@ -170,6 +205,11 @@ They require **precision, patience, and the right guidance**.
 If you’re ready to stop guessing and start succeeding,  
 **ebiyaSG Membership** is built for you.
 
-👉 **[Join the ebiyaSG Membership Today](#)**
+<a href="https://buy.stripe.com/test_aFa9ALfRV0X2gzOcaO2Nq00"
+   target="_blank"
+   rel="noopener"
+   class="stripe-btn">
+👉 Join the ebiyaSG Membership Today
+</a>
 
 ---
