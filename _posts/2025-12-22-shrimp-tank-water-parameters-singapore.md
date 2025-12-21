@@ -77,13 +77,13 @@ Benefits of RO water:
 - Fewer unexplained shrimp deaths  
 
 ### RO Equipment I Recommend
-👉 RO system:  
-https://s.shopee.sg/7pmK99SBgS
+👉 RO system:
+👉 [RO water source](https://s.shopee.sg/7pmK99SBgS)
 
 ### Water Conditioner I Personally Use
 👉 RO water conditioner:  
 https://s.shopee.sg/6KxWMQXmHH
-👉 [RO water source](https://s.shopee.sg/7pmK99SBgS)
+(https://s.shopee.sg/7pmK99SBgS)
 - **Shrimp-specific remineralizer**  
   👉 [Recommended remineralizer](https://s.shopee.sg/6KxWMQXmHH?share_channel_code=1)
 
