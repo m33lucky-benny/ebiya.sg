@@ -97,8 +97,7 @@ I only recommend:
 - **ADA Aqua Soil (Version 1)**
 - **Geilee Active Soil**
 
-👉 Soil link:  
-https://s.shopee.sg/8APAWISTor
+- 👉 [**Geilee 8L**](https://s.shopee.sg/8APAWISTor)
 
 Wrong soil choice is one of the **most common beginner mistakes** and leads to:
 - Rising pH  
