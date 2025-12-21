@@ -170,7 +170,7 @@ If you want:
 You may find it easier to follow a structured approach.
 
 👉 **ebiyaSG Shrimp Membership** – step-by-step Caridina setup guidance  
-👉 **Tank Setup Guide** – build it right from day one  
+👉 [**Tank Setup Guide**] – build it right from day one  (https://www.ebiya.sg/tank-builder/)
 
 Both are designed to help beginners avoid the most common (and costly) mistakes.
 
