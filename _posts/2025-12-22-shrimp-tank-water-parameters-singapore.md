@@ -83,6 +83,7 @@ https://s.shopee.sg/7pmK99SBgS
 ### Water Conditioner I Personally Use
 👉 RO water conditioner:  
 https://s.shopee.sg/6KxWMQXmHH
+👉 [Recommended active soil](https://s.shopee.sg/20oXAyGM1g)
 
 With RO water, you **add only what shrimp need**, nothing extra.
 
