@@ -124,7 +124,7 @@ Perfect for hobbyists who want reliable guidance without long-term commitment.
    target="_blank"
    rel="noopener"
    class="stripe-btn">
-👉 Join STANDARD Membership – SGD 28/month
+- 👉 [**Join STANDARD Membership**] – SGD 28/month
 </a>
 
 ---
@@ -180,7 +180,7 @@ This ensures:
 ---
 
 <span class="promo-badge">
-🔥 Only <strong>3</strong> GOLD promo slots left
+🔥 Only <strong>88</strong> GOLD promo slots left
 </span>
 
 <a href="https://buy.stripe.com/3cI3cn3V652i3v0ecwao801"
@@ -196,6 +196,9 @@ This ensures:
 
 <a href="https://buy.stripe.com/cNi6oz4ZabqGe9E5G0ao802"
    class="stripe-btn disabled">
+🔒 Join GOLD Membership – Regular Price
+
+🔒 Regular Price $1288.00 (Available After Promo)
 🔒 Join GOLD Membership – Regular Price
 </a>
 
