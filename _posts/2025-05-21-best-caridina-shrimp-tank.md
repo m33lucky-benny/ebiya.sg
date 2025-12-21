@@ -13,54 +13,55 @@ keywords:
 author: ebiyaSG
 canonical_url: https://www.ebiya.sg/2025/05/21/best-caridina-shrimp-tank.html
 ---
+> **Disclosure:** This article contains affiliate links. If you purchase through these links, we may earn a commission at no additional cost to you. We only recommend products we genuinely use and trust for Caridina shrimp keeping.
 
-# The BEST Shrimp Tank Setup for Caridina Shrimp (Most People Get This Wrong)
-
-If you’ve ever searched **“best shrimp tank setup for Caridina shrimp”**, chances are you’ve already lost shrimp… or you’re scared you will.
+If you've ever searched **“best shrimp tank setup for Caridina shrimp”**, chances are you've already lost shrimp… or you're scared you will.
 
 Here’s the truth most guides won’t tell you:
 
-👉 **Caridina shrimp don’t die because they’re “sensitive.”**  
-They die because the tank setup is wrong from day one.
+👉 **Caridina shrimp don’t die because they’re “sensitive.” They die because the tank setup is wrong from day one.**
 
-After setting up and maintaining Caridina tanks in Singapore’s climate, I’ll break down **exactly what works**, what doesn’t, and how to avoid the mistakes that wipe out entire colonies.
+After setting up and maintaining Caridina tanks in **Singapore’s climate**, I’ll break down exactly what works, what doesn’t, and how to avoid the mistakes that wipe out entire colonies.
 
 ---
 
 ## Why Most Caridina Shrimp Tank Setups Fail
 
-Most beginners copy **Neocaridina setups** and hope for the best.
+Most beginners copy **Neocaridina** setups and hope for the best.
 
-That’s mistake #1.
+That’s **mistake #1**.
 
 Caridina shrimp require:
 
 - **Stable water chemistry**
 - **Active buffering soil**  
-- 👉 [**Recommended active soil**](https://s.shopee.sg/20oXAyGM1g)
+  👉 [Recommended active soil](https://s.shopee.sg/20oXAyGM1g)
 - **Controlled mineral levels**
 - **Patience (not shortcuts)**
 
-Miss even *one* of these, and you’ll see:
+Miss even one, and you’ll see:
 
 - Failed molts  
 - Sudden deaths  
 - No breeding  
-- “Healthy today, dead tomorrow” syndrome  
+- *“Healthy today, dead tomorrow”* syndrome
 
 ---
 
 ## Best Tank Size for Caridina Shrimp (Bigger Is Safer)
 
 ### ✅ Recommended Tank Size
-- **45–60 cm tank (≈30L) minimum**
+**45–60 cm tank (≈30L) minimum**
 
 **Why this works:**
-- Larger water volume = more stable parameters
-- Easier to control GH & TDS
-- Slower swings = fewer deaths
 
-❌ Nano tanks (<15L) are **not beginner-friendly**, no matter what social media says.
+- Larger water volume = more stable parameters  
+- Easier to control GH & TDS  
+- Slower swings = fewer deaths  
+- Better temperature stability (**critical in tropical climates**)
+
+❌ **Nano tanks (<15L)** are challenging even for experienced keepers.  
+While some succeed with ~20L setups, beginners should start larger for stability.
 
 ---
 
@@ -70,13 +71,16 @@ Miss even *one* of these, and you’ll see:
 
 - **ADA Amazonia V1** *(if you can find it)*
 - **Geilee Nature Soil**  
-- 👉 [**Geilee 8L**](https://s.shopee.sg/8APAWISTor)
   👉 [View product](https://s.shopee.sg/8APAWISTor)
 
 **Why active soil matters:**
-- Buffers pH to **~5.5–6.2**
-- Stabilizes acidic conditions Caridina need
-- Supports long-term health and breeding
+
+- Buffers pH to ~5.8–6.2  
+- Stabilizes acidic conditions Caridina need  
+- Supports long-term health and breeding  
+- Effective for **12–24 months** before buffering weakens
+
+> **Important:** Once buffering capacity is gone, you’ll need to replace the soil or add supplemental buffering methods.
 
 ❌ Inert gravel + chemicals = unstable tank + dead shrimp.
 
@@ -85,37 +89,72 @@ Miss even *one* of these, and you’ll see:
 ## Water Setup — This Is Where Most People Kill Shrimp
 
 ### ❌ Tap Water (Even “Good” Tap Water)
-- Inconsistent
-- Unknown GH/KH swings
-- Often causes molting failure
+
+- Inconsistent  
+- Unknown GH/KH swings  
+- Often causes molting failure  
 
 ### ✅ Correct Water Setup
 - **RO water**  
-- 👉 [RO water source](https://s.shopee.sg/7pmK99SBgS)
+  👉 [RO water source](https://s.shopee.sg/7pmK99SBgS)
 - **Shrimp-specific remineralizer**  
   👉 [Recommended remineralizer](https://s.shopee.sg/6KxWMQXmHH?share_channel_code=1)
 
 ### Target Parameters
 
 | Parameter | Ideal Range |
-|--------|------------|
-| pH | 5.3 – 5.5 |
+|--------|-------------|
+| pH | 5.8 – 6.5* |
 | GH | 4 – 6 |
-| KH | 0 |
+| KH | 0 – 1 |
 | TDS | 90 – 130 |
+| Temperature | 20 – 24°C |
 
-This single step alone improves survival rate **dramatically**.
+\* While some breeders run **pH 5.3–5.5** for high-grade breeding, **5.8–6.5** is easier to maintain and perfectly suitable for healthy colonies.
+
+---
+
+### Water Change Protocol (TDS Control)
+
+Even with RO water, **minerals accumulate over time**.
+
+- 10–20% water change **weekly**
+- Always match **temperature & TDS**
+- Monitor TDS weekly  
+- If TDS >150 → increase water change frequency
+
+This step alone dramatically improves survival rates.
+
+---
+
+## Temperature Control for Singapore’s Climate
+
+Singapore’s ambient temperatures often exceed Caridina limits.
+
+**Ideal range:** 20–24°C
+
+### Cooling Options
+
+- **Computer fans (budget)**  
+  Lower temperature by ~2–3°C via evaporation  
+- **Aquarium chiller (most reliable)**  
+  Precise, year-round control  
+- **Air-conditioning**  
+  Keep room at 23–25°C for multiple tanks
+
+Without temperature control, **perfect parameters still won’t save shrimp** during hot weather.
 
 ---
 
 ## Filtration — Gentle, Not Powerful
 
 ### ✅ Best Filter for Caridina Shrimp
-- Sponge filter
-- Gentle airflow
-- Shrimplet-safe intake
 
-Strong flow stresses shrimp and affects feeding & breeding behavior.
+- Sponge filter  
+- Gentle airflow  
+- Shrimplet-safe intake  
+
+Strong flow stresses shrimp and disrupts feeding and breeding.
 
 **Simple > powerful.**
 
@@ -123,45 +162,93 @@ Strong flow stresses shrimp and affects feeding & breeding behavior.
 
 ## Cycling the Tank (The Step Everyone Rushes)
 
-Caridina shrimp tanks **must be fully cycled**.
+Caridina tanks **must** be fully cycled.
 
 ### Minimum Cycling Time
-- **6–8 weeks** (yes, really)
+**6–8 weeks**
 
 ### Signs Your Tank Is Ready
-- Stable TDS
-- No ammonia or nitrite
-- Biofilm forming on surfaces
+
+- Stable TDS (not fluctuating daily)  
+- Zero ammonia & nitrite for **2+ weeks**  
+- Visible biofilm  
+- Stable pH in target range  
 
 Rushing this step is the fastest way to waste money on shrimp.
+
+---
+
+## Acclimation Protocol (Where Many Lose Shrimp)
+
+Even perfect tanks fail without proper acclimation.
+
+### Proper Acclimation Steps
+
+1. Float bag for **15–20 min** (temperature match)  
+2. **Drip acclimate 2–3 hours**
+   - Airline tubing
+   - 1–2 drips per second
+   - Match new water volume at minimum  
+3. Net shrimp into tank (**do not pour bag water**)  
+4. Lights off for **24 hours**
+
+This prevents osmotic shock and molting failures.
 
 ---
 
 ## Plants & Hardscape (Less Is More)
 
 ### Best Choices
-- Mosses
-- Cholla wood
-- Leaf litter (Indian almond leaves)
+
+- Mosses (Java moss, Christmas moss)  
+- Cholla wood  
+- Indian almond leaves  
 
 ### Benefits
-- Natural grazing
-- Stress reduction
-- Better survival for shrimplets
 
-Avoid complicated aquascapes that trap waste early on.
+- Natural grazing  
+- Reduced stress  
+- Higher shrimplet survival  
+- Beneficial tannins  
+
+Avoid complex aquascapes that trap waste early on.
 
 ---
 
-## Common Beginner Mistakes (Learn From Others, Not Your Wallet)
+## Common Beginner Mistakes
 
-❌ Changing water parameters too fast  
+❌ Changing parameters too fast  
 ❌ Overfeeding  
 ❌ Chasing numbers daily  
 ❌ Mixing Caridina with Neocaridina  
 ❌ Copying YouTube setups blindly  
+❌ Adding shrimp before full cycle  
+❌ Poor acclimation  
+❌ Ignoring temperature in tropical climates  
 
-Caridina shrimp reward **stability**, not micromanagement.
+**Caridina shrimp reward stability, not micromanagement.**
+
+---
+
+## Ongoing Maintenance Checklist
+
+### Weekly
+- 10–20% RO water change  
+- Check TDS  
+- Feed lightly 2–3× per week  
+
+### Monthly
+- Test GH & pH  
+- Clean sponge filter (tank water only)  
+- Check for parameter drift  
+
+### Every 6 Months
+- Refresh botanicals  
+- Inspect filtration  
+
+### Every 12–24 Months
+- Assess soil buffering  
+- Replace substrate if instability appears  
 
 ---
 
@@ -169,18 +256,23 @@ Caridina shrimp reward **stability**, not micromanagement.
 
 If you’re thinking:
 
-> *“I get it… but I don’t want to guess or lose shrimp.”*
+> *“I understand this… but I don’t want to guess or lose shrimp.”*
 
-That’s exactly why **ebiyaSG Membership** exists.
+That’s why **ebiyaSG Membership** exists.
 
-### Members get:
-- ✔️ Proven Caridina tank setup blueprint
-- ✔️ Parameter targets specific to Singapore conditions
-- ✔️ Ongoing guidance as your tank matures
-- ✔️ Support when something feels “off” — **before shrimp die**
+### Members Get:
+- ✔️ Proven Caridina setup blueprint  
+- ✔️ Singapore-specific parameter targets  
+- ✔️ Tropical temperature management strategies  
+- ✔️ Ongoing guidance as your tank matures  
+- ✔️ Support **before shrimp die**, not after  
 
 Instead of buying shrimp twice, you build the tank **once**, properly.
 
 👉 **[Learn more about the ebiyaSG Membership](https://www.ebiya.sg/membership)**
 
 ---
+
+
+
+
