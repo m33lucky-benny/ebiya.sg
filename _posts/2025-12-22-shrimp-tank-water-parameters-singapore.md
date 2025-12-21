@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Shrimp Tank Water Parameters Explained (Caridina-Friendly Guide for Beginners in Singapore)"
 date: 2025-12-22
 categories: [GH PH TDS]
