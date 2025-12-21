@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Shrimp Tank Water Parameters Explained (Caridina-Friendly Guide for Beginners in Singapore Part 2)"
+title: "Shrimp Tank Water Parameters Explained (Caridina-Friendly Guide for Beginners in Singapore)"
 date: 2025-12-21
 categories: [shrimp-care, caridina, water-parameters]
 author: ebiyaSG
