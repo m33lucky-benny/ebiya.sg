@@ -78,15 +78,12 @@ Benefits of RO water:
 
 ### RO Equipment I Recommend
 👉 RO system:  
-👉 [RO water source](https://s.shopee.sg/7pmK99SBgS)
+- 👉 [**RO water system**](https://s.shopee.sg/7pmK99SBgS)
 
 ### Water Conditioner I Personally Use
 👉 RO water conditioner:  
-https://s.shopee.sg/6KxWMQXmHH
-(https://s.shopee.sg/7pmK99SBgS)
 - 👉[**Shrimp-specific remineralizer**](https://s.shopee.sg/6KxWMQXmHH?share_channel_code=1)
-- **Shrimp-specific remineralizer**  
-  👉 [Recommended remineralizer](https://s.shopee.sg/6KxWMQXmHH?share_channel_code=1)
+
 
 With RO water, you **add only what shrimp need**, nothing extra.
 
