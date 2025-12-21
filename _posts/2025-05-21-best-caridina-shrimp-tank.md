@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "The BEST Shrimp Tank Setup for Caridina Shrimp (Most People Get This Wrong)"
+date: 2025-05-21
+categories: [shrimp tanks]
 description: "Learn the best shrimp tank setup for Caridina shrimp. Avoid beginner mistakes, stabilize water parameters, and build a setup that actually keeps Caridina alive and breeding."
 keywords:
   - best shrimp tank setup for caridina shrimp
@@ -9,7 +11,7 @@ keywords:
   - caridina shrimp water parameters
   - shrimp tank setup caridina
 author: ebiyaSG
-canonical_url: https://yourdomain.com/best-caridina-shrimp-tank-setup
+canonical_url: https://www.ebiya.sg/2025/05/21/best-caridina-shrimp-tank.html
 ---
 
 # The BEST Shrimp Tank Setup for Caridina Shrimp (Most People Get This Wrong)
