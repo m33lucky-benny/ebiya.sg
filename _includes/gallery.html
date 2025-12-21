@@ -1,1 +1,9 @@
-test
+<div class="gallery">
+  {% for image in site.static_files %}
+    {% if image.path contains 'assets/shrimps' %}
+      <div class="gallery-item">
+        <img src="{{ image.path | relative_url }}" alt="Caridina Shrimp">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
