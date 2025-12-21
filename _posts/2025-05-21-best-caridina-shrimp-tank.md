@@ -266,7 +266,7 @@ That’s why **ebiyaSG Membership** exists.
 
 Instead of buying shrimp twice, you build the tank **once**, properly.
 
-👉 **[Learn more about the ebiyaSG Membership](https://ebiya.sg/membership.html)**
+👉 **[Learn more about the ebiyaSG Membership](https://www.ebiya.sg/membership)**
 
 ---
 
