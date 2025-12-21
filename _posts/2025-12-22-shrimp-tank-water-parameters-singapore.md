@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Shrimp Tank Water Parameters Explained (Caridina-Friendly Guide for Beginners in Singapore)"
-date: 2025-12-22
-categories: [GH PH TDS]
+date: 2025-12-21
+categories: [shrimp-care, caridina, water-parameters]
 author: ebiyaSG
 description: "Learn the correct shrimp tank water parameters for Caridina shrimp in Singapore. Beginner-friendly guide covering pH, GH, TDS, temperature, RO water vs tap water, and realistic care time."
 keywords:
@@ -11,10 +11,6 @@ keywords:
   - caridina shrimp water parameters
   - shrimp tank singapore
   - caridina shrimp beginner guide
-  - RO water shrimp tank
-  - shrimp tank maintenance time
-image:
-canonical_url:
 ---
 
 # Shrimp Tank Water Parameters Explained (Caridina-Friendly Guide for Beginners in Singapore)
