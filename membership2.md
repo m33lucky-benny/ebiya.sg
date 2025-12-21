@@ -190,6 +190,8 @@ This ensures:
 🔥 Join GOLD Membership – PROMO SGD 888/year
 </a>
 
+- 🔥[**Join GOLD Membership – PROMO SGD 888/year**](https://buy.stripe.com/3cI3cn3V652i3v0ecwao801)
+
 ---
 
 ### 🔒 Regular Price $1288.00 (Available After Promo)
