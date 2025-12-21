@@ -37,7 +37,7 @@ Caridina shrimp require:
 
 - **Stable water chemistry**
 - **Active buffering soil**  
-  👉 [Recommended active soil](https://s.shopee.sg/20oXAyGM1g)
+- 👉 [**Recommended active soil**](https://s.shopee.sg/20oXAyGM1g)
 - **Controlled mineral levels**
 - **Patience (not shortcuts)**
 
@@ -70,6 +70,7 @@ Miss even *one* of these, and you’ll see:
 
 - **ADA Amazonia V1** *(if you can find it)*
 - **Geilee Nature Soil**  
+- 👉 [**Geilee 8L**](https://s.shopee.sg/8APAWISTor)
   👉 [View product](https://s.shopee.sg/8APAWISTor)
 
 **Why active soil matters:**
@@ -90,7 +91,7 @@ Miss even *one* of these, and you’ll see:
 
 ### ✅ Correct Water Setup
 - **RO water**  
-  👉 [RO water source](https://s.shopee.sg/7pmK99SBgS)
+- 👉 [RO water source](https://s.shopee.sg/7pmK99SBgS)
 - **Shrimp-specific remineralizer**  
   👉 [Recommended remineralizer](https://s.shopee.sg/6KxWMQXmHH?share_channel_code=1)
 
