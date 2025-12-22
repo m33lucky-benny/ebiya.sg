@@ -198,7 +198,7 @@ Start with these seven accessories, master the fundamentals, and your shrimp wil
 
 ---
 
-*Looking for quality Caridina shrimp or any of these accessories? Check out our selection at [ebiya.sg](https://ebiya.sg)—because your shrimp deserve the good stuff, not the gimmicks.*
+*Looking for quality Caridina shrimp or any of these accessories? Check out our selection at [ebiya.sg](https://www.ebiya.sg)—because your shrimp deserve the good stuff, not the gimmicks.*
 
 <!-- FAQ Schema Markup -->
 <script type="application/ld+json">
