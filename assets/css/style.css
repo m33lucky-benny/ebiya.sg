@@ -179,10 +179,14 @@ a:hover {
 .post-title {
   font-size: 42px;
   margin-bottom: 8px;
+  text-align: center;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .post-content {
-  max-width: 800px;
+  max-width: 750px;
   margin: 0 auto;
   padding: 0 20px;
 }
