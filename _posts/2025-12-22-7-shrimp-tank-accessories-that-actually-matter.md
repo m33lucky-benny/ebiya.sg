@@ -2,14 +2,14 @@
 layout: post
 title: "7 Shrimp Tank Accessories That Actually Matter (Skip the Rest)"
 date: 2025-12-22
-author: Your Name
+author: ebiyaSG
 description: "After breeding Caridina shrimp in Singapore for years, I've narrowed down the only 7 accessories you actually need. Save money and skip the gimmicks with this honest guide."
 excerpt: "Stop wasting money on unnecessary aquarium gear. These 7 shrimp tank accessories are the only ones that matter for keeping Caridina shrimp alive and breeding in Singapore."
 categories: [aquarium, shrimp-keeping]
 tags: [caridina-shrimp, aquarium-accessories, singapore, shrimp-breeding, crystal-red-shrimp, tds-meter, shrimp-tank-setup]
 image: /assets/images/shrimp-tank-accessories.jpg
 permalink: /7-shrimp-tank-accessories-that-actually-matter/
-canonical_url: https://ebiya.sg/7-shrimp-tank-accessories-that-actually-matter/
+canonical_url: https://www.ebiya.sg/7-shrimp-tank-accessories-that-actually-matter/
 lang: en
 published: true
 sitemap: true
@@ -23,11 +23,11 @@ sitemap: true
 
 <!-- Open Graph Tags for Social Sharing -->
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="Ebiya.sg">
+<meta property="og:site_name" content="ebiya.sg">
 <meta property="og:title" content="7 Shrimp Tank Accessories That Actually Matter (Skip the Rest)">
 <meta property="og:description" content="After breeding Caridina shrimp in Singapore for years, I've narrowed down the only 7 accessories you actually need. Save money and skip the gimmicks.">
-<meta property="og:url" content="https://ebiya.sg/7-shrimp-tank-accessories-that-actually-matter/">
-<meta property="og:image" content="https://ebiya.sg/assets/images/shrimp-tank-accessories.jpg">
+<meta property="og:url" content="https://www.ebiya.sg/7-shrimp-tank-accessories-that-actually-matter/">
+<meta property="og:image" content="https://www.ebiya.sg/assets/images/shrimp-tank-accessories.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Essential shrimp tank accessories for Caridina breeding">
@@ -44,10 +44,10 @@ sitemap: true
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="7 Shrimp Tank Accessories That Actually Matter (Skip the Rest)">
 <meta name="twitter:description" content="After breeding Caridina shrimp in Singapore for years, I've narrowed down the only 7 accessories you actually need. Save money and skip the gimmicks.">
-<meta name="twitter:image" content="https://ebiya.sg/assets/images/shrimp-tank-accessories.jpg">
+<meta name="twitter:image" content="https://www.ebiya.sg/assets/images/shrimp-tank-accessories.jpg">
 <meta name="twitter:image:alt" content="Essential shrimp tank accessories for Caridina breeding">
 <meta name="twitter:site" content="@ebiya_sg">
-<meta name="twitter:creator" content="@your_handle">
+<meta name="twitter:creator" content="@ebiyasg">
 
 <!-- Schema.org Markup for Article -->
 <script type="application/ld+json">
