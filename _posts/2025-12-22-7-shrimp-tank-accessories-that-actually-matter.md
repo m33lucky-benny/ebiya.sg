@@ -58,21 +58,21 @@ sitemap: true
   "description": "After breeding Caridina shrimp in Singapore for years, I've narrowed down the only 7 accessories you actually need. Save money and skip the gimmicks with this honest guide.",
   "image": {
     "@type": "ImageObject",
-    "url": "https://ebiya.sg/assets/images/shrimp-tank-accessories.jpg",
+    "url": "https://www.ebiya.sg/assets/images/shrimp-tank-accessories.jpg",
     "width": 1200,
     "height": 630
   },
   "author": {
     "@type": "Person",
-    "name": "Your Name",
-    "url": "https://ebiya.sg/about"
+    "name": "ebiyaSG",
+    "url": "https://www.ebiya.sg/about"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Ebiya.sg",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://ebiya.sg/assets/images/logo.png",
+      "url": "https://www.ebiya.sg/assets/img/ebiya-logo.jpg",
       "width": 600,
       "height": 60
     }
@@ -81,12 +81,14 @@ sitemap: true
   "dateModified": "2025-12-22T14:32:00+08:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://ebiya.sg/7-shrimp-tank-accessories-that-actually-matter/"
+    "@id": "https://www.ebiya.sg/7-shrimp-tank-accessories-that-actually-matter/"
   },
   "articleSection": "Aquarium Care",
   "keywords": "shrimp tank accessories, Caridina shrimp, aquarium equipment Singapore, TDS meter, sponge filter, shrimp breeding"
 }
 </script>
+
+**Disclosure:** This post contains affiliate links. We may earn a commission on purchases made through these links at no additional cost to you.
 
 Look, I get it. You walk into an aquarium shop or scroll through Shopee, and suddenly you're convinced you need a $200 wave maker for your 20-liter shrimp tank. Trust me, I've been there.
 
