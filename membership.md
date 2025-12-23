@@ -120,18 +120,12 @@ Perfect for hobbyists who want reliable guidance without long-term commitment.
 
 > Cancel anytime. Access continues until the end of the billing cycle.
 
-<a href="https://buy.stripe.com/test_aFa9ALfRV0X2gzOcaO2Nq00"
-   target="_blank"
-   rel="noopener"
-   class="stripe-btn">
-- 👉 [**Join STANDARD Membership**] – SGD 28/month
-</a>
 - 👉 [**Join STANDARD Membership**](https://buy.stripe.com/cNi7sD63e52i5D8b0kao800)
 
 ---
 
 ## 🥇 GOLD Membership ⭐ *(Limited Slots)*  
-### **PROMO PRICE: SGD 888 / year** 🔥
+### - 👉[**PROMO PRICE: SGD 888 / year** 🔥](https://buy.stripe.com/3cI3cn3V652i3v0ecwao801)
 
 Designed for serious collectors and breeders who want premium access and physical rewards.
 
@@ -259,13 +253,13 @@ SGD 28 / month
 Perfect for hobbyists who want reliable guidance without long-term commitment.
 
 What You Get
-✔️ Proven Caridina tank setup blueprint
-✔️ Exact water parameters (Singapore-optimized)
-✔️ Step-by-step cycling guidance
-✔️ Ongoing tank maturity support
-✔️ Molting and survival troubleshooting
-✔️ Breeding and shrimplet survival basics
-✔️ Members-only guides and updates
+- ✔️ Proven Caridina tank setup blueprint
+- ✔️ Exact water parameters (Singapore-optimized)
+- ✔️ Step-by-step cycling guidance
+- ✔️ Ongoing tank maturity support
+- ✔️ Molting and survival troubleshooting
+- ✔️ Breeding and shrimplet survival basics
+- ✔️ Members-only guides and updates
 Cancel anytime. Access continues until the end of the billing cycle.
 
 👉 Join STANDARD Membership – SGD 28/month
@@ -286,8 +280,8 @@ Consistent support quality
 Sustainable breeding practices
 Everything in STANDARD, plus:
 🦐 Free Shrimp Allocation
--✔️ 10 pieces of Caridina shrimp
--✔️ Selected based on available stock
+- ✔️ 10 pieces of Caridina shrimp
+- ✔️ Selected based on available stock
 -✔️ Healthy, member-grade shrimp
 -✔️ Provided after 30 days of active membership
 -✔️ One allocation per paid membership year
