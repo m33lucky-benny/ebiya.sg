@@ -366,6 +366,7 @@ document.addEventListener('DOMContentLoaded', function() {
 .membership-cta a:hover { transform: translateY(-2px); box-shadow: 0 24px 70px rgba(255,47,146,0.35); }
 </style>
 
+<!--
 <div class="page-container">
   <h1>Caridina Shrimp Tank Builder</h1>
   <p class="hero-subtitle">Step-by-step guide to building your perfect tank for Singapore conditions.</p>
@@ -391,6 +392,7 @@ document.addEventListener('DOMContentLoaded', function() {
       </ul>
     </div>
   </div>
+  -->
 
   <!-- Build Result -->
   <div id="build" class="build-section">
