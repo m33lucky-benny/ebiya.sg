@@ -57,12 +57,11 @@ author: ebiyaSG
   "url": "https://www.ebiya.sg/",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://www.ebiya.sg/assets/images/ebiya-logo.png"
+    "url": "https://www.ebiya.sg/assets/img/ebiya-logo.jpg"
   },
   "sameAs": [
-    "https://www.facebook.com/ebiyaSG",
     "https://www.instagram.com/ebiyaSG",
-    "https://www.youtube.com/@ebiyaSG"
+    "https://www.tiktok.com/@fish_ah_gong"
   ]
 }
 </script>
