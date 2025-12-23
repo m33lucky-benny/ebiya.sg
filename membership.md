@@ -177,17 +177,14 @@ This ensures:
 <span class="promo-badge">
 🔥 Only <strong>88</strong> GOLD promo slots left
 </span>
-
-- 👉[🔥**Join GOLD Membership – PROMO SGD 888/year88](https://buy.stripe.com/3cI3cn3V652i3v0ecwao801)
+- 👉[🔥**Join GOLD Membership – PROMO SGD 888/year**](https://buy.stripe.com/3cI3cn3V652i3v0ecwao801)
 ---
 
-### 🔒 Regular Price (Available After Promo)
+### 🔒 Regular Price $1288.00 (Available After Promo)
 
 <a href="https://buy.stripe.com/cNi6oz4ZabqGe9E5G0ao802"
    class="stripe-btn disabled">
-🔒 Join GOLD Membership – Regular Price 🔒
-
-🔒 Regular Price $1288.00 (Available After Promo) 
+🔒 Join GOLD Membership – Regular Price 
 
 ---
 
@@ -209,11 +206,8 @@ They require **precision, patience, and the right guidance**.
 If you’re ready to stop guessing and start succeeding,  
 **ebiyaSG Membership** is built for you.
 
-
-
-
 🦐 ebiyaSG Membership
-Build Your Caridina Shrimp Tank Right — The First Time
+Build Your Caridina Shrimp Tank Right — The First Time<br>
 Stop guessing. Stop losing shrimp.
 The ebiyaSG Membership gives you a proven system to build and maintain stable, healthy Caridina shrimp tanks, designed specifically for Singapore conditions.
 
@@ -241,7 +235,7 @@ This is not theory.
 This is experience distilled into a system.
 
 🥈 STANDARD Membership
-SGD 28 / month <b>
+SGD 28 / month </b>
 Perfect for hobbyists who want reliable guidance without long-term commitment.
 
 What You Get
@@ -289,8 +283,8 @@ Everything in STANDARD, plus:
 - 🔔 Early Access & Reservations
 - ✔️ Early access to new shrimp drops
 - ✔️ Priority reservation before public release <br>
- 🔥 Only 88 GOLD promo slots left
 
+🔥 Only 88 GOLD promo slots left
 🔥 Join GOLD Membership – PROMO SGD 888/year
 
 🔒 Regular Price $1288.00 (Available After Promo)
