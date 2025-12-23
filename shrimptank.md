@@ -13,13 +13,13 @@ permalink: /tank-builder/
 author: ebiyaSG
 
 # Always use www in absolute URLs
-canonical_url: https://www.ebiya.sg/tank-builder/
+canonical_url: https://www.ebiya.sg/shrimptank/
 
 # Open Graph (Social Sharing)
 og_title: "ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank"
 og_description: "Interactive Caridina tank builder for Singapore: tank size, stocking guidance in liters, soil, filtration, and UGF."
 og_type: website
-og_url: https://www.ebiya.sg/tank-builder/
+og_url: https://www.ebiya.sg/shrimptank/
 og_image: https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
 og_image_alt: "Caridina shrimp tank builder guide"
 
@@ -31,8 +31,8 @@ twitter_image: https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
 ---
 
 <!-- Optional meta tags (remove if your theme already outputs them from front matter) -->
-<link rel="canonical" href="https://www.ebiya.sg/tank-builder/" />
-<meta property="og:url" content="https://www.ebiya.sg/tank-builder/" />
+<link rel="canonical" href="https://www.ebiya.sg/shrimptank/" />
+<meta property="og:url" content="https://www.ebiya.sg/shrimptank/" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank" />
 <meta property="og:description" content="Interactive Caridina tank builder for Singapore: tank size, stocking guidance in liters, soil, filtration, and UGF." />
