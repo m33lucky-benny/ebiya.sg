@@ -10,24 +10,6 @@ keywords:
   - Taiwan bee shrimp
   - Caridina cantonensis
 permalink: /tank-for-shrimp/
----
-
----
-layout: page
-title: "ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank"
-description: "Interactive Caridina (Taiwan bee) shrimp tank builder for Singapore. Pick tank size, soil depth, filtration, and UGF, with stable-parameter guidance."
-keywords:
-  - Caridina tank builder
-  - shrimp tank Singapore
-  - tank setup guide
-  - shrimp soil and filtration
-  - Taiwan bee shrimp
-  - Caridina cantonensis
-permalink: /tank-builder/
-author: ebiyaSG
-
-# Always use www in absolute URLs
-canonical_url: https://www.ebiya.sg/tank-builder/
 
 # Open Graph (Social Sharing)
 og_title: "ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank"
@@ -43,6 +25,9 @@ twitter_title: "ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank"
 twitter_description: "Build a stable Caridina tank in Singapore: tank size, stocking guidance (L), soil, filtration, and UGF."
 twitter_image: https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
 ---
+
+
+author: ebiyaSG
 
 <!-- Optional meta tags (remove if your theme already outputs them from front matter) -->
 <link rel="canonical" href="https://www.ebiya.sg/tank-builder/" />
