@@ -1,3 +1,11 @@
+# 📝 How add shrimp pictures
+
+All posts are stored in the following directory:
+
+```
+/assets/shrimps
+```
+
 📌 Example: Adding a new shrimp photo
 
 1️⃣ Upload photo to:
