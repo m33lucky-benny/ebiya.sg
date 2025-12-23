@@ -126,6 +126,7 @@ Perfect for hobbyists who want reliable guidance without long-term commitment.
    class="stripe-btn">
 - 👉 [**Join STANDARD Membership**] – SGD 28/month
 </a>
+- 👉 [**Join STANDARD Membership**](https://buy.stripe.com/cNi7sD63e52i5D8b0kao800)
 
 ---
 
@@ -285,12 +286,12 @@ Consistent support quality
 Sustainable breeding practices
 Everything in STANDARD, plus:
 🦐 Free Shrimp Allocation
-✔️ 10 pieces of Caridina shrimp
-✔️ Selected based on available stock
-✔️ Healthy, member-grade shrimp
-✔️ Provided after 30 days of active membership
-✔️ One allocation per paid membership year
-💎 Elite Member Shrimp Pricing
+-✔️ 10 pieces of Caridina shrimp
+-✔️ Selected based on available stock
+-✔️ Healthy, member-grade shrimp
+-✔️ Provided after 30 days of active membership
+-✔️ One allocation per paid membership year
+-💎 Elite Member Shrimp Pricing
 ✔️ Exclusive Gold-only prices
 ✔️ Priority access to limited batches
 ✔️ Better value for colony building
