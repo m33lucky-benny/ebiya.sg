@@ -106,7 +106,7 @@ This is experience distilled into a system.
 
 ## 🥈 STANDARD Membership  
 ### SGD 28 / month
-
+<br>
 Perfect for hobbyists who want reliable guidance without long-term commitment.
 
 ### What You Get
