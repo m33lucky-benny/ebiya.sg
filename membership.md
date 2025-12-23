@@ -118,9 +118,9 @@ Perfect for hobbyists who want reliable guidance without long-term commitment.
 - ✔️ Breeding and shrimplet survival basics  
 - ✔️ Members-only guides and updates  
 
-> Cancel anytime. Access continues until the end of the billing cycle.
+> Cancel anytime. Access continues until the end of the billing cycle.<br>
 
-- 👉 [**Join STANDARD Membership**](https://buy.stripe.com/cNi7sD63e52i5D8b0kao800)
+👉[**Join STANDARD Membership**](https://buy.stripe.com/cNi7sD63e52i5D8b0kao800)
 
 ---
 
@@ -176,7 +176,7 @@ This ensures:
 
 <span class="promo-badge">
 🔥 Only <strong>88</strong> GOLD promo slots left
-</span>
+</span><br>
 👉[🔥**Join GOLD Membership – PROMO SGD 888/year**](https://buy.stripe.com/3cI3cn3V652i3v0ecwao801)
 
 ---
@@ -286,7 +286,7 @@ Everything in STANDARD, plus:
 - ✔️ Early access to new shrimp drops
 - ✔️ Priority reservation before public release <br>
 
-🔥 Only 88 GOLD promo slots left
+🔥 Only 88 GOLD promo slots left<br>
 🔥 Join GOLD Membership – PROMO SGD 888/year
 
 🔒 Regular Price $1288.00 (Available After Promo)
