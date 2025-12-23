@@ -177,7 +177,8 @@ This ensures:
 <span class="promo-badge">
 🔥 Only <strong>88</strong> GOLD promo slots left
 </span>
-- 👉[🔥**Join GOLD Membership – PROMO SGD 888/year**](https://buy.stripe.com/3cI3cn3V652i3v0ecwao801)
+👉[🔥**Join GOLD Membership – PROMO SGD 888/year**](https://buy.stripe.com/3cI3cn3V652i3v0ecwao801)
+
 ---
 
 ### 🔒 Regular Price $1288.00 (Available After Promo)
@@ -235,7 +236,7 @@ This is not theory.
 This is experience distilled into a system.
 
 🥈 STANDARD Membership
-SGD 28 / month </b>
+SGD 28 / month<b>
 Perfect for hobbyists who want reliable guidance without long-term commitment.
 
 What You Get
