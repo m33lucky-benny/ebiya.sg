@@ -4,8 +4,8 @@ description: "Specialist Caridina shrimp tanks, shrimp care guides, and premium 
 author: ebiyaSG
 
 # GitHub Pages / Custom Domain
-url: "https://ebiya.sg"
-baseurl: ""   # MUST be empty when using a custom domain
+url: "https:/www.ebiya.sg"
+baseurl: "" # MUST be empty when using a custom domain
 
 # Build settings
 theme: minima
