@@ -178,13 +178,7 @@ This ensures:
 🔥 Only <strong>88</strong> GOLD promo slots left
 </span>
 
-<a href="https://buy.stripe.com/3cI3cn3V652i3v0ecwao801"
-   target="_blank"
-   rel="noopener"
-   class="stripe-btn">
-🔥 Join GOLD Membership – PROMO SGD 888/year
-</a>
-
+- 👉[🔥**Join GOLD Membership – PROMO SGD 888/year88](https://buy.stripe.com/3cI3cn3V652i3v0ecwao801)
 ---
 
 ### 🔒 Regular Price (Available After Promo)
@@ -193,7 +187,7 @@ This ensures:
    class="stripe-btn disabled">
 🔒 Join GOLD Membership – Regular Price 🔒
 
-🔒 Regular Price $1288.00 (Available After Promo) 🔒
+🔒 Regular Price $1288.00 (Available After Promo) 
 
 ---
 
