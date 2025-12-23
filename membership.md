@@ -191,11 +191,9 @@ This ensures:
 
 <a href="https://buy.stripe.com/cNi6oz4ZabqGe9E5G0ao802"
    class="stripe-btn disabled">
-🔒 Join GOLD Membership – Regular Price
+🔒 Join GOLD Membership – Regular Price 🔒
 
-🔒 Regular Price $1288.00 (Available After Promo)
-🔒 Join GOLD Membership – Regular Price
-</a>
+🔒 Regular Price $1288.00 (Available After Promo) 🔒
 
 ---
 
@@ -249,7 +247,7 @@ This is not theory.
 This is experience distilled into a system.
 
 🥈 STANDARD Membership
-SGD 28 / month
+SGD 28 / month <b>
 Perfect for hobbyists who want reliable guidance without long-term commitment.
 
 What You Get
@@ -259,13 +257,14 @@ What You Get
 - ✔️ Ongoing tank maturity support
 - ✔️ Molting and survival troubleshooting
 - ✔️ Breeding and shrimplet survival basics
-- ✔️ Members-only guides and updates
+- ✔️ Members-only guides and updates <br>
 Cancel anytime. Access continues until the end of the billing cycle.
 
 👉 Join STANDARD Membership – SGD 28/month
 
 🥇 GOLD Membership ⭐ (Limited Slots)
 PROMO PRICE: SGD 888 / year 🔥
+
 Designed for serious collectors and breeders who want premium access and physical rewards.
 
 🛡️ Why Gold Membership Is Limited
@@ -279,29 +278,28 @@ Fair access for all Gold members
 Consistent support quality
 Sustainable breeding practices
 Everything in STANDARD, plus:
-🦐 Free Shrimp Allocation
+- 🦐 Free Shrimp Allocation
 - ✔️ 10 pieces of Caridina shrimp
 - ✔️ Selected based on available stock
--✔️ Healthy, member-grade shrimp
--✔️ Provided after 30 days of active membership
--✔️ One allocation per paid membership year
--💎 Elite Member Shrimp Pricing
-✔️ Exclusive Gold-only prices
-✔️ Priority access to limited batches
-✔️ Better value for colony building
-🧠 Priority Support
-✔️ Faster response time
-✔️ Priority troubleshooting
-✔️ “Before you change anything” guidance
-🔔 Early Access & Reservations
-✔️ Early access to new shrimp drops
-✔️ Priority reservation before public release
-🔥 Only 88 GOLD promo slots left
+- ✔️ Healthy, member-grade shrimp
+- ✔️ Provided after 30 days of active membership
+- ✔️ One allocation per paid membership year
+- 💎 Elite Member Shrimp Pricing
+- ✔️ Exclusive Gold-only prices
+- ✔️ Priority access to limited batches
+- ✔️ Better value for colony building
+- 🧠 Priority Support
+- ✔️ Faster response time
+- ✔️ Priority troubleshooting
+- ✔️ “Before you change anything” guidance
+- 🔔 Early Access & Reservations
+- ✔️ Early access to new shrimp drops
+- ✔️ Priority reservation before public release <br>
+ 🔥 Only 88 GOLD promo slots left
 
 🔥 Join GOLD Membership – PROMO SGD 888/year
 
 🔒 Regular Price $1288.00 (Available After Promo)
-🔒 Join GOLD Membership – Regular Price
 
 Important Notes (Transparency Matters)
 Membership benefits require an active subscription
