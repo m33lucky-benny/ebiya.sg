@@ -236,7 +236,7 @@ This is not theory.
 This is experience distilled into a system.
 
 🥈 STANDARD Membership
-SGD 28 / month<b>
+SGD 28 / month<br>
 Perfect for hobbyists who want reliable guidance without long-term commitment.
 
 What You Get
@@ -247,6 +247,7 @@ What You Get
 - ✔️ Molting and survival troubleshooting
 - ✔️ Breeding and shrimplet survival basics
 - ✔️ Members-only guides and updates <br>
+
 Cancel anytime. Access continues until the end of the billing cycle.
 
 👉 Join STANDARD Membership – SGD 28/month
