@@ -249,9 +249,9 @@ author: ebiyaSG
     <div class="param-box" aria-label="Recommended water parameters for Caridina">
       <h3>Target water parameters (Taiwan bee / Caridina)</h3>
       <div class="param-grid">
-        <div class="param-item"><div class="k">pH</div><div class="v">6.0–6.8</div></div>
+        <div class="param-item"><div class="k">pH</div><div class="v">5.3-5.5</div></div>
         <div class="param-item"><div class="k">GH</div><div class="v">4–6 dGH</div></div>
-        <div class="param-item"><div class="k">KH</div><div class="v">0–2 dKH</div></div>
+        <div class="param-item"><div class="k">KH</div><div class="v">0–1 dKH</div></div>
         <div class="param-item"><div class="k">TDS</div><div class="v">100–150 ppm</div></div>
         <div class="param-item"><div class="k">Temperature</div><div class="v">20–23°C</div></div>
         <div class="param-item"><div class="k">Ammonia / Nitrite</div><div class="v">Aim for 0</div></div>
