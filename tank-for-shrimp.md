@@ -252,7 +252,7 @@ author: ebiyaSG
         <div class="param-item"><div class="k">pH</div><div class="v">5.3-5.5</div></div>
         <div class="param-item"><div class="k">GH</div><div class="v">4–6 dGH</div></div>
         <div class="param-item"><div class="k">KH</div><div class="v">0–1 dKH</div></div>
-        <div class="param-item"><div class="k">TDS</div><div class="v">100–150 ppm</div></div>
+        <div class="param-item"><div class="k">TDS</div><div class="v">100–120 ppm</div></div>
         <div class="param-item"><div class="k">Temperature</div><div class="v">20–23°C</div></div>
         <div class="param-item"><div class="k">Ammonia / Nitrite</div><div class="v">Aim for 0</div></div>
       </div>
@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
         filter.textContent = "Single sponge filter OR low-flow HOB with pre-filter sponge. Prioritize stable biofiltration and gentle flow.";
         chimney.textContent = "UGF: Optional. If used, max 1 chimney only and keep airflow gentle (no substrate disturbance).";
         reason.textContent = "33.75 L tanks react faster to feeding and temperature swings, so lower stocking + gentle filtration improves stability.";
-        maintenance.textContent = "Water change: 20–25% weekly (or 10–15% twice weekly). Feed lightly; remove uneaten food; keep ammonia/nitrite at 0.";
+        maintenance.textContent = "Water change: 10% weekly. Feed lightly; remove uneaten food; keep ammonia/nitrite at 0.";
       }
 
       if (size === "60") {
@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', function() {
         filter.textContent = "UGF + sponge OR canister with pre-filter sponge. Keep flow gentle but oxygenation steady.";
         chimney.textContent = "UGF: 1 chimney for most colonies; 2 chimneys only if stocking is higher and airflow remains gentle/even.";
         reason.textContent = "45 L provides more buffering and is more forgiving—better for colony growth and breeding stability.";
-        maintenance.textContent = "Water change: 15–25% weekly. Use consistent top-ups (prefer remineralized RO) to avoid TDS creep from evaporation.";
+        maintenance.textContent = "Water change: 10% weekly. Use consistent top-ups (prefer remineralized RO) to avoid TDS creep from evaporation.";
       }
 
       build.scrollIntoView({ behavior: "smooth", block: "start" });
