@@ -142,7 +142,6 @@ Use two beakers for each buffer solution: one containing pure buffer for calibra
 
 When selecting a pH test pen, consider models with backlit LCD displays for significantly improved readability. A backlit screen makes it much easier to read pH values in various lighting conditions, especially in dim environments like indoor aquariums, greenhouses, or when working outdoors during early morning or evening hours.
 
-![pH Test Pen with Backlit Display](https://www.ebiya.sg/assets/img/pH-Test-Pen.jpeg)
 [**click to view**](https://www.ebiya.sg/assets/img/pH-Test-Pen.jpeg)
 ### Benefits of Backlit pH Meters
 
