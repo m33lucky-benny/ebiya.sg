@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "ebiyaSG Shrimp Membership – Caridina Shrimp Done Right"
-description: "Join ebiyaSG Membership to build a stable Caridina shrimp tank with confidence. Get step-by-step guidance, Singapore-optimized parameters, and exclusive Gold member shrimp perks."
+title: "Caridina Shrimp Care Membership Singapore | ebiya.sg"
+description: "Join ebiyaSG membership for step-by-step Caridina tank setup optimized for Singapore. From $28/month. Stop losing shrimp - build stable breeding tanks."
 keywords:
   - caridina shrimp membership
   - shrimp tank membership singapore
@@ -66,7 +66,7 @@ og_type: website
   }
 </style>
 
-# 🦐 ebiyaSG Membership  
+# 🦐 Caridina Shrimp Care Membership Singapore | ebiya.sg 
 ## Build Your Caridina Shrimp Tank Right — The First Time
 
 Stop guessing. Stop losing shrimp.  
