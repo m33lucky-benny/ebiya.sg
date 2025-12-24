@@ -130,7 +130,7 @@ Heavy planting is unnecessary and often hides problems like uneaten food.
 
 ### Feeding Strategy
 
-I feed **once a week** using a **green wall**.
+I feed **once a week** when there is a **green wall**.
 
 Overfeeding is the fastest way to crash a Caridina tank. Healthy shrimp spend most of their time grazing naturally.
 
