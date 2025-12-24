@@ -10,18 +10,6 @@ keywords: "how to calibrate pH meter, pH pen calibration, pH test pen, buffer so
 image: /assets/images/ph-meter-calibration.jpg
 permalink: /calibrate-ph-test-pen/
 ---
----
-layout: post
-title: "How to Calibrate a pH Test Pen: Step-by-Step Guide"
-description: "Learn how to calibrate your digital pH meter pen correctly with buffer solutions. Complete guide covering 2-point calibration, electrode maintenance, and troubleshooting tips."
-date: 2025-12-24
-author: Your Name
-categories: [pH Testing, Water Quality, Laboratory Equipment]
-tags: [pH meter calibration, pH pen, buffer solution, pH 4.01, pH 6.86, pH 7, electrode maintenance, water testing, digital pH tester]
-keywords: "how to calibrate pH meter, pH pen calibration, pH test pen, buffer solution, pH electrode, digital pH tester, pH 4 buffer, pH 7 buffer, calibrate pH meter correctly, pH meter accuracy"
-image: /assets/images/ph-meter-calibration.jpg
-permalink: /calibrate-ph-test-pen/
----
 
 # How to Calibrate a pH Test Pen: Step-by-Step Guide for Accurate Testing
 
