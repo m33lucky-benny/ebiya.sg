@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "7 Shrimp Tank Accessories That Actually Matter (Skip the Rest)"
+title: "7 Shrimp Tank Accessories You Need In Singapore| ebiya.sg"
 date: 2025-12-22
 author: ebiyaSG
-description: "After breeding Caridina shrimp in Singapore for years, I've narrowed down the only 7 accessories you actually need. Save money and skip the gimmicks with this honest guide."
+description: "Stop wasting money on aquarium gear. These 7 accessories are essential for keeping Caridina shrimp alive in Singapore. Honest advice from breeders."
 excerpt: "Stop wasting money on unnecessary aquarium gear. These 7 shrimp tank accessories are the only ones that matter for keeping Caridina shrimp alive and breeding in Singapore."
 categories: [aquarium, shrimp-keeping]
 tags: [caridina-shrimp, aquarium-accessories, singapore, shrimp-breeding, crystal-red-shrimp, tds-meter, shrimp-tank-setup]
