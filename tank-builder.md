@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank"
-description: "Interactive Caridina (Taiwan bee) shrimp tank builder for Singapore. Pick tank size, stocking guidance in liters, soil, filtration, and UGF."
+title: "Caridina Tank Builder Singapore | Free Tool | ebiya.sg"
+description: "Free interactive Caridina shrimp tank builder for Singapore. Get personalized equipment, water parameters & stocking recommendations for your setup."
 keywords:
   - Caridina tank builder
   - shrimp tank Singapore
@@ -13,7 +13,7 @@ permalink: /tank-builder/
 author: ebiyaSG
 
 # Open Graph (Social Sharing)
-og_title: "ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank"
+og_title: "Caridina Tank Builder Singapore | Free Tool | ebiya.sg"
 og_description: "Interactive Caridina tank builder for Singapore: tank size, stocking guidance in liters, soil, filtration, and UGF."
 og_type: website
 og_url: https://www.ebiya.sg/tank-builder/
@@ -22,7 +22,7 @@ og_image_alt: "Caridina shrimp tank builder guide"
 
 # Twitter
 twitter_card: summary_large_image
-twitter_title: "ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank"
+twitter_title: "Caridina Tank Builder Singapore | Free Tool | ebiya.sg"
 twitter_description: "Build a stable Caridina tank in Singapore: tank size, stocking guidance (L), soil, filtration, and UGF."
 twitter_image: https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
 ---
@@ -135,7 +135,7 @@ twitter_image: https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
 ========================= -->
 <div class="page-container">
 
-<h1>Caridina Shrimp Tank Builder</h1>
+<h1>Caridina Tank Builder Singapore | Free Tool | ebiya.sg</h1>
 <p class="hero-subtitle">
 Step-by-step guidance for building a stable <strong>Caridina (Taiwan bee)</strong> tank under Singapore conditions.
 </p>
