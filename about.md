@@ -21,7 +21,7 @@ keywords:
   - Old Airport Road
 ---
 
-# About ebiyaSG
+# About ebiya.SG
 
 ebiyaSG is a Singapore-based Caridina shrimp specialist and custom tank builder dedicated to helping shrimp keepers succeed where others struggle.
 
