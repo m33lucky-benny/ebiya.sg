@@ -61,9 +61,9 @@ google_site_verification: "ULsSS9SW0O2t0d76FM20iITO83i9vbTNtTVclZiV7mM"
 # bing_site_verification: "your_bing_verification_code"
 
 # Webmaster tools (alternative style some plugins use)
-webmaster_verifications:
-  google: "your_google_verification_code"
-  bing: "your_bing_verification_code"
+# webmaster_verifications:
+#  google: "your_google_verification_code"
+#  bing: "your_bing_verification_code"
 
 # Social sharing defaults (Open Graph / Twitter)
 og_image: "/assets/images/ebiya-og-default.jpg"
