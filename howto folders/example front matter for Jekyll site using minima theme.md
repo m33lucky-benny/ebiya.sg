@@ -30,59 +30,27 @@ plugins:
 
 ```
 
-Skip to content
-This is a copy of a conversation between ChatGPT & Anonymous.
-
-Report conversation
-You said:
-Show example front matter for Jekyll site using minima theme
-ChatGPT said:
-Here’s a clean, correct example of Jekyll front matter for a site using the minima theme, plus examples for common page types. You can copy-paste these directly into your files.
-
-1️⃣ _config.yml (required for Minima)
-title: ebiyaSG
-tagline: Premium Caridina Shrimp Breeder Singapore
-description: >
-  Singapore-based Caridina shrimp breeder offering premium shrimp,
-  custom tanks, and expert care guides.
-url: "https://ebiya.sg"
-
-theme: minima
-
-author:
-  name: ebiyaSG
-  email: hello@ebiya.sg
-
-# Minima settings
-minima:
-  skin: classic # or dark / solarized / auto
-  social_links:
-    - platform: instagram
-      user_url: https://instagram.com/ebiyaSG
-    - platform: github
-      user_url: https://github.com/ebiyaSG
-
-# Plugins supported by GitHub Pages
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
 2️⃣ Home page front matter (index.md or index.html)
+```
 ---
 layout: home
 title: Home
 description: Premium Caridina shrimp breeder in Singapore
 ---
 layout: home is special to Minima and enables the homepage layout.
+```
 
 3️⃣ Standard page (about.md, membership.md, etc.)
+```
 ---
 layout: page
 title: About ebiyaSG
 permalink: /about/
 description: Learn about Singapore’s trusted Caridina shrimp breeder
 ---
+```
 4️⃣ Blog post front matter (_posts/2025-01-01-my-post.md)
+```
 ---
 layout: post
 title: "How to Set Up a Caridina Shrimp Tank in Singapore"
@@ -91,6 +59,7 @@ categories: [caridina, shrimp-tank]
 tags: [shrimp soil, RO water, Taiwan bee]
 description: Step-by-step Caridina shrimp tank setup for Singapore conditions
 ---
+```
 5️⃣ SEO-optimized page (recommended for your shrimp site)
 ---
 layout: page
