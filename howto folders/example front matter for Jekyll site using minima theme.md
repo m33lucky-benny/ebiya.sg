@@ -61,6 +61,7 @@ description: Step-by-step Caridina shrimp tank setup for Singapore conditions
 ---
 ```
 5️⃣ SEO-optimized page (recommended for your shrimp site)
+```
 ---
 layout: page
 title: "Caridina Shrimp Tank Builder Singapore"
@@ -73,8 +74,10 @@ keywords:
   - taiwan bee shrimp
 ---
 keywords will be picked up by jekyll-seo-tag.
+```
 
 6️⃣ Hidden utility page (no nav, no SEO indexing)
+```
 ---
 layout: page
 title: Internal Test Page
@@ -82,7 +85,9 @@ permalink: /_test/
 sitemap: false
 robots: noindex, nofollow
 ---
+```
 7️⃣ Add this to <head> (once)
+```
 Make sure this is inside your layout (_layouts/default.html):
 
 {% seo %}
@@ -95,8 +100,10 @@ Google SEO
 Social previews
 
 Structured metadata
+```
 
 ✅ Minima Front Matter Rules (Important)
+```
 layout: home → homepage
 
 layout: page → normal pages
@@ -106,18 +113,9 @@ layout: post → blog posts
 title and description strongly recommended
 
 permalink avoids ugly URLs
+```
 
-If you want, I can:
 
-Add LocalBusiness schema for Singapore 🏙️
-
-Customize Minima navigation
-
-Convert your shrimp pages to HowTo schema
-
-Optimize Minima for mobile shrimp buyers
-
-Just tell me 👍
 
 
 
