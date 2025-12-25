@@ -1,6 +1,768 @@
 ---
-layout: default
-Title: "Caridina Shrimp FAQ Singapore | Answers | ebiya.sg"
-description: Frequently asked questions about keeping Caridina shrimp in Singapore. Tank setup, water parameters, breeding, troubleshooting answered by experts.
-permalink:/faq/
+layout: page
+title: Frequently Asked Questions | Caridina Shrimp & Custom Tanks Singapore
+description: Expert answers to common questions about keeping caridina shrimp and custom shrimp tanks in Singapore. Learn water parameters, care tips, breeding, and tank setup from ebiya.sg.
+permalink: /faq/
+keywords: caridina shrimp Singapore, shrimp tank setup, crystal red shrimp, Taiwan bee shrimp, custom aquarium Singapore, shrimp care guide, shrimp breeding
+author: ebiya.sg
+robots: index, follow
+og_title: Caridina Shrimp & Custom Tank FAQ - ebiya.sg Singapore
+og_description: Complete FAQ guide for caridina shrimp keeping in Singapore. Water parameters, tank setup, breeding tips, and custom aquarium solutions.
+og_type: website
+og_url: https://ebiya.sg/faq/
 ---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Expert answers to common questions about keeping caridina shrimp and custom shrimp tanks in Singapore. Learn water parameters, care tips, breeding, and tank setup from ebiya.sg.">
+    <meta name="keywords" content="caridina shrimp Singapore, shrimp tank setup, crystal red shrimp, Taiwan bee shrimp, custom aquarium Singapore, shrimp care guide, shrimp breeding, neocaridina vs caridina, RO water shrimp, active substrate Singapore">
+    <meta name="author" content="ebiya.sg">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Caridina Shrimp & Custom Tank FAQ - ebiya.sg Singapore">
+    <meta property="og:description" content="Complete FAQ guide for caridina shrimp keeping in Singapore. Water parameters, tank setup, breeding tips, and custom aquarium solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ebiya.sg/faq/">
+    <meta property="og:site_name" content="ebiya.sg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Caridina Shrimp & Custom Tank FAQ - ebiya.sg">
+    <meta name="twitter:description" content="Expert answers about caridina shrimp care and custom tanks in Singapore">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are caridina shrimp and why are they popular?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Caridina shrimp are freshwater dwarf shrimp known for their stunning colors and patterns, including popular varieties like Crystal Red Shrimp (CRS), Crystal Black Shrimp (CBS), and Taiwan Bee shrimp. They're highly sought after by aquarium enthusiasts in Singapore for their beauty, active behavior, and fascinating breeding potential. Unlike their hardier cousins (neocaridina), caridina shrimp require more precise water parameters, making them a rewarding challenge for dedicated hobbyists."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <title>Frequently Asked Questions | Caridina Shrimp & Custom Tanks Singapore - ebiya.sg</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #000000;
+            color: #36454F;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 40px 30px;
+            box-shadow: 0 8px 30px rgba(255, 16, 240, 0.1);
+        }
+        
+        .faq-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .faq-header h1 {
+            color: #FF10F0;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .faq-header p {
+            color: #36454F;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        
+        .faq-category {
+            margin-bottom: 50px;
+        }
+        
+        .category-title {
+            color: #FF006E;
+            font-size: 1.8em;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #FF10F0;
+            font-weight: 600;
+        }
+        
+        .faq-item {
+            margin-bottom: 15px;
+            border: 2px solid #f0f0f0;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item:hover {
+            border-color: #FF10F0;
+            box-shadow: 0 4px 15px rgba(255, 16, 240, 0.15);
+        }
+        
+        .faq-question {
+            background-color: #fafafa;
+            padding: 20px 25px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+            user-select: none;
+        }
+        
+        .faq-question:hover {
+            background-color: #f5f5f5;
+        }
+        
+        .faq-question h3 {
+            color: #36454F;
+            font-size: 1.1em;
+            font-weight: 600;
+            flex: 1;
+            margin-right: 15px;
+        }
+        
+        .faq-icon {
+            color: #FF10F0;
+            font-size: 1.5em;
+            font-weight: 300;
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+        
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+            background-color: #ffffff;
+        }
+        
+        .faq-item.active .faq-answer {
+            max-height: 1000px;
+            padding: 25px;
+        }
+        
+        .faq-answer p {
+            color: #36454F;
+            font-size: 1em;
+            line-height: 1.8;
+            margin-bottom: 12px;
+        }
+        
+        .faq-answer ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        
+        .faq-answer li {
+            color: #36454F;
+            margin-bottom: 8px;
+        }
+        
+        .faq-answer strong {
+            color: #FF006E;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .faq-container {
+                padding: 25px 20px;
+            }
+            
+            .faq-header h1 {
+                font-size: 2em;
+            }
+            
+            .category-title {
+                font-size: 1.5em;
+            }
+            
+            .faq-question {
+                padding: 15px 18px;
+            }
+            
+            .faq-question h3 {
+                font-size: 1em;
+            }
+            
+            .faq-item.active .faq-answer {
+                padding: 18px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            
+            .faq-container {
+                padding: 20px 15px;
+                border-radius: 8px;
+            }
+            
+            .faq-header h1 {
+                font-size: 1.6em;
+            }
+            
+            .faq-header p {
+                font-size: 1em;
+            }
+        }
+        
+        /* Accessibility Enhancements */
+        .faq-question:focus {
+            outline: 3px solid #FF10F0;
+            outline-offset: 2px;
+        }
+        
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="faq-container">
+        <header class="faq-header">
+            <h1>Frequently Asked Questions</h1>
+            <p>Everything you need to know about caridina shrimp care and custom shrimp tanks in Singapore</p>
+        </header>
+        
+        <!-- Category 1: Caridina Shrimp Care -->
+        <section class="faq-category">
+            <h2 class="category-title">Caridina Shrimp Care</h2>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-1">
+                    <h3>What are caridina shrimp and why are they popular?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-1" role="region">
+                    <p>Caridina shrimp are freshwater dwarf shrimp known for their stunning colors and patterns, including popular varieties like Crystal Red Shrimp (CRS), Crystal Black Shrimp (CBS), and Taiwan Bee shrimp [web:1][web:6]. They're highly sought after by aquarium enthusiasts in Singapore for their beauty, active behavior, and fascinating breeding potential [web:9]. Unlike their hardier cousins (neocaridina), caridina shrimp require more precise water parameters, making them a rewarding challenge for dedicated hobbyists.</p>
+                    <p>These shrimp spend their days grazing on biofilm, exploring plants, and displaying mesmerizing colors that can range from deep reds and blacks to striking blue and golden patterns. Their peaceful nature and small size (typically 2-3cm) make them perfect for nano aquariums and planted tanks [web:6].</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-2">
+                    <h3>What are the ideal water parameters for caridina shrimp?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-2" role="region">
+                    <p>Caridina shrimp thrive in soft, slightly acidic water conditions [web:2]. Here are the optimal parameters:</p>
+                    <ul>
+                        <li><strong>pH:</strong> 6.0 to 6.8 (slightly acidic) [web:2]</li>
+                        <li><strong>TDS (Total Dissolved Solids):</strong> 100-200 ppm [web:2][web:5]</li>
+                        <li><strong>Temperature:</strong> 20-24°C (68-75°F) [web:1][web:2]</li>
+                        <li><strong>GH (General Hardness):</strong> 4-6 dGH [web:2][web:5]</li>
+                        <li><strong>KH (Carbonate Hardness):</strong> 0-2 dKH [web:2][web:5]</li>
+                    </ul>
+                    <p>Maintaining stable parameters is crucial—fluctuations can cause stress, failed molts, or even death [web:16]. In Singapore's tropical climate, using a chiller or keeping tanks in air-conditioned rooms helps maintain the cooler temperatures caridina prefer. Use RO (reverse osmosis) water remineralized with appropriate shrimp salts to achieve these precise parameters [web:5][web:19].</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-3">
+                    <h3>How long should I cycle my tank before adding caridina shrimp?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-3" role="region">
+                    <p>Caridina shrimp require a well-established tank with mature biofilm and stable water chemistry [web:6]. You should cycle your caridina tank for <strong>4 to 8 weeks</strong> before introducing shrimp [web:10]. This extended cycling period allows:</p>
+                    <ul>
+                        <li>Beneficial bacteria colonies to fully develop in your filter and substrate</li>
+                        <li>Active substrates (like buffering soils) to stabilize and properly condition the water</li>
+                        <li>Biofilm to grow on surfaces, providing essential food for shrimp [web:9]</li>
+                        <li>Any ammonia or nitrite spikes to resolve completely</li>
+                    </ul>
+                    <p>During cycling, regularly test for ammonia, nitrites, and nitrates. Only add shrimp when ammonia and nitrites read 0 ppm consistently [web:10]. You can speed up the process by using bacterial starters like Seachem Stability, but don't rush—caridina are sensitive and a mature tank significantly improves survival rates [web:10].</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-4">
+                    <h3>What should I feed my caridina shrimp and how often?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-4" role="region">
+                    <p>Caridina shrimp are primarily biofilm grazers but benefit from supplemental feeding 2-3 times per week [web:6]. Offer only small amounts that can be consumed within 2-3 hours to prevent water quality issues [web:16]. Recommended foods include:</p>
+                    <ul>
+                        <li><strong>Specialized shrimp pellets:</strong> High-quality formulas designed for caridina</li>
+                        <li><strong>Blanched vegetables:</strong> Spinach, zucchini, and kale (remove after 24 hours)</li>
+                        <li><strong>Algae wafers:</strong> Rich in minerals for healthy molting</li>
+                        <li><strong>Biofilm enhancers:</strong> Products that promote biofilm growth</li>
+                        <li><strong>Protein sources:</strong> Occasional treats like spirulina or mosquito larvae (once weekly)</li>
+                    </ul>
+                    <p>Avoid overfeeding—it's the most common mistake beginners make [web:16]. Uneaten food decays, causing ammonia spikes and poor water quality. Shrimp will constantly graze on biofilm and algae even without supplemental feeding, so less is more.</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-5">
+                    <h3>What are common beginner mistakes when keeping caridina shrimp?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-5" role="region">
+                    <p>Even experienced aquarists can struggle with caridina initially [web:16][web:19]. The most common mistakes include:</p>
+                    <ul>
+                        <li><strong>Using tap water:</strong> Tap water typically has high KH/GH causing pH instability—always use RO water with remineralizers [web:19]</li>
+                        <li><strong>Adding shrimp to new tanks:</strong> Insufficient cycling time means no biofilm and unstable parameters [web:16][web:19]</li>
+                        <li><strong>Temperature fluctuations:</strong> Singapore's heat can push tanks above 26°C, which stresses caridina—use cooling fans or chillers [web:19]</li>
+                        <li><strong>Overfeeding:</strong> Leads to ammonia spikes and water quality crashes [web:16]</li>
+                        <li><strong>Large water changes:</strong> Big changes shock shrimp—stick to 10-15% weekly and match temperature/TDS precisely [web:19]</li>
+                        <li><strong>Incompatible tank mates:</strong> Housing with aggressive fish or species that eat shrimp [web:16]</li>
+                        <li><strong>Disturbing substrate:</strong> Creates ammonia spikes from trapped waste [web:19]</li>
+                    </ul>
+                    <p>Take your time, test parameters regularly, and make gradual changes. Patience is key to success with caridina shrimp.</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-6">
+                    <h3>How do I breed caridina shrimp successfully?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-6" role="region">
+                    <p>Breeding caridina shrimp is challenging but incredibly rewarding when conditions are optimal [web:6][web:9]. Key requirements include:</p>
+                    <ul>
+                        <li><strong>Stable water parameters:</strong> Any fluctuations reduce fertility and breeding activity [web:6]</li>
+                        <li><strong>Mature tank:</strong> At least 3-6 months old with established biofilm [web:9][web:19]</li>
+                        <li><strong>High-quality diet:</strong> Females need extra protein and nutrients before carrying eggs [web:6]</li>
+                        <li><strong>Dense plant coverage:</strong> Java moss and other plants provide hiding spots for shrimplets [web:6][web:9]</li>
+                        <li><strong>Proper water chemistry:</strong> Maintain GH 4-6 and pH 6.2-6.8 for optimal breeding [web:5]</li>
+                    </ul>
+                    <p>Female caridina carry 20-30 eggs for 28-35 days before hatching fully developed shrimplets [web:9]. Unlike neocaridina, baby caridina are smaller and more delicate, requiring pristine water conditions and abundant biofilm [web:9]. Provide plenty of moss and avoid aggressive tank mates that might prey on newborns.</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-7">
+                    <h3>How can I tell if my caridina shrimp are healthy?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-7" role="region">
+                    <p>Healthy caridina shrimp display several clear indicators:</p>
+                    <p><strong>Signs of healthy shrimp:</strong></p>
+                    <ul>
+                        <li>Active grazing and constant movement around the tank</li>
+                        <li>Vibrant, intense coloration without fading</li>
+                        <li>Swimming smoothly without twitching or erratic darting</li>
+                        <li>Successfully molting every 3-4 weeks</li>
+                        <li>Females becoming berried (carrying eggs) regularly</li>
+                        <li>Antennae and legs intact, not broken or damaged</li>
+                    </ul>
+                    <p><strong>Warning signs of stress or illness:</strong></p>
+                    <ul>
+                        <li>Lethargy or hiding constantly without activity [web:11]</li>
+                        <li>Swimming erratically or jumping repeatedly [web:11]</li>
+                        <li>White or opaque coloration (bacterial infection)</li>
+                        <li>Failed molts or molting too frequently</li>
+                        <li>Loss of appendages or curled tail (serious stress indicator)</li>
+                        <li>Not eating or ignoring food</li>
+                    </ul>
+                    <p>If you notice stress behaviors, immediately test water parameters and check for ammonia, nitrite, or pH swings.</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-8">
+                    <h3>What is the proper acclimation process for new caridina shrimp?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-8" role="region">
+                    <p>Proper acclimation is critical for caridina survival—they're extremely sensitive to sudden parameter changes [web:11][web:15]. Always use the <strong>drip acclimation method</strong>:</p>
+                    <p><strong>Step-by-step drip acclimation:</strong></p>
+                    <ul>
+                        <li><strong>Preparation:</strong> Dim aquarium lights and gather airline tubing, a bucket, and a net [web:11]</li>
+                        <li><strong>Transfer:</strong> Pour shrimp and bag water into a clean container [web:11]</li>
+                        <li><strong>Start drip:</strong> Siphon tank water through airline tubing into the container at 1-2 drops per second [web:15][web:18]</li>
+                        <li><strong>Wait patiently:</strong> Continue for 1-2 hours until container water doubles, or 75% is tank water [web:15][web:18]</li>
+                        <li><strong>Net transfer:</strong> Use a net to transfer shrimp—never pour container water into your tank [web:11][web:18]</li>
+                        <li><strong>Observe:</strong> Watch for stress behaviors like erratic swimming or jumping [web:11]</li>
+                    </ul>
+                    <p>For shrimp shipped long distances or with very different parameters, extend acclimation to 4-8 hours [web:18]. This slow process dramatically improves survival rates by preventing shock from sudden pH, TDS, or temperature changes [web:11][web:15].</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-9">
+                    <h3>Do caridina shrimp need special lighting?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-9" role="region">
+                    <p>Caridina shrimp don't require special lighting for their health, but proper lighting benefits the overall tank ecosystem. Moderate lighting (6-8 hours daily) supports plant growth and biofilm development, which caridina feed on constantly.</p>
+                    <p>Avoid excessively bright lights, as caridina prefer slightly dimmer environments and may hide if stressed by intense illumination. LED aquarium lights in the 20-40 PAR range work well for planted caridina tanks. If your shrimp are constantly hiding, reduce light intensity or duration, or add floating plants to create shaded areas [web:20].</p>
+                    <p>Remember that stable photoperiods are more important than intensity—keep lighting schedules consistent to avoid stressing your shrimp colony.</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-10">
+                    <h3>Can I keep caridina shrimp with fish?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-10" role="region">
+                    <p>While possible, keeping caridina with fish is generally not recommended, especially for breeding colonies [web:16]. Caridina are small and vulnerable, making them targets for most fish species. Even peaceful fish may eat shrimplets or stress adult shrimp, reducing breeding success.</p>
+                    <p>If you must keep tank mates, choose only the smallest, most peaceful species like:</p>
+                    <ul>
+                        <li>Otocinclus catfish</li>
+                        <li>Small rasboras (Chili Rasboras, Emerald Dwarf Rasboras)</li>
+                        <li>Pygmy corydoras</li>
+                    </ul>
+                    <p>Avoid any fish with large mouths or aggressive tendencies [web:16]. For best results, maintain caridina in species-only tanks where they can breed freely without predation pressure.</p>
+                </div>
+            </article>
+        </section>
+        
+        <!-- Category 2: Custom Shrimp Tanks -->
+        <section class="faq-category">
+            <h2 class="category-title">Custom Shrimp Tanks</h2>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-11">
+                    <h3>What makes a good shrimp tank?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-11" role="region">
+                    <p>A good shrimp tank prioritizes water stability, surface area for grazing, and safety for small inhabitants. Key features include:</p>
+                    <ul>
+                        <li><strong>Appropriate dimensions:</strong> Wider tanks (longer length/width) provide more surface area than tall tanks</li>
+                        <li><strong>Quality glass construction:</strong> Consistent thickness and polished edges prevent leaks and stress concentration</li>
+                        <li><strong>Stable base and level surface:</strong> Prevents uneven water pressure that can cause cracks</li>
+                        <li><strong>Rimless design (optional):</strong> Popular aesthetic choice that provides better light penetration for plants</li>
+                        <li><strong>Easy access:</strong> Wide openings for maintenance without disturbing shrimp</li>
+                    </ul>
+                    <p>Custom tanks can be designed with specific dimensions to fit your space perfectly while optimizing for shrimp keeping—something off-the-shelf aquariums rarely provide. The right tank becomes a stable, long-term home that makes maintenance easier and keeps your shrimp thriving.</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-12">
+                    <h3>What tank size is best for beginner caridina keepers?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-12" role="region">
+                    <p>For caridina shrimp, a <strong>30-60 liter (8-15 gallon) tank</strong> is ideal for beginners [web:10]. This size range offers several advantages:</p>
+                    <ul>
+                        <li><strong>Parameter stability:</strong> Larger water volume means slower, more gradual parameter changes</li>
+                        <li><strong>Temperature buffering:</strong> More water volume resists temperature swings better—important in Singapore's climate</li>
+                        <li><strong>Colony growth:</strong> Adequate space for a breeding colony to expand (20-50 shrimp)</li>
+                        <li><strong>Manageable maintenance:</strong> Not too large to be overwhelming, but stable enough to be forgiving</li>
+                        <li><strong>Cost-effective:</strong> Reasonable equipment costs without excessive initial investment</li>
+                    </ul>
+                    <p>Avoid tanks smaller than 20 liters—they're harder to keep stable and less forgiving of mistakes. While experienced keepers can maintain smaller tanks successfully, beginners benefit greatly from the stability larger volumes provide.</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-13">
+                    <h3>What essential equipment do I need for a caridina shrimp tank?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-13" role="region">
+                    <p>Setting up a proper caridina tank requires specific equipment to maintain stable parameters [web:7][web:10]:</p>
+                    <p><strong>Essential equipment:</strong></p>
+                    <ul>
+                        <li><strong>Sponge filter:</strong> Gentle filtration that won't suck in shrimplets, provides biological filtration [web:7][web:10]</li>
+                        <li><strong>Air pump:</strong> Powers the sponge filter and oxygenates water</li>
+                        <li><strong>Heater (or chiller):</strong> Maintains stable temperature—in Singapore, cooling may be more important than heating</li>
+                        <li><strong>Active buffering substrate:</strong> Essential for caridina—lowers pH and provides minerals [web:10]</li>
+                        <li><strong>LED lighting:</strong> Moderate intensity for plants and biofilm growth</li>
+                        <li><strong>RO water system:</strong> Critical for achieving proper water parameters [web:19]</li>
+                        <li><strong>Remineralizer salts:</strong> GH+ minerals specifically for caridina [web:10]</li>
+                        <li><strong>TDS meter:</strong> Essential for monitoring water parameters accurately</li>
+                        <li><strong>Test kits:</strong> For pH, GH, KH, ammonia, nitrite, and nitrate</li>
+                    </ul>
+                    <p>Optional but helpful additions include a small cooling fan, thermometer, and timer for lights. Quality equipment prevents problems and makes long-term success much easier.</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-14">
+                    <h3>What are the benefits of custom tanks versus standard aquariums?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-14" role="region">
+                    <p>Custom shrimp tanks offer significant advantages over mass-produced aquariums:</p>
+                    <p><strong>Design flexibility:</strong></p>
+                    <ul>
+                        <li>Perfect fit for your specific space and furniture</li>
+                        <li>Optimized dimensions for shrimp keeping (more horizontal space)</li>
+                        <li>Choice of rimless or rimmed construction</li>
+                        <li>Glass thickness appropriate for tank size and water pressure</li>
+                    </ul>
+                    <p><strong>Quality advantages:</strong></p>
+                    <ul>
+                        <li>Higher-grade glass with better clarity and fewer imperfections</li>
+                        <li>Stronger silicone sealing for long-term reliability</li>
+                        <li>Customizable features like built-in overflow boxes or specific inlet placements</li>
+                        <li>Made-to-order construction means fresher silicone seals</li>
+                    </ul>
+                    <p><strong>Singapore-specific benefits:</strong></p>
+                    <ul>
+                        <li>Local fabrication means better support and warranty service</li>
+                        <li>Can specify glass type suitable for tropical climate</li>
+                        <li>Exact sizing for HDB or condo spaces</li>
+                    </ul>
+                    <p>While custom tanks have higher upfront costs, they often prove more cost-effective long-term through better durability and perfect space utilization.</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-15">
+                    <h3>How often should I clean and maintain my shrimp tank?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-15" role="region">
+                    <p>Caridina tanks require gentle, consistent maintenance to avoid parameter swings:</p>
+                    <p><strong>Weekly maintenance:</strong></p>
+                    <ul>
+                        <li>10-15% water change with temperature and TDS-matched RO water [web:19]</li>
+                        <li>Test TDS, pH, and temperature</li>
+                        <li>Light glass cleaning if algae buildup occurs (leave some for grazing)</li>
+                        <li>Remove any dead plant matter or uneaten food</li>
+                    </ul>
+                    <p><strong>Monthly maintenance:</strong></p>
+                    <ul>
+                        <li>Test full water parameters (GH, KH, ammonia, nitrite, nitrate)</li>
+                        <li>Gently clean sponge filter in old tank water (never tap water)</li>
+                        <li>Trim plants as needed</li>
+                        <li>Check equipment function (heater, air pump, lighting)</li>
+                    </ul>
+                    <p><strong>What NOT to do:</strong></p>
+                    <ul>
+                        <li>Avoid large water changes (over 20%) which shock shrimp [web:19]</li>
+                        <li>Never disturb the substrate deeply—it releases trapped ammonia [web:19]</li>
+                        <li>Don't over-clean—biofilm is essential food for caridina</li>
+                        <li>Never clean filter media in tap water—it kills beneficial bacteria</li>
+                    </ul>
+                    <p>Established caridina tanks are surprisingly low-maintenance when parameters remain stable. The key is consistent small interventions rather than infrequent large ones.</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-16">
+                    <h3>What plants work best in caridina shrimp tanks?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-16" role="region">
+                    <p>Caridina thrive with plants that match their soft-water requirements and provide grazing surfaces [web:17][web:20]:</p>
+                    <p><strong>Best plant choices:</strong></p>
+                    <ul>
+                        <li><strong>Java Moss:</strong> The #1 choice—provides biofilm, hiding spots, and breeding surfaces [web:17][web:20]</li>
+                        <li><strong>Christmas Moss:</strong> Similar to Java moss with more decorative growth patterns [web:20]</li>
+                        <li><strong>Subwassertang:</strong> Excellent for caridina, creates dense cover areas [web:17]</li>
+                        <li><strong>Anubias species:</strong> Hardy, low-light plants that tolerate soft water parameters [web:20]</li>
+                        <li><strong>Java Fern:</strong> Thrives in acidic conditions perfect for caridina [web:20]</li>
+                        <li><strong>Bucephalandra:</strong> Slow-growing, beautiful plants ideal for soft water</li>
+                        <li><strong>Pearl Weed:</strong> Creates carpets where shrimplets can hide and graze [web:20]</li>
+                        <li><strong>Floating plants:</strong> Red Root Floaters absorb excess nutrients and provide shade [web:20]</li>
+                    </ul>
+                    <p>Mosses are particularly valuable as they accumulate biofilm that shrimp constantly graze on [web:20]. Avoid plants requiring high KH or hard water, as they won't thrive in caridina-specific parameters. Always quarantine new plants or choose tissue-cultured varieties to avoid introducing pesticides that can kill shrimp [web:20].</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-17">
+                    <h3>How are custom shrimp tanks designed and ordered from ebiya.sg?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-17" role="region">
+                    <p>Ordering a custom shrimp tank from ebiya.sg is a straightforward consultation-based process:</p>
+                    <p><strong>Design process:</strong></p>
+                    <ul>
+                        <li><strong>Initial consultation:</strong> Discuss your space, budget, and shrimp-keeping goals</li>
+                        <li><strong>Dimension planning:</strong> Measure your available space—we recommend optimal dimensions for shrimp keeping</li>
+                        <li><strong>Glass specification:</strong> Choose glass thickness, type (low-iron for extra clarity), and construction style (rimless/rimmed)</li>
+                        <li><strong>Feature selection:</strong> Add custom elements like specific inlet holes, bracing patterns, or background options</li>
+                        <li><strong>Quote and timeline:</strong> Receive detailed pricing and production schedule</li>
+                    </ul>
+                    <p><strong>Production and quality:</strong></p>
+                    <ul>
+                        <li>Tanks are fabricated locally in Singapore with quality-checked materials</li>
+                        <li>Each tank undergoes leak testing before delivery</li>
+                        <li>Typical production time is 1-2 weeks depending on specifications</li>
+                        <li>Warranty coverage for workmanship and materials</li>
+                    </ul>
+                    <p>We work closely with you to ensure the final tank perfectly suits both your space and your caridina's needs. Contact us through our website or visit our location to discuss your custom tank project.</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-18">
+                    <h3>Do you provide delivery and setup services in Singapore?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-18" role="region">
+                    <p>Yes, ebiya.sg offers comprehensive delivery and setup services throughout Singapore:</p>
+                    <p><strong>Delivery services:</strong></p>
+                    <ul>
+                        <li>Island-wide delivery to HDB, condo, and landed properties</li>
+                        <li>Careful handling and transport with protective packaging</li>
+                        <li>Flexible delivery scheduling to accommodate your availability</li>
+                        <li>Professional delivery team experienced with aquarium handling</li>
+                    </ul>
+                    <p><strong>Setup assistance:</strong></p>
+                    <ul>
+                        <li>Tank placement and leveling on your furniture or stand</li>
+                        <li>Basic setup guidance for equipment installation</li>
+                        <li>Water parameter consultation and testing</li>
+                        <li>Recommendations for your specific space and conditions</li>
+                    </ul>
+                    <p><strong>Optional services:</strong></p>
+                    <ul>
+                        <li>Full aquascaping and planting service</li>
+                        <li>Complete system setup including filtration and water preparation</li>
+                        <li>Cycling service to prepare the tank for immediate shrimp addition</li>
+                        <li>Ongoing maintenance packages for busy hobbyists</li>
+                    </ul>
+                    <p>Contact us to discuss delivery options and any additional services you need. We're committed to making your shrimp-keeping journey as smooth as possible, from custom tank design through to a thriving colony.</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-19">
+                    <h3>What warranty comes with custom tanks from ebiya.sg?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-19" role="region">
+                    <p>All custom tanks from ebiya.sg come with comprehensive warranty coverage:</p>
+                    <ul>
+                        <li><strong>Workmanship warranty:</strong> Coverage for silicone seal integrity and glass joint quality</li>
+                        <li><strong>Leak protection:</strong> Free repair or replacement if leaks develop due to manufacturing defects</li>
+                        <li><strong>Glass quality guarantee:</strong> Replacement for defects, cracks, or clarity issues not caused by mishandling</li>
+                        <li><strong>Installation support:</strong> Guidance and troubleshooting during initial setup period</li>
+                    </ul>
+                    <p>Warranty terms are clearly outlined at purchase, with specific duration based on tank size and construction type. We stand behind our craftsmanship and use only quality materials suitable for Singapore's tropical climate. Proper leveling and support are required to maintain warranty validity.</p>
+                    <p>For detailed warranty terms and conditions, please contact us directly or review the documentation provided with your custom tank order.</p>
+                </div>
+            </article>
+            
+            <article class="faq-item">
+                <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-20">
+                    <h3>Can I upgrade my existing tank to better suit caridina shrimp?</h3>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </div>
+                <div class="faq-answer" id="answer-20" role="region">
+                    <p>Absolutely! Many hobbyists start with standard aquariums before upgrading to optimize for caridina keeping. We can help with:</p>
+                    <p><strong>Equipment upgrades:</strong></p>
+                    <ul>
+                        <li>Switching to appropriate sponge filtration from hang-on-back filters</li>
+                        <li>Adding RO water systems for proper water preparation</li>
+                        <li>Installing cooling solutions for Singapore's climate</li>
+                        <li>Upgrading to better lighting for plant growth</li>
+                    </ul>
+                    <p><strong>Tank replacement benefits:</strong></p>
+                    <ul>
+                        <li>Better dimensions optimized for shrimp colony growth</li>
+                        <li>Higher-quality glass with better clarity</li>
+                        <li>Rimless design for easier maintenance and better aesthetics</li>
+                        <li>Proper sizing for your matured understanding of space needs</li>
+                    </ul>
+                    <p>We offer consultation services to assess your current setup and recommend the most cost-effective upgrades. Sometimes simple equipment changes suffice, while other times a purpose-built custom tank transforms your keeping experience. Contact us to discuss your specific situation and upgrade goals.</p>
+                </div>
+            </article>
+        </section>
+    </div>
+    
+    <script>
+        // FAQ Accordion Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                
+                // Click handler
+                question.addEventListener('click', () => {
+                    toggleAccordion(item);
+                });
+                
+                // Keyboard accessibility
+                question.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        toggleAccordion(item);
+                    }
+                });
+            });
+            
+            function toggleAccordion(item) {
+                const isActive = item.classList.contains('active');
+                const question = item.querySelector('.faq-question');
+                
+                // Close all other items (optional: remove these lines for multi-open accordion)
+                // faqItems.forEach(otherItem => {
+                //     if (otherItem !== item) {
+                //         otherItem.classList.remove('active');
+                //         otherItem.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                //     }
+                // });
+                
+                // Toggle current item
+                if (isActive) {
+                    item.classList.remove('active');
+                    question.setAttribute('aria-expanded', 'false');
+                } else {
+                    item.classList.add('active');
+                    question.setAttribute('aria-expanded', 'true');
+                }
+            }
+            
+            // Optional: Open first item by default
+            // if (faqItems.length > 0) {
+            //     faqItems[0].classList.add('active');
+            //     faqItems[0].querySelector('.faq-question').setAttribute('aria-expanded', 'true');
+            // }
+        });
+        
+        // Smooth scrolling for anchor links (if you add a table of contents)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
