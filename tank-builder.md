@@ -212,7 +212,7 @@ Step-by-step guidance for building a stable <strong>Caridina (Taiwan bee)</stron
   <h3>🔥 Top Questions</h3>
   <details><summary>Soil lasts how long?</summary>6-12 months buffering; top-up yearly.</details>
   <details><summary>Cooling in Singapore?</summary>Chiller essential; 20-23°C target.</details>
-</details>
+
 </div>
 
 
