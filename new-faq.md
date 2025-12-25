@@ -56,3 +56,206 @@ lang: en-SG
     </article>
   </section>
 </div>
+
+<!-- css -->
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #000000;
+    color: #e5e5e5;
+  }
+
+  .faq-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px 60px;
+  }
+
+  .faq-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .faq-header h1 {
+    color: #ff10f0;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+  }
+
+  .faq-header p {
+    color: #d0d0d0;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .faq-category {
+    margin-bottom: 40px;
+  }
+
+  .category-title {
+    color: #ff006e;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #ff10f0;
+  }
+
+  .faq-item {
+    margin-bottom: 12px;
+    border-radius: 10px;
+    background: #0b0d10;
+    border: 1px solid #242736;
+    overflow: hidden;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.15s ease;
+  }
+
+  .faq-item:hover {
+    border-color: #ff10f0;
+    box-shadow: 0 10px 30px rgba(255, 16, 240, 0.18);
+    transform: translateY(-1px);
+  }
+
+  .faq-question {
+    width: 100%;
+    border: none;
+    background: #0f1117;
+    color: #f5f5f5;
+    padding: 16px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-align: left;
+    gap: 12px;
+  }
+
+  .faq-question h3 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .faq-icon {
+    font-size: 1.5rem;
+    color: #ff10f0;
+    transition: transform 0.25s ease;
+    flex-shrink: 0;
+  }
+
+  .faq-item.active .faq-icon {
+    transform: rotate(45deg);
+  }
+
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 18px;
+    background: #05060a;
+    transition: max-height 0.35s ease, padding-top 0.25s ease, padding-bottom 0.25s ease;
+  }
+
+  .faq-item.active .faq-answer {
+    padding-top: 14px;
+    padding-bottom: 16px;
+  }
+
+  .faq-answer p {
+    margin: 0 0 10px;
+    color: #d4d4d4;
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .faq-answer ul {
+    padding-left: 18px;
+    margin: 6px 0 10px;
+  }
+
+  .faq-answer li {
+    margin-bottom: 6px;
+    color: #d4d4d4;
+    font-size: 0.93rem;
+  }
+
+  .faq-question:focus-visible {
+    outline: 3px solid #ff10f0;
+    outline-offset: 3px;
+  }
+
+  @media (max-width: 768px) {
+    .faq-container {
+      padding: 30px 14px 40px;
+    }
+
+    .faq-header h1 {
+      font-size: 1.8rem;
+    }
+
+    .category-title {
+      font-size: 1.4rem;
+    }
+
+    .faq-question {
+      padding: 14px 14px;
+    }
+
+    .faq-question h3 {
+      font-size: 0.97rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .faq-header h1 {
+      font-size: 1.5rem;
+    }
+
+    .faq-header p {
+      font-size: 0.9rem;
+    }
+
+    .faq-answer p,
+    .faq-answer li {
+      font-size: 0.9rem;
+    }
+  }
+</style>
+
+<!-- js -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const items = document.querySelectorAll('.faq-item');
+
+    items.forEach(item => {
+      const button = item.querySelector('.faq-question');
+      const answer = item.querySelector('.faq-answer');
+
+      button.addEventListener('click', () => {
+        const isActive = item.classList.contains('active');
+
+        // Close all
+        items.forEach(i => {
+          const b = i.querySelector('.faq-question');
+          const a = i.querySelector('.faq-answer');
+          i.classList.remove('active');
+          b.setAttribute('aria-expanded', 'false');
+          a.style.maxHeight = null;
+        });
+
+        // Toggle current
+        if (!isActive) {
+          item.classList.add('active');
+          button.setAttribute('aria-expanded', 'true');
+          answer.style.maxHeight = answer.scrollHeight + 'px';
+        }
+      });
+    });
+  });
+</script>
+
