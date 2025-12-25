@@ -134,7 +134,8 @@ If you're serious about Caridina shrimp in Singapore, you're probably using RO (
 
 But RO water alone? It's basically liquid nothing. Zero minerals, zero buffering capacity. You need to add stuff back.
 
-**What to get:** A proper shrimp-specific remineralizer. Not aquarium salt. Not random minerals. Get something designed for Caridina that brings your GH up to 4-6 and keeps KH low.
+**What to get:** A proper shrimp-specific remineralizer like [SL Aqua GH Conditioner](https://www.ebiya.sg/sl-aqua-gh-conditioner). Not aquarium salt. Not random minerals. Get something designed for Caridina that brings your GH up to 4-6 and keeps KH low (SL Aqua targets exactly this).
+
 
 I use remineralizer for every water change. It's not optional. The cost averages out to maybe $10-15 a month, and it's the difference between shrimp that survive and shrimp that thrive.
 
