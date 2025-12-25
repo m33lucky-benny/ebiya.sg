@@ -188,6 +188,16 @@ Step-by-step guidance for building a stable <strong>Caridina (Taiwan bee)</stron
   <h3>Why This Works</h3><p id="reason"></p>
   <h3>Maintenance</h3><p id="maintenance"></p>
 
+  <div style="text-align:center; margin:2rem 0 1rem;">
+  <a href="#faq" class="faq-btn" style="
+    display:inline-block; padding:0.8rem 2rem; 
+    background:var(--accent); color:#0b0d10; 
+    font-weight:700; border-radius:12px; 
+    text-decoration:none; transition:.2s;
+  ">Common Questions? Check FAQ →</a>
+</div>
+
+
   <div class="membership-cta">
     <h3>Want Zero Guesswork?</h3>
     <p>
