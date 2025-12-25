@@ -13,3 +13,10 @@ theme: minima
 # Plugins
 plugins:
   - jekyll-sitemap
+
+# Social Media Links
+instagram_url: https://www.instagram.com/ebiyasg
+tiktok_url: https://www.tiktok.com/@fish_ah_gong
+whatsapp_url: https://wa.me/6589002228
+
+  
