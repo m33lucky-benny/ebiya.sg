@@ -27,7 +27,7 @@ twitter_description: "Build a stable Caridina tank in Singapore: tank size, stoc
 twitter_image: https://ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
 ---
 
-<link rel="canonical" href="https://ebiya.sg/tank-builder/" />
+
 
 <!-- =========================
      Tank Builder Styles
