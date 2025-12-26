@@ -190,7 +190,7 @@ Step-by-step guidance for building a stable <strong>Caridina (Taiwan bee)</stron
 
   <!-- FAQ Button Here -->
 <div style="text-align:center; margin:2rem 0 1rem 0;">
-  <a href="/faq–ebiyasg-caridina-shrimp-&-tank-setup-guide/" class="faq-btn" style="
+  <a href="/faq/" class="faq-btn" style="
     display:inline-block; padding:.8rem 2rem; 
     background:var(--accent); color:#0b0d10; 
     font-weight:700; border-radius:12px; 
@@ -204,7 +204,7 @@ Step-by-step guidance for building a stable <strong>Caridina (Taiwan bee)</stron
       Join <strong>ebiyaSG Membership</strong> for a full setup checklist,
       TDS tracking, feeding schedules, and pre-emptive problem solving.
     </p>
-    <a href="https://www.ebiya.sg/membership/">Join Membership</a>
+    <a href="https://ebiya.sg/membership/">Join Membership</a>
   </div>
 </div>
 
