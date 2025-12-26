@@ -71,7 +71,8 @@ twitter_image: "/assets/images/ebiya-twitter-card.jpg"
 
 # -----
 exclude:
-     - "howto folders/"
+     - "howto-folders/"
+     - "google20e8803e3b9ccf76.html"
 
 # Optional: front matter defaults for posts/pages (SEO-friendly)
 defaults:
