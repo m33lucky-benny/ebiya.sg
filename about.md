@@ -65,6 +65,6 @@ Caridina shrimp aren't fragile—they require precision, patience, and the right
 
 ## Get Started
 
-Ready to begin your Caridina shrimp journey? [Browse our available shrimp](/shrimp.html) or [explore our custom tank systems](/tank-builder/).
+Ready to begin your Caridina shrimp journey? [Browse our available shrimp](/shrimp/) or [explore our custom tank systems](/tank-builder/).
 
 For personalized advice and priority access to new stock, consider joining our [VIP Membership program](/membership/).
