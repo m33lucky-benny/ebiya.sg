@@ -43,9 +43,16 @@ permalink: /two-faq/
 .category-title { font-size:1.8em; margin-bottom:20px; color:#FF006E; border-bottom:3px solid #FF10F0; padding-bottom:10px; }
 .faq-item { margin-bottom:10px; border:1px solid #ddd; border-radius:6px; overflow:hidden; transition:all 0.3s; }
 .faq-question { background:#fafafa; padding:15px 20px; width:100%; text-align:left; cursor:pointer; border:none; display:flex; justify-content:space-between; align-items:center; font-weight:600; }
-.faq-answer { max-height:0; overflow:hidden; transition:max-height 0.4s ease, padding 0.4s ease; background:#fff; padding:0 20px; }
+#.faq-answer { max-height:0; overflow:hidden; transition:max-height 0.4s ease, padding 0.4s ease; background:#fff; padding:0 20px; }
 .faq-item.active .faq-answer { max-height:1000px; padding:15px 20px; }
+.faq-answer {
+  max-height:none;
+  overflow:visible;
+  padding:15px 20px;
+}
+
 </style>
+
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
