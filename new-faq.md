@@ -211,266 +211,191 @@ body {
     <p>Everything you need to know about caridina shrimp care and custom shrimp tanks in Singapore</p>
   </header>
   
-  <!-- Category 1: Caridina Shrimp Care (11 topics) -->
-  <section class="faq-category">
-    <h2 class="category-title">Caridina Shrimp Care</h2>
+  <!-- Category 1: Caridina Shrimp Care -->
+  <!-- Q1 -->
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false" aria-controls="c1-q1" id="c1-btn1">
+      What are Caridina shrimp and why are they popular in Singapore?
+    </button>
+    <div class="faq-answer" id="c1-q1" role="region" aria-labelledby="c1-btn1">
+      <p>
+        Caridina shrimp are premium freshwater dwarf shrimp known for their vivid colors and patterns,
+        including Crystal Red Shrimp (CRS), Crystal Black Shrimp (CBS), and Taiwan Bee varieties.
+        In Singapore, they are popular due to their beauty, peaceful nature, and strong breeding potential.
+      </p>
+    </div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false" aria-controls="c1-q2" id="c1-btn2">
+      Can Caridina shrimp survive in Singapore without a chiller?
+    </button>
+    <div class="faq-answer" id="c1-q2" role="region" aria-labelledby="c1-btn2">
+      <p>
+        Yes, but long-term success is difficult. Caridina shrimp thrive at 20–24°C,
+        while Singapore’s ambient temperature often exceeds 28°C.
+      </p>
+      <p>
+        Air-conditioning or aquarium cooling fans can help, but most serious shrimp keepers
+        use a chiller for stable breeding and longevity.
+      </p>
+    </div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false" aria-controls="c1-q3" id="c1-btn3">
+      Why do Caridina shrimp die after molting?
+    </button>
+    <div class="faq-answer" id="c1-q3" role="region" aria-labelledby="c1-btn3">
+      <p>
+        Molting deaths are usually caused by unstable water parameters.
+        Common reasons include incorrect GH, calcium deficiency, high KH,
+        or sudden changes in TDS, pH, or temperature.
+      </p>
+    </div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false" aria-controls="c1-q4" id="c1-btn4">
+      What are the ideal water parameters for Caridina shrimp?
+    </button>
+    <div class="faq-answer" id="c1-q4" role="region" aria-labelledby="c1-btn4">
+      <ul>
+        <li>pH: 6.0–6.8</li>
+        <li>TDS: 100–200 ppm</li>
+        <li>GH: 4–6</li>
+        <li>KH: 0–2</li>
+        <li>Temperature: 20–24°C</li>
+      </ul>
+      <p>Stability is more important than chasing exact numbers.</p>
+    </div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false" aria-controls="c1-q5" id="c1-btn5">
+      How long should I cycle a tank before adding Caridina shrimp?
+    </button>
+    <div class="faq-answer" id="c1-q5" role="region" aria-labelledby="c1-btn5">
+      <p>
+        A minimum of 4–8 weeks is recommended to allow beneficial bacteria,
+        active soil stabilisation, and biofilm development.
+      </p>
+    </div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false" aria-controls="c1-q6" id="c1-btn6">
+      How many Caridina shrimp should I start with?
+    </button>
+    <div class="faq-answer" id="c1-q6" role="region" aria-labelledby="c1-btn6">
+      <p>
+        Start with at least 20 shrimp. Larger groups improve breeding success
+        and reduce losses due to stress.
+      </p>
+    </div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false" aria-controls="c1-q7" id="c1-btn7">
+      What should I feed Caridina shrimp?
+    </button>
+    <div class="faq-answer" id="c1-q7" role="region" aria-labelledby="c1-btn7">
+      <p>
+        Feed high-quality shrimp food 2–3 times per week.
+        Supplement with blanched vegetables, biofilm enhancers,
+        and limited protein treats.
+      </p>
+    </div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false" aria-controls="c1-q8" id="c1-btn8">
+      How do I know if my Caridina shrimp are healthy?
+    </button>
+    <div class="faq-answer" id="c1-q8" role="region" aria-labelledby="c1-btn8">
+      <p>
+        Healthy shrimp are active grazers with strong coloration and regular molting.
+        Signs of stress include lethargy, pale color, and failed molts.
+      </p>
+    </div>
+  </div>
+</section>
     
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-1">
-        <h3>What are caridina shrimp and why are they popular?</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-1" role="region">
-        <p>Caridina shrimp are freshwater dwarf shrimp known for their stunning colors and patterns, including popular varieties like Crystal Red Shrimp (CRS), Crystal Black Shrimp (CBS), and Taiwan Bee shrimp. They're highly sought after by aquarium enthusiasts in Singapore for their beauty, active behavior, and fascinating breeding potential. Unlike their hardier cousins (neocaridina), caridina shrimp require more precise water parameters, making them a rewarding challenge for dedicated hobbyists.</p>
-        <p>These shrimp spend their days grazing on biofilm, exploring plants, and displaying mesmerizing colors that can range from deep reds and blacks to striking blue and golden patterns. Their peaceful nature and small size (typically 2-3cm) make them perfect for nano aquariums and planted tanks.</p>
-      </div>
-    </article>
+   <!-- Category 2: Custom Shrimp Tanks (4 topics) -->
+    <section class="faq-category" id="cat2-tanks">
+  <h2>Custom Shrimp Tanks FAQ (Singapore)</h2>
 
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-2">
-        <h3>Can Caridina Shrimp Survive in Singapore Without a Chiller?</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-2" role="region">
-        <p>This is one of the most frequently asked questions in Singapore's tropical climate. The short answer: <strong>it's challenging but possible with the right approach</strong>.</p>
-        <p><strong>The Temperature Challenge:</strong></p>
-        <ul>
-          <li>Caridina shrimp thrive at 20-24°C (68-75°F), with optimal breeding at 20-22°C</li>
-          <li>Singapore's room temperature typically ranges from 28-32°C (82-90°F) without air conditioning</li>
-          <li>Temperatures above 26°C (78.8°F) cause stress, reduced breeding, shortened lifespan, and increased mortality</li>
-        </ul>
-        <p><strong>Alternatives to Chillers:</strong></p>
-        <ul>
-          <li><strong>Air-conditioned rooms:</strong> The most cost-effective solution—keep tanks in AC rooms maintained at 23-25°C</li>
-          <li><strong>Aquarium cooling fans:</strong> Can reduce temperature by 2-3°C through evaporative cooling</li>
-          <li><strong>Strategic tank placement:</strong> Avoid direct sunlight, place near AC vents</li>
-          <li><strong>Reduced lighting duration:</strong> Minimize heat from lights during peak temperature hours</li>
-        </ul>
-        <p><strong>Reality Check:</strong> For serious caridina keeping in Singapore, budget for either a chiller (S$300-800) or maintain your tank in a consistently air-conditioned space.</p>
-      </div>
-    </article>
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false" aria-controls="c2-q1" id="c2-btn1">
+      What makes a good Caridina shrimp tank?
+    </button>
+    <div class="faq-answer" id="c2-q1" role="region" aria-labelledby="c2-btn1">
+      <p>
+        A good Caridina tank prioritizes stable water parameters,
+        active soil, gentle filtration, and mature biological balance.
+      </p>
+    </div>
+  </div>
 
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-3">
-        <h3>Why Do Caridina Shrimp Die After Molting?</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-3" role="region">
-        <p>Molting deaths are one of the most frustrating experiences for caridina keepers, and they're almost always preventable with proper water parameters.</p>
-        <p><strong>Common Causes of Molting Deaths:</strong></p>
-        <ul>
-          <li><strong>Incorrect GH:</strong> Too low GH (below 4) means weak shells; too high GH (above 7) makes shells too hard to shed</li>
-          <li><strong>Calcium deficiency:</strong> Essential for exoskeleton formation</li>
-          <li><strong>KH imbalance:</strong> Should be 0-2 for caridina</li>
-          <li><strong>"White Ring of Death":</strong> Shell cracks around entire body instead of just the neck</li>
-          <li><strong>Parameter fluctuations:</strong> Sudden TDS, pH, or temperature changes during molt</li>
-        </ul>
-        <p><strong>Prevention:</strong> Maintain stable GH 4-6, use caridina remineralizers (Salty Shrimp GH+), test weekly, avoid water changes >15%, feed mineral-rich foods.</p>
-      </div>
-    </article>
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false" aria-controls="c2-q2" id="c2-btn2">
+      What tank size is best for beginners?
+    </button>
+    <div class="faq-answer" id="c2-q2" role="region" aria-labelledby="c2-btn2">
+      <p>
+        Tanks between 45–60 cm are ideal. Larger volumes are more stable
+        and easier for beginners to manage in Singapore’s climate.
+      </p>
+    </div>
+  </div>
 
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-4">
-        <h3>What are the ideal water parameters for caridina shrimp?</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-4" role="region">
-        <p>Caridina shrimp thrive in soft, slightly acidic water conditions:</p>
-        <ul>
-          <li><strong>pH:</strong> 6.0 to 6.8 (slightly acidic)</li>
-          <li><strong>TDS:</strong> 100-200 ppm</li>
-          <li><strong>Temperature:</strong> 20-24°C (68-75°F)</li>
-          <li><strong>GH:</strong> 4-6 dGH</li>
-          <li><strong>KH:</strong> 0-2 dKH</li>
-        </ul>
-        <p>Maintaining stable parameters is crucial—fluctuations cause stress and failed molts. Use RO water remineralized with shrimp salts.</p>
-      </div>
-    </article>
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false" aria-controls="c2-q3" id="c2-btn3">
+      What equipment is essential for a Caridina shrimp tank?
+    </button>
+    <div class="faq-answer" id="c2-q3" role="region" aria-labelledby="c2-btn3">
+      <ul>
+        <li>Active shrimp soil</li>
+        <li>Gentle filtration (UGF or sponge filter)</li>
+        <li>Reliable cooling (chiller or AC)</li>
+        <li>RO water system</li>
+      </ul>
+    </div>
+  </div>
 
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-5">
-        <h3>How long should I cycle my tank before adding caridina shrimp?</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-5" role="region">
-        <p>Caridina require a well-established tank. Cycle for <strong>4 to 8 weeks</strong> before adding shrimp to allow:</p>
-        <ul>
-          <li>Beneficial bacteria to fully develop</li>
-          <li>Active substrates to stabilize</li>
-          <li>Biofilm to grow (essential shrimp food)</li>
-          <li>Ammonia/nitrite spikes to resolve</li>
-        </ul>
-        <p>Test ammonia/nitrites = 0 ppm before adding shrimp. Use bacterial starters to speed up but don't rush.</p>
-      </div>
-    </article>
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false" aria-controls="c2-q4" id="c2-btn4">
+      What is the benefit of a custom shrimp tank setup?
+    </button>
+    <div class="faq-answer" id="c2-q4" role="region" aria-labelledby="c2-btn4">
+      <p>
+        Custom tanks are designed specifically for Caridina shrimp,
+        reducing trial-and-error and improving long-term survival and breeding success.
+      </p>
+    </div>
+  </div>
 
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-6">
-        <h3>How many caridina shrimp should I start with?</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-6" role="region">
-        <p><strong>Recommended starting numbers:</strong></p>
-        <ul>
-          <li><strong>Minimum:</strong> 10-15 shrimp</li>
-          <li><strong>Ideal:</strong> 20-30 shrimp</li>
-          <li><strong>Premium:</strong> 30-50 shrimp</li>
-        </ul>
-        <p><strong>Tank sizes:</strong> 30L=10-20, 40L=20-30, 60L=30-50 shrimp. Larger colonies grow faster, better genetics, buffer losses.</p>
-      </div>
-    </article>
+  <div class="faq-item">
+    <button class="faq-question" aria-expanded="false" aria-controls="c2-q5" id="c2-btn5">
+      Can existing tanks be upgraded for Caridina shrimp?
+    </button>
+    <div class="faq-answer" id="c2-q5" role="region" aria-labelledby="c2-btn5">
+      <p>
+        Yes. Filtration, substrate, and cooling systems can be upgraded
+        to make most tanks Caridina-compatible.
+      </p>
+    </div>
+  </div>
+</section>
 
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-7">
-        <h3>What should I feed my caridina shrimp and how often?</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-7" role="region">
-        <p>Feed 2-3 times weekly, small amounts consumed in 2-3 hours:</p>
-        <ul>
-          <li>Specialized shrimp pellets</li>
-          <li>Blanched vegetables (spinach, zucchini)</li>
-          <li>Algae wafers (mineral source)</li>
-          <li>Biofilm enhancers</li>
-          <li>Spirulina (weekly protein)</li>
-        </ul>
-        <p>Avoid overfeeding—shrimp graze biofilm constantly. Uneaten food causes ammonia spikes.</p>
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-8">
-        <h3>What are common beginner mistakes when keeping caridina shrimp?</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-8" role="region">
-        <ul>
-          <li><strong>Using tap water:</strong> High KH/pH—use RO + remineralizers</li>
-          <li><strong>New tanks:</strong> Need 4-8 weeks cycling</li>
-          <li><strong>Hot temps:</strong> >26°C stresses shrimp</li>
-          <li><strong>Overfeeding:</strong> Causes ammonia spikes</li>
-          <li><strong>Large water changes:</strong> Stick to 10-15% weekly</li>
-          <li><strong>Wrong tank mates:</strong> Fish eat shrimplets</li>
-        </ul>
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-9">
-        <h3>How do I breed caridina shrimp successfully?</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-9" role="region">
-        <p>Key requirements:</p>
-        <ul>
-          <li>Stable parameters (no fluctuations)</li>
-          <li>Mature tank (3-6 months old)</li>
-          <li>High-protein diet for females</li>
-          <li>Dense Java moss for shrimplets</li>
-          <li>GH 4-6, pH 6.2-6.8</li>
-        </ul>
-        <p>Females carry 20-30 eggs for 28-35 days. Babies need pristine water and biofilm.</p>
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-10">
-        <h3>How can I tell if my caridina shrimp are healthy?</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-10" role="region">
-        <p><strong>Healthy signs:</strong> Active grazing, vibrant colors, smooth swimming, regular molting, berried females.</p>
-        <p><strong>Stress signs:</strong> Lethargy, erratic swimming, white/opaque color, failed molts, curled tails. Test parameters immediately if noticed.</p>
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-11">
-        <h3>What is the proper acclimation process for new caridina shrimp?</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-11" role="region">
-        <p>Use <strong>drip acclimation</strong> (1-2 hours):</p>
-        <ol>
-          <li>Dim lights, pour shrimp + bag water into container</li>
-          <li>Siphon tank water at 1-2 drops/second via airline tubing</li>
-          <li>Continue until container doubles or 75% tank water</li>
-          <li>Net transfer shrimp (never pour container water)</li>
-        </ol>
-      </div>
-    </article>
-  </section>
-
-  <!-- Category 2: Custom Shrimp Tanks (4 topics) -->
-  <section class="faq-category">
-    <h2 class="category-title">Custom Shrimp Tanks</h2>
-
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-12">
-        <h3>🪨 What substrate and filtration system should I use?</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-12" role="region">
-        <p><strong>Active buffering substrates:</strong></p>
-        <ul>
-          <li><strong>ADA Amazonia:</strong> Premium, lasts 2-3 years</li>
-          <li><strong>Fluval Shrimp Stratum:</strong> Mid-range, plant-friendly</li>
-          <li><strong>Tropica Aquarium Soil:</strong> Balanced nutrients</li>
-        </ul>
-        <p><strong>Filtration:</strong> Sponge filters (gentle flow, safe for shrimplets). Size: Small (≤40L), Medium (40-80L), Large (80L+).</p>
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-13">
-        <h3>RO Water Setup for Caridina Shrimp (Singapore Guide)</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-13" role="region">
-        <p>RO water essential—Singapore tap water too hard/alkaline:</p>
-        <ul>
-          <li><strong>3-stage RO system:</strong> S$200-500 (Lazada/Shopee)</li>
-          <li><strong>Remineralize:</strong> Salty Shrimp GH+, SL-Aqua Black More</li>
-          <li><strong>Target:</strong> GH 4-6, KH 0-1, TDS 120-150, pH 6.2-6.8</li>
-        </ul>
-        <p>Mix 24hrs ahead, test before use. RO slower in warm Singapore water—plan ahead.</p>
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-14">
-        <h3>Can I keep caridina shrimp with fish?</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-14" role="region">
-        <p>Not recommended for breeding colonies. Safe options:</p>
-        <ul>
-          <li>Otocinclus catfish</li>
-          <li>Chili Rasboras</li>
-          <li>Emerald Dwarf Rasboras</li>
-          <li>Pygmy corydoras</li>
-        </ul>
-        <p>Species-only tanks best for breeding success.</p>
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="answer-15">
-        <h3>📦 Shipping & DOA (Dead on Arrival) Policy</h3>
-        <span class="faq-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="faq-answer" id="answer-15" role="region">
-        <p><strong>100% Live Arrival Guarantee</strong> when:</p>
-        <ul>
-          <li>Package received immediately upon delivery</li>
-          <li>DOA reported within <strong>3 hours</strong> with photos</li>
-          <li>Clear photos of deceased shrimp in <strong>unopened bags</strong></li>
-        </ul>
-        <p><strong>Resolution:</strong> Replacement, store credit, or refund (shipping non-refundable).</p>
-      </div>
-    </article>
-  </section>
-</div>
+    
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
