@@ -35,6 +35,19 @@ permalink: /two-faq/
 </div>
 
 <style>
+/* Simple FAQ styling, answers always visible */
+.faq-container { max-width:900px; margin:40px auto; padding:20px; }
+.faq-header h1 { font-size:2.5em; color:#FF10F0; }
+.faq-header p { font-size:1.1em; color:#36454F; margin-bottom:30px; }
+.faq-category { margin-bottom:50px; }
+.category-title { font-size:1.8em; margin-bottom:20px; color:#FF006E; border-bottom:3px solid #FF10F0; padding-bottom:10px; }
+.faq-item { margin-bottom:10px; border:1px solid #ddd; border-radius:6px; overflow:hidden; }
+.faq-question { background:#fafafa; padding:15px 20px; width:100%; text-align:left; border:none; display:block; font-weight:600; }
+.faq-answer { padding:15px 20px; background:#fff; }
+</style>
+
+<!--
+<style>
 /* Accordion & FAQ styling */
 .faq-container { max-width:900px; margin:40px auto; padding:20px; }
 .faq-header h1 { font-size:2.5em; color:#FF10F0; }
@@ -52,7 +65,7 @@ permalink: /two-faq/
 }
 
 </style>
-
+-->
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
