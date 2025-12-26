@@ -69,6 +69,10 @@ google_site_verification: "ULsSS9SW0O2t0d76FM20iITO83i9vbTNtTVclZiV7mM"
 og_image: "/assets/images/ebiya-og-default.jpg"
 twitter_image: "/assets/images/ebiya-twitter-card.jpg"
 
+# -----
+exclude:
+     - "howto folders/"
+
 # Optional: front matter defaults for posts/pages (SEO-friendly)
 defaults:
   - scope:
@@ -91,3 +95,8 @@ defaults:
 
 exclude:
      - "howto folders/"
+
+permalink: /:year/:month/:day/:title/
+
+
+
