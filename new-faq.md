@@ -1,13 +1,18 @@
 ---
 layout: page
-title: "Frequently Asked Questions | Caridina Shrimp & Custom Tanks Singapore"
-description: "Expert answers to common questions about keeping caridina shrimp and custom shrimp tanks in Singapore. Learn water parameters, care tips, breeding, and tank setup from ebiya.sg."
-permalink: /new-faq/
+title: Frequently Asked Questions | Caridina Shrimp & Custom Tanks Singapore
+description: Expert answers to common questions about keeping caridina shrimp and custom shrimp tanks in Singapore. Learn water parameters, care tips, breeding, and tank setup from ebiya.sg.
+permalink: /faq/
 date: 2025-12-25
 last_modified_at: 2025-12-25
+keywords: caridina shrimp Singapore, shrimp tank setup, crystal red shrimp, Taiwan bee shrimp, custom aquarium Singapore, shrimp care guide, shrimp breeding
 author: ebiya.sg
 robots: index, follow
 lang: en-SG
+og_title: Caridina Shrimp & Custom Tank FAQ - ebiya.sg Singapore
+og_description: Complete FAQ guide for caridina shrimp keeping in Singapore. Water parameters, tank setup, breeding tips, and custom aquarium solutions.
+og_type: website
+og_url: https://ebiya.sg/faq/
 ---
 
 <style>
