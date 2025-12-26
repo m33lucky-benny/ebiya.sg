@@ -13,7 +13,7 @@ tags:
 description: "A proven Caridina shrimp aquarium setup based on real breeding experience. Learn tank size, water parameters, filtration, and beginner mistakes to avoid."
 image: /assets/images/caridina-setup.jpg 
 author: ebiyaSG
-canonical_url: https://www.ebiya.sg/shrimp/aquarium/breeding/2025/03/01/best-aquarium-setup-for-caridina-shrimp.html
+permalink: /2025-03-01-best-aquarium-setup-for-caridina-shrimp/
 ---
 
 ## Best Aquarium Setups for Caridina Shrimp  
