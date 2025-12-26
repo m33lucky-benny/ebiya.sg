@@ -9,7 +9,6 @@ categories: [aquarium, shrimp-keeping]
 tags: [caridina-shrimp, aquarium-accessories, singapore, shrimp-breeding, crystal-red-shrimp, tds-meter, shrimp-tank-setup]
 image: /assets/images/shrimp-tank-accessories.jpg
 permalink: /7-shrimp-tank-accessories-that-actually-matter/
-canonical_url: https://www.ebiya.sg/7-shrimp-tank-accessories-that-actually-matter/
 lang: en
 published: true
 sitemap: true
@@ -26,8 +25,8 @@ sitemap: true
 <meta property="og:site_name" content="ebiya.sg">
 <meta property="og:title" content="7 Shrimp Tank Accessories That Actually Matter (Skip the Rest)">
 <meta property="og:description" content="After breeding Caridina shrimp in Singapore for years, I've narrowed down the only 7 accessories you actually need. Save money and skip the gimmicks.">
-<meta property="og:url" content="https://www.ebiya.sg/7-shrimp-tank-accessories-that-actually-matter/">
-<meta property="og:image" content="https://www.ebiya.sg/assets/images/shrimp-tank-accessories.jpg">
+<meta property="og:url" content="https://ebiya.sg/7-shrimp-tank-accessories-that-actually-matter/">
+<meta property="og:image" content="https://ebiya.sg/assets/images/shrimp-tank-accessories.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Essential shrimp tank accessories for Caridina breeding">
@@ -44,7 +43,7 @@ sitemap: true
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="7 Shrimp Tank Accessories That Actually Matter (Skip the Rest)">
 <meta name="twitter:description" content="After breeding Caridina shrimp in Singapore for years, I've narrowed down the only 7 accessories you actually need. Save money and skip the gimmicks.">
-<meta name="twitter:image" content="https://www.ebiya.sg/assets/images/shrimp-tank-accessories.jpg">
+<meta name="twitter:image" content="https://ebiya.sg/assets/images/shrimp-tank-accessories.jpg">
 <meta name="twitter:image:alt" content="Essential shrimp tank accessories for Caridina breeding">
 <meta name="twitter:site" content="@ebiya_sg">
 <meta name="twitter:creator" content="@ebiyasg">
@@ -58,21 +57,21 @@ sitemap: true
   "description": "After breeding Caridina shrimp in Singapore for years, I've narrowed down the only 7 accessories you actually need. Save money and skip the gimmicks with this honest guide.",
   "image": {
     "@type": "ImageObject",
-    "url": "https://www.ebiya.sg/assets/images/shrimp-tank-accessories.jpg",
+    "url": "https://ebiya.sg/assets/images/shrimp-tank-accessories.jpg",
     "width": 1200,
     "height": 630
   },
   "author": {
     "@type": "Person",
     "name": "ebiyaSG",
-    "url": "https://www.ebiya.sg/about"
+    "url": "https://.ebiya.sg/about"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Ebiya.sg",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.ebiya.sg/assets/img/ebiya-logo.jpg",
+      "url": "https://ebiya.sg/assets/img/ebiya-logo.jpg",
       "width": 600,
       "height": 60
     }
@@ -81,7 +80,7 @@ sitemap: true
   "dateModified": "2025-12-22T14:32:00+08:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.ebiya.sg/7-shrimp-tank-accessories-that-actually-matter/"
+    "@id": "https://ebiya.sg/7-shrimp-tank-accessories-that-actually-matter/"
   },
   "articleSection": "Aquarium Care",
   "keywords": "shrimp tank accessories, Caridina shrimp, aquarium equipment Singapore, TDS meter, sponge filter, shrimp breeding"
@@ -201,7 +200,7 @@ Start with these seven accessories, master the fundamentals, and your shrimp wil
 
 ---
 
-*Looking for quality Caridina shrimp or any of these accessories? Check out our selection at [ebiya.sg](https://www.ebiya.sg)—because your shrimp deserve the good stuff, not the gimmicks.*
+*Looking for quality Caridina shrimp or any of these accessories? Check out our selection at [ebiya.sg](https://.ebiya.sg)—because your shrimp deserve the good stuff, not the gimmicks.*
 
 <!-- FAQ Schema Markup -->
 <script type="application/ld+json">

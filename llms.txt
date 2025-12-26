@@ -1,0 +1,11 @@
+# ebiya.sg
+> Caridina shrimp tank systems and shrimp care guides in Singapore.
+
+## Key pages
+- [Home](https://ebiya.sg/)
+- [Shrimp](https://ebiya.sg/shrimp/)
+- [FAQ](https://ebiya.sg/faq/)
+- [Blog](https://ebiya.sg/blog/)
+- [Tank builder](https://ebiya.sg/tank-builder/)
+- [Membership](https://ebiya.sg/membership/)
+- [Contact](https://ebiya.sg/contact/)

@@ -10,7 +10,6 @@ keywords:
   - caridina shrimp support
 permalink: /membership/
 author: ebiyaSG
-canonical_url: https://www.ebiya.sg/membership/
 og_title: "ebiyaSG Shrimp Membership – Build Caridina Tanks with Confidence"
 og_description: "Stop guessing and start succeeding with Caridina shrimp. Join ebiyaSG Membership for proven setup systems, ongoing guidance, and exclusive Gold perks."
 og_type: website

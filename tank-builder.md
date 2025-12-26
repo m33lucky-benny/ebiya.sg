@@ -16,18 +16,18 @@ author: ebiyaSG
 og_title: "Caridina Tank Builder Singapore | Free Tool | ebiya.sg"
 og_description: "Interactive Caridina tank builder for Singapore: tank size, stocking guidance in liters, soil, filtration, and UGF."
 og_type: website
-og_url: https://www.ebiya.sg/tank-builder/
-og_image: https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
+og_url: https://ebiya.sg/tank-builder/
+og_image: https://ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
 og_image_alt: "Caridina shrimp tank builder guide"
 
 # Twitter
 twitter_card: summary_large_image
 twitter_title: "Caridina Tank Builder Singapore | Free Tool | ebiya.sg"
 twitter_description: "Build a stable Caridina tank in Singapore: tank size, stocking guidance (L), soil, filtration, and UGF."
-twitter_image: https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
+twitter_image: https://ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
 ---
 
-<link rel="canonical" href="https://www.ebiya.sg/tank-builder/" />
+
 
 <!-- =========================
      Tank Builder Styles
@@ -190,7 +190,7 @@ Step-by-step guidance for building a stable <strong>Caridina (Taiwan bee)</stron
 
   <!-- FAQ Button Here -->
 <div style="text-align:center; margin:2rem 0 1rem 0;">
-  <a href="/faq–ebiyasg-caridina-shrimp-&-tank-setup-guide/" class="faq-btn" style="
+  <a href="/faq/" class="faq-btn" style="
     display:inline-block; padding:.8rem 2rem; 
     background:var(--accent); color:#0b0d10; 
     font-weight:700; border-radius:12px; 
@@ -204,7 +204,7 @@ Step-by-step guidance for building a stable <strong>Caridina (Taiwan bee)</stron
       Join <strong>ebiyaSG Membership</strong> for a full setup checklist,
       TDS tracking, feeding schedules, and pre-emptive problem solving.
     </p>
-    <a href="https://www.ebiya.sg/membership/">Join Membership</a>
+    <a href="https://ebiya.sg/membership/">Join Membership</a>
   </div>
 </div>
 
@@ -259,50 +259,21 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
-<!--
----
-layout: page
-title: "ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank"
-description: "Interactive Caridina (Taiwan bee) shrimp tank builder for Singapore. Pick tank size, soil depth, filtration, and UGF, with stable-parameter guidance."
-keywords:
-  - Caridina tank builder
-  - shrimp tank Singapore
-  - tank setup guide
-  - shrimp soil and filtration
-  - Taiwan bee shrimp
-  - Caridina cantonensis
-permalink: /tank-builder/
-author: ebiyaSG
-
-# Open Graph (Social Sharing)
-og_title: "ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank"
-og_description: "Interactive Caridina tank builder for Singapore: tank size, stocking guidance in liters, soil, filtration, and UGF."
-og_type: website
-og_url: https://www.ebiya.sg/tank-builder/
-og_image: https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
-og_image_alt: "Caridina shrimp tank builder guide"
-
-# Twitter
-twitter_card: summary_large_image
-twitter_title: "ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank"
-twitter_description: "Build a stable Caridina tank in Singapore: tank size, stocking guidance (L), soil, filtration, and UGF."
-twitter_image: https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
----
 
 <!-- Optional meta tags (remove if your theme already outputs them from front matter) -->
-<link rel="canonical" href="https://www.ebiya.sg/tank-builder/" />
-<meta property="og:url" content="https://www.ebiya.sg/tank-builder/" />
+<link rel="canonical" href="https://ebiya.sg/tank-builder/" />
+<meta property="og:url" content="https://ebiya.sg/tank-builder/" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank" />
 <meta property="og:description" content="Interactive Caridina tank builder for Singapore: tank size, stocking guidance in liters, soil, filtration, and UGF." />
-<meta property="og:image" content="https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg" />
+<meta property="og:image" content="https://ebiya.sg/assets/images/caridina-tank-builder-hero.jpg" />
 <meta property="og:image:alt" content="Caridina shrimp tank builder guide" />
 <meta property="og:site_name" content="ebiyaSG" />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank" />
 <meta name="twitter:description" content="Build a stable Caridina tank in Singapore: tank size, stocking guidance (L), soil, filtration, and UGF." />
-<meta name="twitter:image" content="https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg" />
+<meta name="twitter:image" content="https://ebiya.sg/assets/images/caridina-tank-builder-hero.jpg" />
 
 <!-- Snippet / preview controls supported by Google -->
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
@@ -312,16 +283,16 @@ twitter_image: https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "@id": "https://www.ebiya.sg/#organization",
+  "@id": "https://ebiya.sg/#organization",
   "name": "ebiyaSG",
-  "url": "https://www.ebiya.sg/",
+  "url": "https://ebiya.sg/",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://www.ebiya.sg/assets/img/ebiya-logo.jpg"
+    "url": "https://ebiya.sg/assets/img/ebiya-logo.jpg"
   },
   "sameAs": [
-    "https://www.instagram.com/ebiyaSG",
-    "https://www.tiktok.com/@fish_ah_gong"
+    "https://instagram.com/ebiyaSG",
+    "https://tiktok.com/@fish_ah_gong"
   ]
 }
 </script>
@@ -331,19 +302,19 @@ twitter_image: https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "@id": "https://www.ebiya.sg/tank-builder/#breadcrumbs",
+  "@id": "https://ebiya.sg/tank-builder/#breadcrumbs",
   "itemListElement": [
     {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.ebiya.sg/"
+      "item": "https://ebiya.sg/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Tank Builder",
-      "item": "https://www.ebiya.sg/tank-builder/"
+      "item": "https://ebiya.sg/tank-builder/"
     }
   ]
 }
@@ -354,26 +325,26 @@ twitter_image: https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://www.ebiya.sg/tank-builder/#webpage",
-  "url": "https://www.ebiya.sg/tank-builder/",
+  "@id": "https://ebiya.sg/tank-builder/#webpage",
+  "url": "https://ebiya.sg/tank-builder/",
   "name": "ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank",
   "description": "Interactive Caridina (Taiwan bee) shrimp tank builder for Singapore. Pick tank size, soil depth, filtration, and UGF, with stable-parameter guidance.",
   "isPartOf": {
     "@type": "WebSite",
-    "@id": "https://www.ebiya.sg/#website",
-    "url": "https://www.ebiya.sg/",
+    "@id": "https://ebiya.sg/#website",
+    "url": "https://ebiya.sg/",
     "name": "ebiyaSG"
   },
   "publisher": {
-    "@id": "https://www.ebiya.sg/#organization"
+    "@id": "https://ebiya.sg/#organization"
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "@id": "https://www.ebiya.sg/tank-builder/#primaryimage",
-    "url": "https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg"
+    "@id": "https://ebiya.sg/tank-builder/#primaryimage",
+    "url": "https://ebiya.sg/assets/images/caridina-tank-builder-hero.jpg"
   },
   "breadcrumb": {
-    "@id": "https://www.ebiya.sg/tank-builder/#breadcrumbs"
+    "@id": "https://ebiya.sg/tank-builder/#breadcrumbs"
   }
 }
 </script>
@@ -383,16 +354,16 @@ twitter_image: https://www.ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  "@id": "https://www.ebiya.sg/tank-builder/#webapp",
+  "@id": "https://ebiya.sg/tank-builder/#webapp",
   "name": "ebiyaSG Caridina Tank Builder",
-  "url": "https://www.ebiya.sg/tank-builder/",
+  "url": "https://ebiya.sg/tank-builder/",
   "applicationCategory": "LifestyleApplication",
   "operatingSystem": "Web",
   "isPartOf": {
-    "@id": "https://www.ebiya.sg/tank-builder/#webpage"
+    "@id": "https://ebiya.sg/tank-builder/#webpage"
   },
   "publisher": {
-    "@id": "https://www.ebiya.sg/#organization"
+    "@id": "https://ebiya.sg/#organization"
   },
   "description": "An interactive builder that recommends tank size, soil, filtration, UGF setup, and stocking guidance for Caridina shrimp in Singapore."
 }
