@@ -84,8 +84,10 @@ defaults:
     values:
       layout: "page"
       image: "/assets/images/ebiya-og-default.jpg"
+  - scope:
+      path: "howto folders/**"
+    values:
+      sitemap: false
 
-
-
-
-  
+exclude:
+     - "howto folders/"
