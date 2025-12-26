@@ -371,8 +371,8 @@ A stable shrimp tank is built slowly—and maintained gently.
 
 If you want to avoid common mistakes and get your tank right the first time:
 
-- 👉 [**ebiyaSG Shrimp Membership**](https://www.ebiya.sg/membership/) – Step-by-step Caridina setup guidance with ongoing support
-- 👉 [**Tank Setup Guide**](https://www.ebiya.sg/tank-builder/) – Build it right from day one with proven methods
+- 👉 [**ebiyaSG Shrimp Membership**](https://ebiya.sg/membership/) – Step-by-step Caridina setup guidance with ongoing support
+- 👉 [**Tank Setup Guide**](https://ebiya.sg/tank-builder/) – Build it right from day one with proven methods
 
 Both are designed specifically for Singapore conditions and help beginners avoid the most common (and costly) mistakes.
 
