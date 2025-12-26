@@ -24,11 +24,11 @@ timezone: "Asia/Singapore"
 author:
   name: "ebiyaSG"
   email: "bennyyuen@consultant.com"
-  url: "https://www.ebiya.sg"
+  url: "https://ebiya.sg"
 
 # Social Media Links (legacy keys for your templates)
-instagram_url: "https://www.instagram.com/ebiyasg"
-tiktok_url: "https://www.tiktok.com/@fish_ah_gong"
+instagram_url: "https://instagram.com/ebiyasg"
+tiktok_url: "https://tiktok.com/@fish_ah_gong"
 whatsapp_url: "https://wa.me/6589002228"
 
 # Social media profiles (for SEO cards)
@@ -48,10 +48,10 @@ minima:
   social_links:
     - title: "ebiyaSG on Instagram"
       icon: "instagram"
-      url: "https://www.instagram.com/ebiyasg"
+      url: "https://instagram.com/ebiyasg"
     - title: "ebiyaSG on TikTok"
       icon: "tiktok"
-      url: "https://www.tiktok.com/@fish_ah_gong"
+      url: "https://tiktok.com/@fish_ah_gong"
     - title: "Contact us on WhatsApp"
       icon: "whatsapp"
       url: "https://wa.me/6589002228"
