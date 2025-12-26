@@ -43,7 +43,7 @@ permalink: /contact/
 </form>
 
 <div class="social-section">
-  <h3>Connect With Us</h3>
+  <h3>Connect With Us?</h3>
   <div class="social-links">
     <a href="{{ site.instagram_url }}" target="_blank" rel="noopener noreferrer" class="social-link instagram">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
