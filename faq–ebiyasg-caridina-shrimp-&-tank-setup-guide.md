@@ -2,7 +2,7 @@
 layout: default
 title: Frequently Asked Questions | Caridina Shrimp & Custom Tanks Singapore
 description: Expert answers to common questions about keeping caridina shrimp and custom shrimp tanks in Singapore. Learn water parameters, care tips, breeding, and tank setup from ebiya.sg.
-permalink: /faq–ebiyasg-caridina-shrimp-&-tank-setup-guide/
+permalink: /faq/
 ---
 
 <div class="faq-container">
