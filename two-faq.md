@@ -5,6 +5,9 @@ description: Expert answers to common questions about keeping caridina shrimp an
 permalink: /two-faq/
 ---
 
+<pre>{{ site.data.faqs | jsonify }}</pre>
+
+
 <div class="faq-container">
   <header class="faq-header">
     <h1>Frequently Asked Questions</h1>
