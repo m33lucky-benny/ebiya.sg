@@ -2,6 +2,7 @@
 layout: default
 title: Caridina Shrimp Care Singapore | Expert Guides | ebiya.sg
 description: Expert Caridina shrimp care guides for Singapore breeders. Tank setup, water parameters, equipment reviews, and breeding tips from local experts.
+permalink: /blog/
 ---
 
 <div class="container">
