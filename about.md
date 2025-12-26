@@ -48,7 +48,7 @@ Two meticulously designed tank sizes engineered specifically to maximize shrimpl
 - **60×30cm** - Recommended for beginners due to higher water stability
 - **45×30cm** - Compact option for experienced keepers
 
-These aren't aesthetic showpieces—they're functional breeding systems designed from a breeder's perspective. For detailed explanations of the design philosophy and engineering principles, customers are encouraged to explore the comprehensive guides available on the [blog](/blog.html).
+These aren't aesthetic showpieces—they're functional breeding systems designed from a breeder's perspective. For detailed explanations of the design philosophy and engineering principles, customers are encouraged to explore the comprehensive guides available on the [blog](/blog/).
 
 ## How We Serve You
 
