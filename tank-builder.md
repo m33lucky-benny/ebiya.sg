@@ -14,7 +14,7 @@ permalink: /tank-builder/
 author: ebiyaSG
 
 # Open Graph (Social Sharing)
-og_title: "Caridina Tank Builder Singapore | Free Tool | ebiya.sg"
+og_title: "Caridina Tank Builder Singapore 2 | Free Tool | ebiya.sg"
 og_description: "Interactive Caridina tank builder for Singapore. Get personalized equipment, water parameters & stocking recommendations for your setup."
 og_type: website
 og_url: https://ebiya.sg/tank-builder/
