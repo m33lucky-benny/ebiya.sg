@@ -140,10 +140,6 @@ Use it as a checklist before buying equipment so you avoid unstable setups and u
 ========================= -->
 <div class="page-container">
 
-<h1>Caridina Tank Builder Singapore 2 | Free Tool | ebiya.sg</h1>
-<p class="hero-subtitle">
-Step-by-step guidance for building a stable <strong>Caridina (Taiwan bee)</strong> tank under Singapore conditions.
-</p>
 
 <div class="tank-cards">
   <div class="tank-card" data-size="45">
