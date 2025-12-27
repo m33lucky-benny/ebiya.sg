@@ -3,30 +3,176 @@
 
 @import "minima";
 
-/* ========================================
-   EBIYA.SG — JAPANESE MINIMALISM
-   ======================================== */
+/* =========================================================
+   ebiya.sg — Japanese Minimalism Theme
+   Caridina shrimp tank systems | Singapore
+   
+   Brand Palette:
+   - Background: #0a0a0a (charcoal black)
+   - Surfaces: #1a1a1a, #2a2a2a (dark grey)
+   - Borders: #333333 (grey)
+   - Text: #ffffff (white)
+   - Muted: #888888 (grey)
+   - Primary: #FF10F0 (neon pink)
+   - Secondary: #FF006E (hot pink)
+   - Link pink: #FF4DF6 (readable bright)
+   - Link hover: #FF7AF8 (lighter)
+   - Nav active: #FF8AFB (light pink)
+   ========================================================= */
 
-/* Reset & base */
+:root {
+  --bg: #0a0a0a;
+  --surface1: #1a1a1a;
+  --surface2: #2a2a2a;
+  --border: #333333;
+  --text: #ffffff;
+  --muted: #888888;
+  --primary: #FF10F0;
+  --secondary: #FF006E;
+  --link-pink: #FF4DF6;
+  --link-pink-hover: #FF7AF8;
+  --nav-active-pink: #FF8AFB;
+}
+
+/* =========================
+   BASE & RESET
+   ========================= */
 * {
   box-sizing: border-box;
 }
 
+html,
 body {
+  background: var(--bg);
+  color: var(--text);
   margin: 0;
   padding: 0;
-  background: #0a0a0a;
-  color: #ffffff;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.75;
+  line-height: 1.7;
   letter-spacing: 0.01em;
 }
 
-/* Navbar */
+/* =========================
+   TYPOGRAPHY
+   ========================= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  margin: 2.5rem 0 1rem 0;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin: 2rem 0 0.75rem 0;
+}
+
+p {
+  max-width: 70ch;
+  margin: 0 0 1.25rem 0;
+  color: var(--text);
+}
+
+.muted,
+.post-meta,
+.small {
+  color: var(--muted);
+}
+
+/* =========================
+   LINKS
+   ========================= */
+a {
+  color: var(--link-pink);
+  text-decoration: none;
+  text-underline-offset: 0.25em;
+}
+
+a:hover {
+  color: var(--link-pink-hover);
+  text-decoration: underline;
+}
+
+/* Content links (paragraphs, lists) */
+main a:not(.btn),
+p a,
+li a {
+  color: var(--link-pink);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+main a:not(.btn):hover,
+p a:hover,
+li a:hover {
+  color: var(--link-pink-hover);
+}
+
+/* =========================
+   LAYOUT
+   ========================= */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3.25rem 2rem;
+  min-height: 60vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* =========================
+   CODE
+   ========================= */
+pre,
+code {
+  background: var(--surface1);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-family: "SF Mono", Monaco, "Cascadia Code", Menlo, monospace;
+}
+
+pre {
+  padding: 1.25rem;
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+code {
+  padding: 0.2em 0.5em;
+  font-size: 0.9em;
+}
+
+/* =========================
+   NAVBAR
+   ========================= */
 .site-header {
-  background: #0a0a0a;
-  border-bottom: 1px solid #333333;
-  padding: 1.25rem 0;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -39,210 +185,63 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .brand {
-  font-size: 1.5rem;
-  font-weight: 700;
   text-decoration: none;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
   letter-spacing: 0.02em;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .brand-main {
-  color: #ffffff;
+  color: var(--text);
 }
 
 .brand-sg {
-  color: #FF10F0;
+  color: var(--primary);
 }
 
 .nav {
   display: flex;
-  gap: 2.5rem;
+  gap: 2rem;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .nav-link {
-  color: #ffffff;
+  color: var(--text);
   text-decoration: none;
   font-size: 0.95rem;
-  padding-bottom: 3px;
+  padding: 0.25rem 0;
   border-bottom: 2px solid transparent;
   transition: all 0.2s ease;
+  white-space: nowrap;
 }
 
 .nav-link:hover {
-  color: #FF10F0;
-  border-bottom-color: #FF10F0;
+  color: var(--link-pink);
+  border-bottom-color: var(--link-pink);
 }
 
 .nav-link.active {
-  color: #FF10F0;
-  border-bottom-color: #FF10F0;
+  color: var(--nav-active-pink);
+  border-bottom-color: var(--nav-active-pink);
 }
 
-/* Main content — generous spacing */
-main {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 4rem 2rem;
-  min-height: 60vh;
-}
-
-/* Typography — calm hierarchy */
-h1 {
-  font-size: 2.5rem;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  margin: 0 0 2rem 0;
-  line-height: 1.3;
-}
-
-h2 {
-  font-size: 1.75rem;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  margin: 3rem 0 1.5rem 0;
-}
-
-h3 {
-  font-size: 1.25rem;
-  font-weight: 500;
-  margin: 2rem 0 1rem 0;
-}
-
-p {
-  margin-bottom: 1.75rem;
-  max-width: 65ch;
-}
-
-a {
-  color: #FF10F0;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #FF006E;
-  text-decoration: underline;
-  text-underline-offset: 0.3em;
-}
-
-/* Buttons — neon accent */
-.btn,
-button[type="submit"],
-a[href*="Design"],
-a[href*="Browse"] {
-  display: inline-block;
-  background: #FF10F0;
-  color: #ffffff;
-  border: none;
-  padding: 1rem 2rem;
-  border-radius: 6px;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-}
-
-.btn:hover,
-button[type="submit"]:hover,
-a[href*="Design"]:hover,
-a[href*="Browse"]:hover {
-  background: #FF006E;
-  text-decoration: none;
-  transform: translateY(-1px);
-}
-
-/* Code */
-pre,
-code {
-  background: #1a1a1a;
-  border: 1px solid #333333;
-  border-radius: 4px;
-  font-family: "SF Mono", Monaco, "Cascadia Code", monospace;
-}
-
-pre {
-  padding: 1.5rem;
-  overflow-x: auto;
-  margin: 2rem 0;
-}
-
-code {
-  padding: 0.2em 0.5em;
-  font-size: 0.9em;
-}
-
-/* Footer */
-.site-footer {
-  background: #0a0a0a;
-  border-top: 1px solid #333333;
-  color: #888888;
-  padding: 4rem 0 2rem;
-  margin-top: 6rem;
-}
-
-.footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
-}
-
-.footer-brand {
-  margin-bottom: 2rem;
-}
-
-.footer-logo {
-  max-width: 120px;
-  height: auto;
-  margin-bottom: 1rem;
-}
-
-.footer-tagline {
-  color: #888888;
-  line-height: 1.6;
-  max-width: 50ch;
-  margin: 0;
-}
-
-.footer-social {
-  display: flex;
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.footer-social a {
-  color: #888888;
-  transition: color 0.2s ease;
-}
-
-.footer-social a:hover {
-  color: #FF10F0;
-}
-
-.footer-social svg {
-  width: 28px;
-  height: 28px;
-  fill: currentColor;
-}
-
-.footer-bottom {
-  text-align: center;
-  color: #888888;
-  font-size: 0.9rem;
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid #333333;
-}
-
-/* Mobile menu */
+/* Mobile burger */
 .icon-btn {
   background: none;
-  border: none;
-  padding: 0.5rem;
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 0.55rem 0.65rem;
   cursor: pointer;
   display: none;
 }
@@ -254,35 +253,33 @@ code {
 }
 
 .hamburger span {
-  display: block;
-  width: 24px;
+  width: 22px;
   height: 2px;
-  background: #ffffff;
-  transition: all 0.3s ease;
+  background: var(--text);
+  display: block;
 }
 
+/* Mobile overlay menu */
 .overlay {
   position: fixed;
   inset: 0;
-  background: rgba(10, 10, 10, 0.97);
+  background: rgba(10, 10, 10, 0.92);
   display: none;
   z-index: 9999;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(6px);
 }
 
 .overlay.open {
   display: flex;
-  align-items: flex-start;
   justify-content: flex-end;
 }
 
 .sheet {
-  background: #1a1a1a;
-  width: 100%;
-  max-width: 400px;
+  width: min(420px, 92vw);
   height: 100%;
-  padding: 2rem;
-  border-left: 1px solid #333333;
+  background: var(--surface1);
+  border-left: 1px solid var(--border);
+  padding: 1.5rem 1.25rem;
   overflow-y: auto;
 }
 
@@ -290,41 +287,239 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 3rem;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .close-x {
   background: none;
-  border: none;
-  color: #ffffff;
-  font-size: 2rem;
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 0.4rem 0.7rem;
+  font-size: 1.2rem;
   cursor: pointer;
-  padding: 0;
-  line-height: 1;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .close-x:hover {
-  color: #FF10F0;
+  color: var(--primary);
+  border-color: var(--primary);
 }
 
 .menu-links {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .menu-links .nav-link {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   border-bottom: none;
-  padding: 0;
+  padding: 0.5rem 0.25rem;
 }
 
-/* ========================================
-   RESPONSIVE — MOBILE FIRST
-   ======================================== */
+.menu-links .nav-link:hover {
+  color: var(--link-pink);
+}
 
+.menu-links .nav-link.active {
+  color: var(--nav-active-pink);
+}
+
+/* =========================
+   HERO SECTION (Homepage)
+   ========================= */
+.hero {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 0 0 1.25rem 0;
+  color: var(--text);
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 65ch;
+  margin: 0 auto 2rem;
+}
+
+.seo-booster {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 70ch;
+  margin: 3rem auto 0;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+/* =========================
+   BUTTONS & CTAs
+   ========================= */
+.btn,
+a.btn,
+button.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.95rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+}
+
+/* Primary button (solid neon pink) */
+.btn-primary,
+a.btn-primary,
+button.btn-primary {
+  background: var(--primary);
+  color: #0a0a0a;
+  border: 1px solid var(--primary);
+  box-shadow: 0 8px 24px rgba(255, 16, 240, 0.25);
+}
+
+.btn-primary:hover,
+a.btn-primary:hover {
+  background: var(--secondary);
+  color: #0a0a0a;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(255, 16, 240, 0.35);
+  text-decoration: none;
+}
+
+/* Ghost button (outlined) */
+.btn-ghost,
+a.btn-ghost,
+button.btn-ghost {
+  background: transparent;
+  color: var(--text);
+  border: 2px solid var(--primary);
+  box-shadow: none;
+}
+
+.btn-ghost:hover,
+a.btn-ghost:hover {
+  background: rgba(255, 16, 240, 0.15);
+  color: var(--primary);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* CTA row layout */
+.cta-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.cta-row .btn {
+  min-width: 220px;
+  max-width: 280px;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+.site-footer {
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  padding: 4rem 0 2rem;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 2rem;
+}
+
+.footer-logo {
+  max-width: 120px;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+.footer-tagline {
+  color: var(--muted);
+  line-height: 1.6;
+  max-width: 60ch;
+  margin: 0.75rem auto 0;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1.5rem;
+  margin: 2rem auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social a {
+  color: var(--muted);
+  transition: color 0.2s ease;
+}
+
+.footer-social a:hover {
+  color: var(--primary);
+}
+
+.footer-social svg {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
+}
+
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+   ========================= */
 @media (max-width: 768px) {
+  /* Compact header */
+  .site-header {
+    padding: 0.55rem 0;
+  }
+
   .nav {
     display: none;
   }
@@ -334,30 +529,54 @@ code {
   }
 
   .nav-container {
-    padding: 0 1.5rem;
+    padding: 0 1.25rem;
   }
 
+  /* Tighter content spacing */
   main {
-    padding: 3rem 1.5rem;
+    padding: 1.35rem 1.25rem 2.5rem;
   }
 
+  main h1:first-child {
+    margin-top: 0.25rem;
+  }
+
+  /* Mobile typography */
   h1 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.85rem;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
   }
 
-  .btn,
-  a[href*="Design"],
-  a[href*="Browse"] {
+  /* Hero */
+  .hero {
+    padding: 2rem 1.25rem;
+  }
+
+  .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  /* CTA buttons stack full-width */
+  .cta-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.85rem;
+  }
+
+  .cta-row .btn {
     width: 100%;
-    text-align: center;
-    margin-right: 0;
+    min-width: 0;
+    max-width: none;
   }
 
+  /* Footer */
   .footer-container {
     padding: 0 1.5rem;
   }
@@ -368,122 +587,17 @@ code {
     font-size: 1.25rem;
   }
 
-  h1 {
-    font-size: 1.75rem;
-  }
-
   main {
-    padding: 2rem 1.25rem;
+    padding: 1.1rem 1.1rem 2.2rem;
   }
 
-  .sheet {
-    max-width: 100%;
+  h1 {
+    font-size: 1.65rem;
+    line-height: 1.2;
+  }
+
+  .hero-title {
+    font-size: 1.65rem;
+    line-height: 1.2;
   }
 }
-
-/* =========================
-   FOOTER — CENTER EVERYTHING
-   ========================= */
-.site-footer,
-.site-footer .footer-container {
-  text-align: center;
-}
-
-.site-footer .footer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Brand block */
-.site-footer .footer-brand {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-}
-
-/* Logo */
-.site-footer .footer-logo {
-  display: block;
-  margin: 0 auto 1rem;
-}
-
-/* Tagline */
-.site-footer .footer-tagline {
-  margin: 0.75rem auto 0;
-  max-width: 60ch;
-}
-
-/* Social icons row */
-.site-footer .footer-social {
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Bottom copyright line */
-.site-footer .footer-bottom {
-  width: 100%;
-  text-align: center;
-}
-
-/* =========================
-   LINK + ACTIVE PINK TUNING
-   ========================= */
-
-/* New UI accents (readable on charcoal) */
-:root{
-  --link-pink: #FF4DF6;        /* brighter/lighter neon pink for text links */
-  --link-pink-hover: #FF7AF8;  /* even lighter on hover */
-  --nav-active-pink: #FF8AFB;  /* light pink for active nav + underline */
-}
-
-/* Body links (fix the hard-to-see blue) */
-main a,
-p a,
-li a,
-.footer-tagline a {
-  color: var(--link-pink) !important;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.25em;
-}
-
-main a:hover,
-p a:hover,
-li a:hover,
-.footer-tagline a:hover {
-  color: var(--link-pink-hover) !important;
-}
-
-/* Navbar links */
-.nav-link{
-  color: #ffffff !important;
-}
-
-.nav-link:hover{
-  color: var(--link-pink) !important;
-  border-bottom-color: var(--link-pink) !important;
-}
-
-/* Active navbar link (lighter pink than normal neon) */
-.nav-link.active{
-  color: var(--nav-active-pink) !important;
-  border-bottom-color: var(--nav-active-pink) !important;
-}
-
-/* Mobile menu links too */
-.menu-links .nav-link{
-  color: #ffffff !important;
-}
-
-.menu-links .nav-link:hover{
-  color: var(--link-pink) !important;
-}
-
-.menu-links .nav-link.active{
-  color: var(--nav-active-pink) !important;
-}
-
