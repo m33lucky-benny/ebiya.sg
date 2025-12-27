@@ -380,3 +380,52 @@ code {
     max-width: 100%;
   }
 }
+
+/* =========================
+   FOOTER — CENTER EVERYTHING
+   ========================= */
+.site-footer,
+.site-footer .footer-container {
+  text-align: center;
+}
+
+.site-footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Brand block */
+.site-footer .footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Logo */
+.site-footer .footer-logo {
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+/* Tagline */
+.site-footer .footer-tagline {
+  margin: 0.75rem auto 0;
+  max-width: 60ch;
+}
+
+/* Social icons row */
+.site-footer .footer-social {
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Bottom copyright line */
+.site-footer .footer-bottom {
+  width: 100%;
+  text-align: center;
+}
+
