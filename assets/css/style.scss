@@ -1,6 +1,10 @@
 ---
 ---
 
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
 /* =========================================================
    EBIYA.SG — JAPANESE MINIMALISM
    Charcoal (#0a0a0a) + Neon Pink (#FF10F0)
