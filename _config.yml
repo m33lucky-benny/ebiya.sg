@@ -48,19 +48,22 @@ minima:
   skin: dark  # Optional; triggers Minima's dark palette (we override most anyway)
   
   # Control header navigation (add/remove pages as needed)
+  # Header navigation (maps to your actual pages)
   header_pages:
     - about.md
-    - shop.md
-    - care-guides.md
+    - shrimp.md
+    - tank-builder.md
+    - blog.md
     - faq.md
     - contact.md
   
-  # Show post excerpts on home page (Japanese minimalism: show preview, not full posts)
+  # Show excerpts on blog/home
   show_excerpts: true
   
-  # Date format (clean, readable)
+  # Clean date format
   date_format: "%Y-%m-%d"
   
+  # Footer social icons
   social_links:
     - { platform: instagram, user_url: "https://instagram.com/ebiyasg" }
     - { platform: tiktok,    user_url: "https://tiktok.com/@fish_ah_gong" }
