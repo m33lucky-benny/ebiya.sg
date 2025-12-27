@@ -429,3 +429,61 @@ code {
   text-align: center;
 }
 
+/* =========================
+   LINK + ACTIVE PINK TUNING
+   ========================= */
+
+/* New UI accents (readable on charcoal) */
+:root{
+  --link-pink: #FF4DF6;        /* brighter/lighter neon pink for text links */
+  --link-pink-hover: #FF7AF8;  /* even lighter on hover */
+  --nav-active-pink: #FF8AFB;  /* light pink for active nav + underline */
+}
+
+/* Body links (fix the hard-to-see blue) */
+main a,
+p a,
+li a,
+.footer-tagline a {
+  color: var(--link-pink) !important;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+}
+
+main a:hover,
+p a:hover,
+li a:hover,
+.footer-tagline a:hover {
+  color: var(--link-pink-hover) !important;
+}
+
+/* Navbar links */
+.nav-link{
+  color: #ffffff !important;
+}
+
+.nav-link:hover{
+  color: var(--link-pink) !important;
+  border-bottom-color: var(--link-pink) !important;
+}
+
+/* Active navbar link (lighter pink than normal neon) */
+.nav-link.active{
+  color: var(--nav-active-pink) !important;
+  border-bottom-color: var(--nav-active-pink) !important;
+}
+
+/* Mobile menu links too */
+.menu-links .nav-link{
+  color: #ffffff !important;
+}
+
+.menu-links .nav-link:hover{
+  color: var(--link-pink) !important;
+}
+
+.menu-links .nav-link.active{
+  color: var(--nav-active-pink) !important;
+}
+
