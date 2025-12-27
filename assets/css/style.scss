@@ -789,3 +789,28 @@ a:hover {
     animation: none !important;
   }
 }
+
+/* Force navbar styling (works for Minima + most custom navs) */
+.site-header, header, .navbar, .nav, .topbar {
+  background: #0a0a0a !important;
+  border-bottom: 1px solid #333333 !important;
+}
+
+.site-title, .site-title:visited,
+.site-nav .page-link,
+header a, .navbar a, .nav a, .topbar a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.site-nav .page-link:hover,
+header a:hover, .navbar a:hover, .nav a:hover, .topbar a:hover {
+  color: #FF10F0 !important;
+}
+
+.site-nav .page-link[aria-current="page"],
+header a.active, .navbar a.active, .nav a.active {
+  color: #FF10F0 !important;
+  border-bottom: 2px solid #FF10F0 !important;
+}
+
