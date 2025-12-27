@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "Caridina Tank Builder Singapore | Free Tool | ebiya.sg"
-description: "Free interactive Caridina shrimp tank builder for Singapore. Get personalized equipment, water parameters & stocking recommendations for your setup."
+tagline: "Step-by-step guidance for building a stable Caridina (Taiwan bee) tank under Singapore conditions."
+description: "Free interactive Caridina shrimp tank builder for Singapore."
 keywords:
   - Caridina tank builder
   - shrimp tank Singapore
@@ -14,20 +15,24 @@ author: ebiyaSG
 
 # Open Graph (Social Sharing)
 og_title: "Caridina Tank Builder Singapore | Free Tool | ebiya.sg"
-og_description: "Interactive Caridina tank builder for Singapore: tank size, stocking guidance in liters, soil, filtration, and UGF."
+og_description: "Interactive Caridina tank builder for Singapore. Get personalized equipment, water parameters & stocking recommendations for your setup."
 og_type: website
 og_url: https://ebiya.sg/tank-builder/
-og_image: https://ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
+# og_image: https://ebiya.sg/assets/images/caridina-...
 og_image_alt: "Caridina shrimp tank builder guide"
 
 # Twitter
 twitter_card: summary_large_image
 twitter_title: "Caridina Tank Builder Singapore | Free Tool | ebiya.sg"
-twitter_description: "Build a stable Caridina tank in Singapore: tank size, stocking guidance (L), soil, filtration, and UGF."
-twitter_image: https://ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
+twitter_description: "Build a stable Caridina tank in Singapore with this interactive tool."
+# twitter_image: https://ebiya.sg/assets/images/ca...
 ---
 
+This tool helps you pick the right tank size, cooling approach, filtration, and water parameters for Caridina (Taiwan bee) shrimp in Singapore.
 
+Use it as a checklist before buying equipment so you avoid unstable setups and unnecessary shrimp losses.
+
+<!--more-->
 
 <!-- =========================
      Tank Builder Styles
