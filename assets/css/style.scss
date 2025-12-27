@@ -601,3 +601,26 @@ a.btn-ghost:hover {
     line-height: 1.2;
   }
 }
+
+/* =========================
+   MOBILE: REMOVE END GAP
+   ========================= */
+@media (max-width: 768px) {
+  /* Remove the big gap before the footer */
+  .site-footer {
+    margin-top: 1.5rem !important;  /* was large on desktop */
+    padding-top: 2.5rem !important;
+  }
+
+  /* Tighten page bottom spacing */
+  main {
+    padding-bottom: 1.25rem !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* If a last section has large bottom margin, neutralize it */
+  main > *:last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
