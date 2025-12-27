@@ -1,0 +1,14 @@
+/* Display tagline under site title (Japanese minimalism) */
+.site-header .site-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.site-header .site-title::after {
+  content: "Premium Caridina shrimp care and specialist shrimp tanks in Singapore";
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
