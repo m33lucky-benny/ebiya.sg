@@ -45,16 +45,26 @@ image: "/assets/images/ebiya-og-default.jpg"
 
 # Minima-specific social links (used in header/footer)
 minima:
+  skin: dark  # Optional; triggers Minima's dark palette (we override most anyway)
+  
+  # Control header navigation (add/remove pages as needed)
+  header_pages:
+    - about.md
+    - shop.md
+    - care-guides.md
+    - faq.md
+    - contact.md
+  
+  # Show post excerpts on home page (Japanese minimalism: show preview, not full posts)
+  show_excerpts: true
+  
+  # Date format (clean, readable)
+  date_format: "%Y-%m-%d"
+  
   social_links:
-    - title: "ebiyaSG on Instagram"
-      icon: "instagram"
-      url: "https://instagram.com/ebiyasg"
-    - title: "ebiyaSG on TikTok"
-      icon: "tiktok"
-      url: "https://tiktok.com/@fish_ah_gong"
-    - title: "Contact us on WhatsApp"
-      icon: "whatsapp"
-      url: "https://wa.me/6589002228"
+    - { platform: instagram, user_url: "https://instagram.com/ebiyasg" }
+    - { platform: tiktok,    user_url: "https://tiktok.com/@fish_ah_gong" }
+    - { platform: whatsapp,  user_url: "https://wa.me/6589002228" }
 
 # Search engine verification (replace with real codes)
 google_site_verification: "ULsSS9SW0O2t0d76FM20iITO83i9vbTNtTVclZiV7mM"
