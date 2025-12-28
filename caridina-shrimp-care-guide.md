@@ -40,7 +40,7 @@ permalink: /caridina-shrimp-care-guide/
       </button>
       <div class="faq-answer" id="ideal-parameters-answer">
         <p>Most keepers aim for soft, slightly acidic water with low KH and stable temperature, plus zero ammonia and nitrite. Stability matters more than chasing exact numbers.</p>
-        <p><strong>Deep guide:</strong> <a href="/2025/12/21/shrimp-tank-water-parameters-singapore/">Shrimp tank water parameters in Singapore</a></p>
+        <p><strong>Deep guide:</strong> <a href="/2025/12/20/shrimp-tank-water-parameters-singapore/">Shrimp tank water parameters in Singapore</a></p>
       </div>
     </div>
 
