@@ -410,5 +410,3 @@ The initial setup requires research and investment, but the ongoing maintenance 
 **Questions about your specific setup?** The ebiyaSG community is here to help Singapore shrimp keepers succeed.
 
 **Found this guide helpful?** Share it with other beginners starting their shrimp keeping journey in Singapore.
-
-test
