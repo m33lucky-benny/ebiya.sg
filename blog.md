@@ -10,7 +10,7 @@ permalink: /blog/
   <h1>Caridina Shrimp Care Singapore | Expert Guides | ebiya.sg</h1>
   <p>Guides, builds, and breeder notes.</p>
   
-  <p class="tagline" style="border-bottom: 2px dotted #ccc; padding-bottom: 15px; margin-bottom: 30px; color: #666; font-style: italic;">
+  <p class="tagline" style=" #ccc; padding-bottom: 15px; margin-bottom: 30px; color: #666; font-style: italic;">
 	{{ page.tagline | default: site.tagline }}
 </p>
 
