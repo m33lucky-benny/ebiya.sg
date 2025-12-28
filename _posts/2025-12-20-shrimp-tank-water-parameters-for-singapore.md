@@ -11,6 +11,7 @@ keywords:
   - caridina shrimp beginner guide
 permalink: /2025-12-20-shrimp-tank-water-parameters-for-singapore/
 author: ebiyaSG
+last_modified_at:
 ---
 
 If you're keeping shrimp in Singapore, water parameters matter more than anything else.  
