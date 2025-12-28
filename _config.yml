@@ -15,7 +15,8 @@ theme: minima
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-last-modified-at
+
+#  - jekyll-last-modified-at
 
 # SEO & locale
 locale: "en_SG"
@@ -108,10 +109,7 @@ defaults:
     values:
       sitemap: false
 
-exclude:
-     - "howto folders/"
-
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 
 
 
