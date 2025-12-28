@@ -8,14 +8,13 @@ permalink: /caridina-shrimp-care-guide/
 <div class="faq-container">
   <header class="faq-header">
     <h1>Caridina Shrimp Care Guide (Singapore)</h1>
-    <header class="faq-header">
-  <h1>Caridina Shrimp Care Guide (Singapore)</h1>
-  <p>Your complete resource for keeping, breeding, and troubleshooting Caridina shrimp in Singapore's tropical climate.</p>
-  <p style="margin-top:1rem; font-size:0.95em;">
-    Looking for shipping, DOA, or custom tank info? Go to the 
+      <p>Your complete resource for keeping, breeding, and troubleshooting Caridina shrimp in Singapore's tropical climate.</p>
+      <p style="margin-top:1rem; font-size:0.95em;">
+    Looking for custom tank setup or consultation? Go to the 
     <a href="/faq/" style="color:#FF10F0; text-decoration:underline;">general FAQ</a>.
   </p>
 </header>
+
 
     <p>Everything you need to know about keeping Caridina shrimp in Singapore's climate.</p>
     <p style="margin-top:1rem; font-size:0.95em;">
