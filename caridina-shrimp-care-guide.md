@@ -14,13 +14,6 @@ permalink: /caridina-shrimp-care-guide/
     <a href="/faq/" style="color:#FF10F0; text-decoration:underline;">general FAQ</a>.
   </p>
 
-    <p>Everything you need to know about keeping Caridina shrimp in Singapore's climate.</p>
-    <p style="margin-top:1rem; font-size:0.95em;">
-      Looking for shipping, DOA, or custom tank info? Go to the 
-      <a href="/faq/" style="color:#FF10F0; text-decoration:underline;">general FAQ</a>.
-    </p>
-  </header>
-
   <!-- General/Introduction -->
   <section class="faq-category" id="general">
     <h2 class="category-title">General / Introduction</h2>
