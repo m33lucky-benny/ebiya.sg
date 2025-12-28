@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "shrimp-tank-water-parameters-for-singapore"
+title: "2025-12-20-shrimp-tank-water-parameters-for-singapore"
 tagline: "Stop Guessing Water Parameters — Get Caridina Right in Singapore"
 description: "Learn the correct shrimp tank water parameters for Caridina shrimp in Singapore. Beginner-friendly guide covering pH, GH, TDS, temperature, RO water vs tap water, and realistic care time."
 keywords:
@@ -21,9 +21,6 @@ This is especially true for **Caridina shrimp**, which are sensitive to pH, mine
 **Disclosure:** This post contains affiliate links. We may earn a commission on purchases made through these links at no additional cost to you.
 
 ---
-
-If you're keeping shrimp in Singapore, water parameters matter more than anything else.  
-This is especially true for **Caridina shrimp**, which are sensitive to pH, mineral levels, and temperature.
 
 This beginner-friendly guide explains **exact water parameters**, why **RO water is recommended**, how Singapore tap water affects shrimp tanks, and—most importantly—**how much time it really takes to care for a shrimp tank**.
 
@@ -67,15 +64,15 @@ These parameters are **beginner-safe**, **Singapore-tested**, and suitable for l
 
 ### Ideal Caridina Shrimp Water Parameters
 
-- **pH:** 5.3 – 5.5  
+- **pH:** 5.5 - 6.5
 - **GH (General Hardness):** 4 – 6  
 - **KH (Carbonate Hardness):** 0 – 1  
 - **TDS (Total Dissolved Solids):** 100 – 120 ppm  
-- **Temperature:** 23 – 25°C (ideal range)
+- **Temperature:** 22 – 25°C (ideal range)
 
 ### What These Numbers Mean
 
-**pH (5.3-5.5):** This acidic range mimics the natural soft water habitats where Caridina shrimp originate. Outside this range, molting problems and breeding issues occur.
+**pH (5.5 - 6-5):** This acidic range mimics the natural soft water habitats where Caridina shrimp originate. Outside this range, molting problems and breeding issues occur.
 
 **GH (4-6):** General Hardness measures calcium and magnesium. Shrimp need these minerals for shell development and molting. Too low causes molting failure; too high stresses the shrimp.
 
