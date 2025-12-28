@@ -10,6 +10,21 @@ layout: default
       <p class="tagline">{{ page.tagline }}</p>
     {% endif %}
     
+    {% if page.date or page.last_modified_at %}
+      <p class="page-meta">
+        {% if page.date %}
+          <time datetime="{{ page.date | date_to_xmlschema }}">
+            Published: {{ page.date | date: "%Y-%m-%d" }}
+          </time>
+        {% endif %}
+        {% if page.last_modified_at %}
+          <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+            | Updated: {{ page.last_modified_at | date: "%Y-%m-%d" }}
+          </time>
+        {% endif %}
+      </p>
+    {% endif %}
+    
     {{ content }}
   </div>
 </section>
