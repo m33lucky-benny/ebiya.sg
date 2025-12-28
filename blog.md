@@ -9,14 +9,14 @@ permalink: /blog/
 <div class="container">
   <h1>Caridina Shrimp Care Singapore | Expert Guides | ebiya.sg</h1>
   <p>Guides, builds, and breeder notes.</p>
-
+  
   <p class="tagline" style="border-bottom: 2px dotted #ccc; padding-bottom: 15px; margin-bottom: 30px; color: #666; font-style: italic;">
-  {{ page.tagline | default: site.tagline }}
+	{{ page.tagline | default: site.tagline }}
 </p>
 
   <div class="blog-list">
     {% for post in site.posts %}
-      <article class="post-card" style="border-bottom: 1px dotted #ddd; padding-bottom: 20px; margin-bottom: 20px;">
+      <article class="post-card" style="border: 2px dotted #ff69b4; padding: 20px; margin-bottom: 20px; border-radius: 8px;">
         <h2>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </h2>
@@ -34,4 +34,5 @@ permalink: /blog/
     {% endfor %}
   </div>
 </div>
+
 
