@@ -17,7 +17,6 @@ keywords:
 ---
 If you're keeping shrimp in Singapore, water parameters matter more than anything else.  
 This is especially true for **Caridina shrimp**, which are sensitive to pH, mineral levels, and temperature.
-
 <!--more-->
 
 # Shrimp Tank Water Parameters Explained (Caridina-Friendly Guide for Beginners in Singapore)
