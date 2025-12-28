@@ -2,7 +2,7 @@
 layout: post
 title: "Shrimp Tank Water Parameters Explained (Caridina-Friendly Guide for Beginners in Singapore)"
 tagline: "Stop Guessing Water Parameters — Get Caridina Right in Singapore”
-permalink: /2025/12/21/shrimp-tank-water-parameters-singapore/
+permalink: /2025-12-21-shrimp-tank-water-parameters-singapore/
 date: 2025-12-21
 last_modified_at: 2025-12-28
 categories: [shrimp-care, caridina, water-parameters]
@@ -14,6 +14,7 @@ keywords:
   - caridina shrimp water parameters
   - shrimp tank singapore
   - caridina shrimp beginner guide
+published: false
 ---
 
 If you're keeping shrimp in Singapore, water parameters matter more than anything else.  
