@@ -70,7 +70,6 @@ Stop guessing and start succeeding with Caridina shrimp. The ebiyaSG Membership 
   }
 </style>
 
-# 🦐 Caridina Shrimp Care Membership Singapore 8 | ebiya.sg 
 ## Build Your Caridina Shrimp Tank Right — The First Time
 
 Stop guessing. Stop losing shrimp.  
