@@ -8,6 +8,15 @@ permalink: /faq/
 <div class="faq-container">
   <header class="faq-header">
     <h1>Frequently Asked Questions</h1>
+    <header class="faq-header">
+  <h1>Frequently Asked Questions</h1>
+  <p>Everything you need to know about custom shrimp tanks, setup services, ordering, and aquarium solutions from ebiya.sg.</p>
+  <p style="margin-top:1rem; font-size:0.95em;">
+    For Caridina shrimp care questions (water parameters, cycling, breeding), visit our 
+    <a href="/caridina-shrimp-care-guide/" style="color:#FF10F0; text-decoration:underline;">Caridina Care Guide</a>.
+  </p>
+</header>
+
     <p>Everything you need to know about Caridina shrimp care and custom shrimp tanks in Singapore.</p>
   </header>
 
