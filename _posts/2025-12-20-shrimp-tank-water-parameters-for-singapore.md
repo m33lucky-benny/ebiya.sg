@@ -9,7 +9,7 @@ keywords:
   - caridina shrimp water parameters
   - shrimp tank singapore
   - caridina shrimp beginner guide
-permalink: /tank-builder/
+permalink: /2025-12-20-shrimp-tank-water-parameters-for-singapore/
 author: ebiyaSG
 ---
 
