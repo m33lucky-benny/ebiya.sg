@@ -15,9 +15,6 @@ permalink: /faq/
   </p>
 </header>
 
-    <p>Everything you need to know about Caridina shrimp care and custom shrimp tanks in Singapore.</p>
-  </header>
-
   {% assign faq_id = 0 %}
   {% for category in site.data.faqs %}
   <section class="faq-category" id="cat-{{ forloop.index }}">
