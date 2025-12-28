@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Shrimp Tank Water Parameters Explained (Caridina-Friendly Guide for Beginners in Singapore)"
+tagline: "Stop Guessing Water Parameters — Get Caridina Right in Singapore”
 date: 2025-12-21
 categories: [shrimp-care, caridina, water-parameters]
 author: ebiyaSG
@@ -12,6 +13,11 @@ keywords:
   - shrimp tank singapore
   - caridina shrimp beginner guide
 ---
+If you're keeping shrimp in Singapore, water parameters matter more than anything else.  
+This is especially true for **Caridina shrimp**, which are sensitive to pH, mineral levels, and temperature.
+
+<!--more-->
+
 # Shrimp Tank Water Parameters Explained (Caridina-Friendly Guide for Beginners in Singapore)
 
 **Disclosure:** This post contains affiliate links. We may earn a commission on purchases made through these links at no additional cost to you.
@@ -24,6 +30,9 @@ This is especially true for **Caridina shrimp**, which are sensitive to pH, mine
 This beginner-friendly guide explains **exact water parameters**, why **RO water is recommended**, how Singapore tap water affects shrimp tanks, and—most importantly—**how much time it really takes to care for a shrimp tank**.
 
 ---
+
+> 📚 **Part of the [Caridina Shrimp Care Guide](/caridina-shrimp-care-guide/)** — your complete resource for keeping Caridina in Singapore.
+
 
 ## Why Water Parameters Matter for Shrimp Tanks
 
