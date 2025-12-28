@@ -364,13 +364,14 @@ code {
 /* =========================
    BUTTONS & CTAs
    ========================= */
+
 .btn,
 a.btn,
 button.btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 48px;
+  height: 48px;
   padding: 0.95rem 1.5rem;
   border-radius: 10px;
   font-weight: 700;
@@ -379,7 +380,8 @@ button.btn {
   text-decoration: none;
   transition: all 0.2s ease;
   cursor: pointer;
-  border: none;
+  border: 1px solid transparent;
+  box-sizing: border-box;
 }
 
 /* Primary button (solid neon pink) */
