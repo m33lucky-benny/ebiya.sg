@@ -101,10 +101,7 @@ Using **RO (Reverse Osmosis) water** gives you **full control** over shrimp tank
 
 ### RO Equipment Recommendations
 
-👉 RO system:  
 - 👉 [**RO water system**](https://s.shopee.sg/7pmK99SBgS)
-
-👉 RO water conditioner:  
 - 👉[**Shrimp-specific remineralizer**](https://s.shopee.sg/6KxWMQXmHH?share_channel_code=1)
 
 With RO water, you start with a blank slate and add minerals precisely to your target parameters. This consistency is what separates successful shrimp tanks from struggling ones.
@@ -194,12 +191,12 @@ Caridina shrimp are more sensitive than Neocaridina, so rushing the cycling proc
 **Week 1-2: Setup**
 1. Add substrate (ADA Aqua Soil or Geilee Active Soil)
 2. Fill tank with prepared RO water (remineralized to target parameters)
-3. Start filter and chiller
+3. Start bio filter
 4. Add bacterial starter (optional but speeds process)
 5. Add small amount of fish food to create ammonia
 
 **Week 3-4: Monitoring**
-- Test ammonia and nitrite every 3-4 days
+- Test ammonia and nitrite every 3-4 days, use api test kits
 - Look for ammonia spike, then gradual drop
 - Nitrite spike follows ammonia drop
 - Keep adding small amounts of ammonia source
@@ -388,7 +385,7 @@ Keeping Caridina shrimp in Singapore is absolutely achievable—even for beginne
 
 ### Focus on These Key Points:
 
-✅ **Correct parameters:** pH 5.3-5.5, GH 4-6, TDS 100-120  
+✅ **Correct parameters:** pH 5.5, GH 4-6, TDS 100-120  
 ✅ **RO water over tap water** for consistency  
 ✅ **Temperature control:** 23-25°C with a quality chiller  
 ✅ **Proper cycling:** Minimum 4-6 weeks before adding shrimp  
