@@ -15,6 +15,7 @@ theme: minima
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-last-modified-at
 
 # SEO & locale
 locale: "en_SG"
