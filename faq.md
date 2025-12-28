@@ -7,8 +7,6 @@ permalink: /faq/
 
 <div class="faq-container">
   <header class="faq-header">
-    <h1>Frequently Asked Questions</h1>
-    <header class="faq-header">
   <h1>Frequently Asked Questions</h1>
   <p>Everything you need to know about custom shrimp tanks, setup services, ordering, and aquarium solutions from ebiya.sg.</p>
   <p style="margin-top:1rem; font-size:0.95em;">
