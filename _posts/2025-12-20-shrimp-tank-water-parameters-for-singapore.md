@@ -144,11 +144,11 @@ At temperatures above 26°C:
 - Breeding slows or stops completely
 - Shrimp become stressed and vulnerable to disease
 
-### The Haier HS Series Aquarium Chiller
+### The Hailea HS Series Aquarium Chiller
 
 For reliable temperature control in Singapore, a quality chiller is essential equipment, not optional.
 
-**Why the Haier HS Series Works:**
+**Why the Hailea HS Series Works:**
 - Maintains stable 23-25°C even during hot months
 - Quiet operation suitable for home use
 - Energy efficient compared to overcooling entire room with AC
