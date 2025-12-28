@@ -392,6 +392,8 @@ button.btn-primary {
   color: #0a0a0a;
   border: 1px solid var(--primary);
   box-shadow: 0 8px 24px rgba(255, 16, 240, 0.25);
+  text-align: center;
+  white-space: nowrap;
 }
 
 .btn-primary:hover,
