@@ -12,7 +12,6 @@ permalink: /calibrate-ph-test-pen/
 ---
 
 # How to Calibrate a pH Test Pen:<br>Step-by-Step Guide for Accurate Testing
-{% include share-buttons.html %}
 
 Calibrating your digital pH test pen is essential for obtaining accurate pH measurements in water quality testing, hydroponics, aquariums, and laboratory applications. A [properly calibrated pH meter](https://atlas-scientific.com/blog/how-to-calibrate-ph-meter/) ensures reliable readings by using standard buffer solutions to adjust the electrode's response. This comprehensive guide covers everything you need to know about pH pen calibration, maintenance, and troubleshooting.
 
