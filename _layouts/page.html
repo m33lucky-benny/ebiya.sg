@@ -11,7 +11,6 @@ layout: default
       
       {% if page.tagline %}
         <p class="tagline">{{ page.tagline }}</p>
-        {% include share-buttons.html %}
       {% endif %}
       
       {% if page.date or page.last_modified_at %}
@@ -30,7 +29,6 @@ layout: default
       {% endif %}
       
       {{ content }}
-      {% include share-buttons.html %}
 
     {% endunless %}
   </div>
