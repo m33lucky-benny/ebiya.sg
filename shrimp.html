@@ -161,6 +161,11 @@ excerpt: "Gallery of macro photographs of Caridina shrimp bred in Singapore: Tai
     <div class="page-container">
       
       <p>Real Caridina shrimp bred & kept by ebiyaSG</p>
+       {% if page.excerpt %}
+       <p>{{ page.excerpt }}</p>
+       {% endif %}
+
+      {% include share-buttons.html %}
 
       <!-- AUTO-LOAD SHRIMPS -->
       <div class="shrimp-gallery">
