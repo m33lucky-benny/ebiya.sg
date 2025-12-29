@@ -1,0 +1,27 @@
+<!-- SHARE BUTTONS -->
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}%20{{ page.url | absolute_url | uri_escape }}" 
+     class="share-twitter" 
+     target="_blank" 
+     rel="noopener">
+    🐦 Tweet
+  </a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | uri_escape }}" 
+     class="share-facebook" 
+     target="_blank" 
+     rel="noopener">
+    📘 Share
+  </a>
+  <a href="https://api.whatsapp.com/send?text={{ page.title | uri_escape }}%20{{ page.url | absolute_url | uri_escape }}" 
+     class="share-whatsapp" 
+     target="_blank" 
+     rel="noopener">
+    💬 WhatsApp
+  </a>
+  <a href="https://pinterest.com/pin/create/button/?url={{ page.url | absolute_url | uri_escape }}&description={{ page.title | uri_escape }}" 
+     class="share-pinterest" 
+     target="_blank" 
+     rel="noopener">
+    📌 Pin
+  </a>
+</div>
