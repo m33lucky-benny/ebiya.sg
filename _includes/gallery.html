@@ -1,19 +1,15 @@
 <div class="gallery">
   {% for image in site.static_files %}
-    {% if image.path contains 'assets/shrimps/' %}
+    {% if image.path contains '/assets/shrimps/' %}
       {% assign filename = image.path | split: '/' | last %}
 
       {% assign parts = filename | split: '.' %}
-      {% assign ext = parts | last %}
       {% assign base_parts = parts | pop %}
-      {% assign name_only = base_parts | join: '.' %}
+      {% assign name_only = base_parts | join: '.' | strip %}
 
       <div class="gallery-item">
-        <img src="{{ image.path | relative_url }}"
-             alt="{{ name_only | strip }}"
-             title="{{ name_only | strip }}">
-        <!-- optional -->
-        <!-- <div class="caption">{{ name_only | strip }}</div> -->
+        <img src="{{ image.path | relative_url }}" alt="{{ name_only }}">
+        <div class="caption">{{ name_only }}</div>
       </div>
     {% endif %}
   {% endfor %}
