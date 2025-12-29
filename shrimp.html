@@ -29,7 +29,7 @@ excerpt: "Gallery of macro photographs of Caridina shrimp bred in Singapore: Tai
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>🦐 Caridina Shrimp Photos Singapore | Gallery | ebiya.s</title>
+  <title>🦐 Caridina Shrimp Photos Singapore | Gallery | ebiya.sg</title>
 
   <style>
     /* =========================================================
@@ -166,14 +166,19 @@ excerpt: "Gallery of macro photographs of Caridina shrimp bred in Singapore: Tai
       <div class="shrimp-gallery">
         {% for image in site.static_files %}
           {% if image.path contains '/assets/shrimps/' %}
+            {% assign filename = image.path | split: '/' | last %}
+            {% assign parts = filename | split: '.' %}
+            {% assign base_parts = parts | pop %}
+            {% assign name_only = base_parts | join: '.' | strip %}
+
             <figure class="shrimp-item">
               <img
                 src="{{ image.path | relative_url }}"
-                alt="Caridina Shrimp"
+                alt="{{ name_only }}"
                 loading="lazy"
               >
               <figcaption>
-                {{ image.name | replace: "_", " " | replace: ".jpg", "" }}
+                {{ name_only }}
               </figcaption>
             </figure>
           {% endif %}
@@ -203,5 +208,3 @@ excerpt: "Gallery of macro photographs of Caridina shrimp bred in Singapore: Tai
 
 </body>
 </html>
-
-
