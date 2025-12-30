@@ -21,7 +21,6 @@ keywords:
   - pinto shrimp
   - shrimp macro photography
 excerpt: "Gallery of macro photographs of Caridina shrimp bred in Singapore: Taiwan Bee, Crystal Red/Black, Blue Bolt, Panda, Pinto and more rare varieties."
-
 ---
 
 <!DOCTYPE html>
@@ -32,10 +31,6 @@ excerpt: "Gallery of macro photographs of Caridina shrimp bred in Singapore: Tai
   <title>🦐 Caridina Shrimp Photos Singapore | Gallery | ebiya.sg</title>
 
   <style>
-    /* =========================================================
-       BASE
-    ========================================================= */
-
     * {
       box-sizing: border-box;
     }
@@ -68,10 +63,6 @@ excerpt: "Gallery of macro photographs of Caridina shrimp bred in Singapore: Tai
       max-width: 1000px;
       margin: 0 auto;
     }
-
-    /* =========================================================
-       SHRIMP GALLERY
-    ========================================================= */
 
     .shrimp-gallery {
       display: grid;
@@ -106,10 +97,6 @@ excerpt: "Gallery of macro photographs of Caridina shrimp bred in Singapore: Tai
       color: rgba(255,255,255,.65);
     }
 
-    /* =========================================================
-       LIGHTBOX
-    ========================================================= */
-
     .shrimp-lightbox {
       position: fixed;
       inset: 0;
@@ -143,10 +130,6 @@ excerpt: "Gallery of macro photographs of Caridina shrimp bred in Singapore: Tai
       color: rgba(255,255,255,.55);
     }
 
-    /* =========================================================
-       MOBILE
-    ========================================================= */
-
     @media (max-width: 480px) {
       .shrimp-item img {
         height: 140px;
@@ -159,11 +142,10 @@ excerpt: "Gallery of macro photographs of Caridina shrimp bred in Singapore: Tai
 
   <section class="page-wrapper">
     <div class="page-container">
-      
       <p>Real Caridina shrimp bred & kept by ebiyaSG</p>
-       {% if page.excerpt %}
-       <p>{{ page.excerpt }}</p>
-       {% endif %}
+      {% if page.excerpt %}
+        <p>{{ page.excerpt }}</p>
+      {% endif %}
 
       {% include share-buttons.html %}
 
@@ -171,36 +153,26 @@ excerpt: "Gallery of macro photographs of Caridina shrimp bred in Singapore: Tai
       <div class="shrimp-gallery">
         {% for image in site.static_files %}
           {% if image.path contains '/assets/shrimps/' %}
-            {% assign filename = image.path | split: '/' | last %}
-            {% assign parts = filename | split: '.' %}
-            {% assign base_parts = parts | pop %}
-            {% assign name_only = base_parts | join: '.' | strip %}
+            {% assign basename = image.basename %}
 
-            <figure class="shrimp-item">
-               <picture>
-        <source
-          type="image/webp"
-          srcset="/assets/shrimps-optimized/{{ filename }}-320.webp 320w,
-                  /assets/shrimps-optimized/{{ filename }}-640.webp 640w"
-          sizes="(max-width: 480px) 45vw, 160px">
-        <img
-          src="/assets/shrimps-optimized/{{ filename }}-320.jpg"
-          srcset="/assets/shrimps-optimized/{{ filename }}-320.jpg 320w,
-                  /assets/shrimps-optimized/{{ filename }}-640.jpg 640w"
-          sizes="(max-width: 480px) 45vw, 160px"
-          width="160" height="160"
-          loading="lazy"
-          decoding="async"
-          alt="{{ filename }}">
-      </picture>
-              <!-- <img
-                src="{{ image.path | relative_url }}"
-                alt="{{ name_only }}"
-                loading="lazy"
-              >-->
-              <figcaption>
-                {{ name_only }}
-              </figcaption>
+            <figure class="shrimp-item" data-full-src="{{ image.path | relative_url }}">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="/assets/shrimps-optimized/{{ basename }}-320.webp 320w,
+                          /assets/shrimps-optimized/{{ basename }}-640.webp 640w"
+                  sizes="(max-width: 480px) 45vw, 160px">
+                <img
+                  src="/assets/shrimps-optimized/{{ basename }}-320.jpg"
+                  srcset="/assets/shrimps-optimized/{{ basename }}-320.jpg 320w,
+                          /assets/shrimps-optimized/{{ basename }}-640.jpg 640w"
+                  sizes="(max-width: 480px) 45vw, 160px"
+                  width="160" height="160"
+                  loading="lazy"
+                  decoding="async"
+                  alt="{{ basename }}">
+              </picture>
+              <figcaption>{{ basename }}</figcaption>
             </figure>
           {% endif %}
         {% endfor %}
@@ -208,7 +180,6 @@ excerpt: "Gallery of macro photographs of Caridina shrimp bred in Singapore: Tai
     </div>
   </section>
 
-  <!-- LIGHTBOX -->
   <div class="shrimp-lightbox" id="shrimpLightbox">
     <img src="" alt="">
   </div>
@@ -219,7 +190,8 @@ excerpt: "Gallery of macro photographs of Caridina shrimp bred in Singapore: Tai
 
     document.addEventListener("click", e => {
       if (e.target.matches(".shrimp-item img")) {
-        lightboxImg.src = e.target.src;
+        const figure = e.target.closest(".shrimp-item");
+        lightboxImg.src = figure.dataset.fullSrc || e.target.src;
         lightbox.classList.add("open");
       } else if (e.target === lightbox) {
         lightbox.classList.remove("open");
