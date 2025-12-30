@@ -70,10 +70,10 @@ minima:
   date_format: "%Y-%m-%d"
   
   # Footer social icons
-  social_links:
-    - { platform: instagram, user_url: "https://instagram.com/ebiyasg" }
-    - { platform: tiktok,    user_url: "https://tiktok.com/@fish_ah_gong" }
-    - { platform: whatsapp,  user_url: "https://wa.me/6589002228" }
+  # social_links:
+  #  - { platform: instagram, user_url: "https://instagram.com/ebiyasg" }
+  #  - { platform: tiktok,    user_url: "https://tiktok.com/@fish_ah_gong" }
+  #  - { platform: whatsapp,  user_url: "https://wa.me/6589002228" }
 
 # Search engine verification (replace with real codes)
 google_site_verification: "ULsSS9SW0O2t0d76FM20iITO83i9vbTNtTVclZiV7mM"
