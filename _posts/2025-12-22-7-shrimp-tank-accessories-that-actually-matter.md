@@ -95,6 +95,12 @@ After breeding Caridina shrimp for the past few years here in Singapore, I've wa
 
 Here are the 7 accessories that genuinely make a difference in keeping your shrimp alive and breeding. Everything else? Honestly, you can skip it.
 
+<div style="background: linear-gradient(180deg, #1a1a1a, #2a2a2a); border-left: 4px solid #FF10F0; padding: 0.9rem 1rem; border-radius: 12px; margin: 1rem 0 1.5rem; border: 1px solid #333333;">
+  <p style="margin: 0; color: #ffffff;">
+    Part of the <a href="/caridina-shrimp-care-guide/" style="color: #FF10F0; text-decoration: underline;">Caridina Shrimp Care Guide (Singapore)</a>.
+  </p>
+</div>
+
 ## 1. A Reliable TDS Meter (Non-Negotiable)
 
 **Why it matters:** Singapore tap water is all over the place. One week it's 80 TDS, next week it's 150. For Caridina shrimp that need specific parameters, guessing is a death sentence.
