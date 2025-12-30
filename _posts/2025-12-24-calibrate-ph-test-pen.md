@@ -15,6 +15,12 @@ permalink: /calibrate-ph-test-pen/
 
 Calibrating your digital pH test pen is essential for obtaining accurate pH measurements in water quality testing, hydroponics, aquariums, and laboratory applications. A [properly calibrated pH meter](https://atlas-scientific.com/blog/how-to-calibrate-ph-meter/) ensures reliable readings by using standard buffer solutions to adjust the electrode's response. This comprehensive guide covers everything you need to know about pH pen calibration, maintenance, and troubleshooting.
 
+<div style="background: linear-gradient(180deg, #1a1a1a, #2a2a2a); border-left: 4px solid #FF10F0; padding: 0.9rem 1rem; border-radius: 12px; margin: 1rem 0 1.5rem; border: 1px solid #333333;">
+  <p style="margin: 0; color: #ffffff;">
+    Part of the <a href="/caridina-shrimp-care-guide/" style="color: #FF10F0; text-decoration: underline;">Caridina Shrimp Care Guide (Singapore)</a>.
+  </p>
+</div>
+
 ## Why pH Meter Calibration is Critical
 
 pH meters require regular calibration because electrodes naturally drift over time, leading to inaccurate measurements. At least a [two-point calibration](https://royalbrinkman.com/knowledge-center/mechanical-equipment/ph-meter-calibration) using buffer solutions (typically pH 4.01 and pH 7.00) is necessary to ensure your digital pH tester displays correct values. For high-accuracy applications, a three-point calibration including pH 10 buffer is recommended.
