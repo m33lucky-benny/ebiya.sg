@@ -1,282 +1,188 @@
 ---
 layout: page
-title: "Caridina Tank Builder Singapore | Free Tool | ebiya.sg"
-tagline: "Step-by-step guidance for building a stable Caridina (Taiwan bee) tank under Singapore conditions."
-description: "Free interactive Caridina shrimp tank builder for Singapore."
+title: "Caridina Shrimp Tank Builder Singapore | Free Interactive Setup Guide | ebiya.sg"
+tagline: "Step-by-step guidance for building a stable Caridina Taiwan bee shrimp tank under Singapore tropical conditions"
+description: "Free interactive Caridina shrimp tank builder for Singapore aquarists. Get personalized equipment recommendations, water parameters, soil selection, filtration systems, and stocking guidance for Taiwan bee shrimp success."
 keywords:
-  - Caridina tank builder
-  - shrimp tank Singapore
-  - tank setup guide
-  - shrimp soil and filtration
-  - Taiwan bee shrimp
-  - Caridina cantonensis
+  - Caridina tank builder Singapore
+  - shrimp tank setup guide
+  - Taiwan bee shrimp tank
+  - Caridina cantonensis setup
+  - aquarium shrimp soil
+  - shrimp tank filtration Singapore
+  - UGF chimney setup
+  - shrimp tank cooling Singapore
+  - active shrimp soil buffering
+  - crystal red shrimp tank
 permalink: /tank-builder/
 author: ebiyaSG
 
 # Open Graph (Social Sharing)
-og_title: "Caridina Tank Builder Singapore | Free Tool | ebiya.sg"
-og_description: "Interactive Caridina tank builder for Singapore. Get personalized equipment, water parameters & stocking recommendations for your setup."
+og_title: "Caridina Shrimp Tank Builder Singapore | Free Interactive Tool"
+og_description: "Build a stable Caridina Taiwan bee shrimp tank in Singapore. Interactive tool provides equipment, water parameters & stocking recommendations tailored for tropical climate success."
 og_type: website
 og_url: https://ebiya.sg/tank-builder/
-# og_image: https://ebiya.sg/assets/images/caridina-...
-og_image_alt: "Caridina shrimp tank builder guide"
+og_image: https://ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
+og_image_alt: "Caridina shrimp tank builder interactive guide for Singapore aquarists"
 
-# Twitter
+# Twitter Card
 twitter_card: summary_large_image
-twitter_title: "Caridina Tank Builder Singapore | Free Tool | ebiya.sg"
-twitter_description: "Build a stable Caridina tank in Singapore with this interactive tool."
-# twitter_image: https://ebiya.sg/assets/images/ca...
+twitter_title: "Caridina Shrimp Tank Builder Singapore | Free Tool"
+twitter_description: "Build a stable Caridina Taiwan bee tank in Singapore with personalized equipment, filtration & parameter recommendations."
+twitter_image: https://ebiya.sg/assets/images/caridina-tank-builder-hero.jpg
+
+# Schema.org metadata
+canonical_url: https://ebiya.sg/tank-builder/
 ---
 
-This tool helps you pick the right tank size, cooling approach, filtration, and water parameters for Caridina (Taiwan bee) shrimp in Singapore.
-
-Use it as a checklist before buying equipment so you avoid unstable setups and unnecessary shrimp losses.
-
-<!--more-->
-
-<!-- =========================
-     Tank Builder Styles
-========================= -->
-<style>
-:root{
-  --accent:#ff2f92;
-  --bg:#121212;
-  --card:#181818;
-  --soft:rgba(255,47,146,.15);
-}
-
-.page-container{
-  max-width:1100px;
-  margin:auto;
-}
-
-.hero-subtitle{
-  color:rgba(255,255,255,.8);
-  margin-bottom:2rem;
-}
-
-.tank-cards{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:1.5rem;
-}
-
-.tank-card{
-  background:var(--card);
-  border:2px solid var(--soft);
-  border-radius:14px;
-  padding:1.5rem;
-  cursor:pointer;
-  transition:.2s ease;
-}
-.tank-card:hover{
-  border-color:var(--accent);
-  transform:translateY(-4px);
-}
-.tank-card.selected{
-  border-color:var(--accent);
-  background:rgba(255,47,146,.06);
-}
-.tank-card h3{margin-top:0}
-.tank-card .tag{
-  color:var(--accent);
-  font-weight:700;
-  margin-bottom:.5rem;
-}
-
-.build-section{
-  display:none;
-  margin-top:3rem;
-  background:var(--bg);
-  border-radius:16px;
-  padding:2rem;
-  border:1px solid var(--soft);
-}
-.build-section.active{display:block}
-
-.param-box{
-  margin-top:1.5rem;
-  background:rgba(255,47,146,.05);
-  border:1px solid var(--soft);
-  border-radius:14px;
-  padding:1.2rem;
-}
-.param-box h3{color:var(--accent);margin-top:0}
-
-.param-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:.75rem;
-}
-.param-item{
-  background:rgba(255,255,255,.03);
-  border-radius:10px;
-  padding:.6rem .75rem;
-}
-.param-item .k{font-size:.85rem;color:rgba(255,255,255,.75)}
-.param-item .v{font-weight:800}
-
-.membership-cta{
-  margin-top:2.5rem;
-  padding:1.8rem;
-  border:2px dashed var(--accent);
-  border-radius:16px;
-  text-align:center;
-}
-.membership-cta a{
-  display:inline-block;
-  margin-top:1rem;
-  padding:.75rem 1.8rem;
-  border-radius:16px;
-  background:linear-gradient(180deg,#ff47a7,#ff2f92);
-  color:#0b0d10;
-  font-weight:900;
-  text-decoration:none;
-}
-</style>
-
-<!-- =========================
-     Page Content
-========================= -->
 <div class="page-container">
-
-
-<div class="tank-cards">
-  <div class="tank-card" data-size="45">
-    <h3>45cm Tank</h3>
-    <div class="tag">33.75 L • Budget</div>
-    <ul>
-      <li>Lower cooling cost</li>
-      <li>More sensitive to swings</li>
-      <li><strong>Start:</strong> 12–18 shrimp</li>
-      <li><strong>Max (advanced):</strong> 20–25</li>
-    </ul>
+  <div class="hero-subtitle">
+    This tool helps you select the right tank size, cooling approach, filtration system, and water parameters for keeping Caridina (Taiwan bee) shrimp successfully in Singapore's tropical climate.
   </div>
 
-  <div class="tank-card" data-size="60">
-    <h3>60cm Tank</h3>
-    <div class="tag">45 L • Recommended</div>
-    <ul>
-      <li>Higher stability</li>
-      <li>Better buffering</li>
-      <li><strong>Start:</strong> 20–30 shrimp</li>
-      <li><strong>Max (advanced):</strong> 35–45</li>
-    </ul>
-  </div>
-</div>
+  <p>
+    Use this interactive builder as a comprehensive checklist before purchasing equipment, helping you avoid unstable setups and unnecessary shrimp losses. Get personalized recommendations based on your chosen tank size.
+  </p>
 
-<!-- =========================
-     Build Output
-========================= -->
-<div id="build" class="build-section">
-  <h2>Your Recommended Build</h2>
-
-  <div class="param-box">
-    <h3>Target Water Parameters</h3>
-    <div class="param-grid">
-      <div class="param-item"><div class="k">pH</div><div class="v">5.3 – 5.5</div></div>
-      <div class="param-item"><div class="k">GH</div><div class="v">4 – 6 dGH</div></div>
-      <div class="param-item"><div class="k">KH</div><div class="v">0 – 1 dKH</div></div>
-      <div class="param-item"><div class="k">TDS</div><div class="v">100 – 120 ppm</div></div>
-      <div class="param-item"><div class="k">Temperature</div><div class="v">20 – 23°C</div></div>
-      <div class="param-item"><div class="k">Ammonia / Nitrite</div><div class="v">0 ppm</div></div>
+  <!-- Tank Size Selection Cards -->
+  <div class="tank-cards">
+    <div class="tank-card" data-size="45">
+      <h3>45cm Tank (Budget-Friendly)</h3>
+      <div class="tag">33.75 Liters • Entry Level</div>
+      <ul>
+        <li>Lower initial cooling costs</li>
+        <li>More sensitive to parameter swings</li>
+        <li><strong>Beginner stocking:</strong> 12–18 shrimp</li>
+        <li><strong>Advanced max:</strong> 20–25 shrimp</li>
+        <li>Best for: Learning basics, small spaces</li>
+      </ul>
     </div>
+
+    <div class="tank-card" data-size="60">
+      <h3>60cm Tank (Recommended)</h3>
+      <div class="tag">45 Liters • Best Stability</div>
+      <ul>
+        <li>Higher water volume stability</li>
+        <li>Better pH and TDS buffering</li>
+        <li><strong>Beginner stocking:</strong> 20–30 shrimp</li>
+        <li><strong>Advanced max:</strong> 35–45 shrimp</li>
+        <li>Best for: Breeding success, long-term stability</li>
+      </ul>
+    </div>
+
   </div>
 
-  <h3>Soil</h3><p id="soil"></p>
-  <h3>Filtration</h3><p id="filter"></p>
-  <h3>UGF Chimney</h3><p id="chimney"></p>
-  <h3>Why This Works</h3><p id="reason"></p>
-  <h3>Maintenance</h3><p id="maintenance"></p>
+  <!-- Build Recommendations Section -->
+  <div id="build" class="build-section">
+    <h2>Your Recommended Caridina Tank Build</h2>
 
-  <!-- FAQ Button Here -->
-<div style="text-align:center; margin:2rem 0 1rem 0;">
-  <a href="/faq/" class="faq-btn" style="
-    display:inline-block; padding:.8rem 2rem; 
-    background:var(--accent); color:#0b0d10; 
-    font-weight:700; border-radius:12px; 
-    text-decoration:none; box-shadow:0 4px 12px rgba(255,47,146,.3);
-  ">❓ Common Questions? Check FAQ</a>
-</div>
+    <!-- Target Water Parameters -->
+    <div class="param-box">
+      <h3>Target Water Parameters for Caridina Success</h3>
+      <div class="param-grid">
+        <div class="param-item">
+          <div class="k">pH Level</div>
+          <div class="v">5.3 – 5.5</div>
+        </div>
+        <div class="param-item">
+          <div class="k">GH (General Hardness)</div>
+          <div class="v">4 – 6 dGH</div>
+        </div>
+        <div class="param-item">
+          <div class="k">KH (Carbonate Hardness)</div>
+          <div class="v">0 – 1 dKH</div>
+        </div>
+        <div class="param-item">
+          <div class="k">TDS (Total Dissolved Solids)</div>
+          <div class="v">100 – 120 ppm</div>
+        </div>
+        <div class="param-item">
+          <div class="k">Temperature (Critical in SG)</div>
+          <div class="v">20 – 23°C</div>
+        </div>
+        <div class="param-item">
+          <div class="k">Ammonia / Nitrite</div>
+          <div class="v">0 ppm (non-negotiable)</div>
+        </div>
+      </div>
+    </div>
 
-  <div class="membership-cta">
-    <h3>Want Zero Guesswork?</h3>
-    <p>
-      Join <strong>ebiyaSG Membership</strong> for a full setup checklist,
-      TDS tracking, feeding schedules, and pre-emptive problem solving.
-    </p>
-    <a href="https://ebiya.sg/membership/">Join Membership</a>
+    <!-- Equipment Recommendations -->
+    <div class="equipment-section">
+      <h3>Active Shrimp Soil Selection</h3>
+      <p id="soil" class="recommendation-text"></p>
+
+      <h3>Filtration System Setup</h3>
+      <p id="filter" class="recommendation-text"></p>
+
+      <h3>UGF Chimney Configuration</h3>
+      <p id="chimney" class="recommendation-text"></p>
+
+      <h3>Why This Setup Works in Singapore</h3>
+      <p id="reason" class="recommendation-text"></p>
+
+      <h3>Maintenance Schedule & Water Changes</h3>
+      <p id="maintenance" class="recommendation-text"></p>
+    </div>
+
+    <!-- FAQ Quick Link -->
+    <div class="faq-link-container">
+      <a href="/faq/" class="faq-btn">❓ Common Caridina Tank Questions? Check Our FAQ</a>
+    </div>
+
+    <!-- Membership CTA -->
+    <div class="membership-cta">
+      <h3>Want Zero Guesswork & Expert Support?</h3>
+      <p>
+        Join <strong>ebiyaSG Membership</strong> for a complete setup checklist,
+        TDS tracking tools, feeding schedules, parameter monitoring, and pre-emptive problem solving
+        tailored for Singapore's tropical climate challenges.
+      </p>
+      <a href="https://ebiya.sg/membership/" class="cta-button">Join ebiyaSG Membership</a>
+    </div>
+
+  </div>
+
+  <!-- Quick FAQ Section -->
+  <div id="faq" class="quick-faq">
+    <h3>🔥 Top Caridina Tank Questions</h3>
+    <details>
+      <summary>How long does active shrimp soil last in Singapore?</summary>
+      <p>Active buffering capacity typically lasts 6-12 months depending on stocking density and feeding. Plan to top-up or replace soil yearly for optimal pH stability.</p>
+    </details>
+    <details>
+      <summary>Is cooling necessary for Caridina shrimp in Singapore?</summary>
+      <p>Absolutely essential. Singapore's ambient temperature (28-32°C) is lethal for Caridina. A chiller maintaining 20-23°C is non-negotiable for success.</p>
+    </details>
+    <details>
+      <summary>Can I use tap water for Caridina tanks?</summary>
+      <p>No. Singapore tap water has high TDS and pH. Use RO (reverse osmosis) water remineralized to target parameters for best results.</p>
+    </details>
+    <details>
+      <summary>What's the minimum cycling period before adding shrimp?</summary>
+      <p>Allow 4-6 weeks for beneficial bacteria to establish. Test ammonia and nitrite levels—both must read 0 ppm before introducing any shrimp.</p>
+    </details>
   </div>
 </div>
 
-<div id="faq" style="margin-top:3rem; padding:1.5rem; background:var(--card); border-radius:14px;">
-  <h3>🔥 Top Questions</h3>
-  <details><summary>Soil lasts how long?</summary>6-12 months buffering; top-up yearly.</details>
-  <details><summary>Cooling in Singapore?</summary>Chiller essential; 20-23°C target.</details>
-
-</div>
-
-
-</div>
-
-<!-- =========================
-     Tank Builder Logic
-========================= -->
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const cards = document.querySelectorAll(".tank-card");
-  const build = document.getElementById("build");
-
-  const soil = document.getElementById("soil");
-  const filter = document.getElementById("filter");
-  const chimney = document.getElementById("chimney");
-  const reason = document.getElementById("reason");
-  const maintenance = document.getElementById("maintenance");
-
-  cards.forEach(card => {
-    card.addEventListener("click", () => {
-      cards.forEach(c => c.classList.remove("selected"));
-      card.classList.add("selected");
-      build.classList.add("active");
-
-      if(card.dataset.size === "45"){
-        soil.textContent = "2.5–3 L active shrimp soil. Thin slope. Do not rinse.";
-        filter.textContent = "Single sponge or low-flow HOB with pre-filter sponge.";
-        chimney.textContent = "Optional. Max 1 chimney with gentle airflow.";
-        reason.textContent = "Smaller volume reacts faster, so simplicity and lower stocking reduce crashes.";
-        maintenance.textContent = "10% weekly water change. Feed lightly. Remove leftovers.";
-      }
-
-      if(card.dataset.size === "60"){
-        soil.textContent = "6–8 L active shrimp soil for longer buffering life.";
-        filter.textContent = "UGF + sponge or canister with intake pre-filter.";
-        chimney.textContent = "1 chimney standard. 2 only for higher stocking with gentle flow.";
-        reason.textContent = "More water volume = more stable pH, TDS, and breeding success.";
-        maintenance.textContent = "10% weekly water change using remineralised RO only.";
-      }
-
-      build.scrollIntoView({behavior:"smooth",block:"start"});
-    });
-  });
-});
-</script>
-
-<!-- Optional meta tags (remove if your theme already outputs them from front matter) -->
+<!-- Canonical Link -->
 <link rel="canonical" href="https://ebiya.sg/tank-builder/" />
+
+<!-- Enhanced Meta Tags -->
 <meta property="og:url" content="https://ebiya.sg/tank-builder/" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank" />
-<meta property="og:description" content="Interactive Caridina tank builder for Singapore: tank size, stocking guidance in liters, soil, filtration, and UGF." />
+<meta property="og:title" content="Caridina Shrimp Tank Builder Singapore | Free Interactive Setup Guide" />
+<meta property="og:description" content="Interactive Caridina Taiwan bee shrimp tank builder for Singapore: personalized tank size, stocking guidance, soil selection, filtration systems, and UGF setup recommendations." />
 <meta property="og:image" content="https://ebiya.sg/assets/images/caridina-tank-builder-hero.jpg" />
-<meta property="og:image:alt" content="Caridina shrimp tank builder guide" />
-<meta property="og:site_name" content="ebiyaSG" />
+<meta property="og:image:alt" content="Caridina shrimp tank builder guide for Singapore tropical conditions" />
+<meta property="og:site_name" content="ebiyaSG - Singapore Shrimp Specialists" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank" />
-<meta name="twitter:description" content="Build a stable Caridina tank in Singapore: tank size, stocking guidance (L), soil, filtration, and UGF." />
+<meta name="twitter:title" content="Caridina Shrimp Tank Builder Singapore | Free Interactive Tool" />
+<meta name="twitter:description" content="Build a stable Caridina Taiwan bee tank in Singapore: personalized equipment, filtration & parameter recommendations for tropical success." />
 <meta name="twitter:image" content="https://ebiya.sg/assets/images/caridina-tank-builder-hero.jpg" />
 
-<!-- Snippet / preview controls supported by Google -->
+<!-- SEO Robots -->
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
 
 <!-- JSON-LD: Organization -->
@@ -321,15 +227,15 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 </script>
 
-<!-- JSON-LD: WebPage (base) -->
+<!-- JSON-LD: WebPage -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "@id": "https://ebiya.sg/tank-builder/#webpage",
   "url": "https://ebiya.sg/tank-builder/",
-  "name": "ebiyaSG Tank Builder – Build Your Caridina Shrimp Tank",
-  "description": "Interactive Caridina (Taiwan bee) shrimp tank builder for Singapore. Pick tank size, soil depth, filtration, and UGF, with stable-parameter guidance.",
+  "name": "Caridina Shrimp Tank Builder Singapore | Interactive Setup Guide",
+  "description": "Interactive Caridina Taiwan bee shrimp tank builder for Singapore. Get personalized recommendations for tank size, soil depth, filtration, UGF setup, and stable water parameters for tropical climate success.",
   "isPartOf": {
     "@type": "WebSite",
     "@id": "https://ebiya.sg/#website",
@@ -350,7 +256,7 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 </script>
 
-<!-- JSON-LD: WebApplication (the tool) -->
+<!-- JSON-LD: WebApplication -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -366,80 +272,6 @@ document.addEventListener("DOMContentLoaded", () => {
   "publisher": {
     "@id": "https://ebiya.sg/#organization"
   },
-  "description": "An interactive builder that recommends tank size, soil, filtration, UGF setup, and stocking guidance for Caridina shrimp in Singapore."
+  "description": "An interactive builder that recommends tank size, active shrimp soil, filtration systems, UGF setup, and stocking guidance for Caridina Taiwan bee shrimp in Singapore's tropical climate."
 }
 </script>
-
-<style>
-/* Tank Builder Styling (matches ebiyaSG brand) */
-.tank-card {
-  background: #121212;
-  border: 2px solid rgba(255,47,146,0.4);
-  color: #ffffff;
-  border-radius: 12px;
-  padding: 1.5rem;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-.tank-card:hover { border-color: #ff2f92; transform: translateY(-3px); }
-.tank-card.selected { border-color: #ff2f92; background: rgba(255,47,146,0.05); }
-.tank-card .tag { color: #ff2f92; text-shadow: 0 0 8px rgba(255,47,146,0.4); font-weight: 600; }
-
-.build-section {
-  display: none;
-  margin-top: 3rem;
-  background: #121212;
-  padding: 2rem;
-  border-radius: 12px;
-  border: 1px solid rgba(255,47,146,0.2);
-}
-.build-section.active { display: block; }
-
-.param-box{
-  margin-top: 1.5rem;
-  background: rgba(255,47,146,0.05);
-  border: 1px solid rgba(255,47,146,0.2);
-  border-radius: 12px;
-  padding: 1rem;
-}
-.param-box h3{ margin: 0 0 .75rem; color:#ff2f92; }
-.param-grid{
-  display:grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap:.5rem .75rem;
-}
-@media (max-width: 700px){
-  .param-grid{ grid-template-columns: 1fr; }
-}
-.param-item{
-  border: 1px solid rgba(255,47,146,0.15);
-  border-radius: 10px;
-  padding: .65rem .75rem;
-  background: rgba(255,255,255,0.02);
-}
-.param-item .k{ font-size:.9rem; color:rgba(255,255,255,.8); }
-.param-item .v{ font-weight:800; margin-top:.2rem; }
-
-.membership-cta {
-  margin-top: 2rem;
-  padding: 1.5rem;
-  border: 2px dashed #ff2f92;
-  border-radius: 12px;
-  text-align: center;
-  transition: transform 0.3s, background 0.3s;
-}
-.membership-cta.highlight { background: rgba(255,47,146,0.05); transform: scale(1.02); }
-
-.membership-cta a {
-  display: inline-block;
-  margin-top: 0.75rem;
-  padding: 0.7rem 1.5rem;
-  border-radius: 14px;
-  font-weight: 800;
-  text-decoration: none;
-  background: linear-gradient(180deg, #ff47a7, #ff2f92);
-  color: #0b0d10;
-  box-shadow: 0 18px 50px rgba(255,47,146,0.25);
-}
-.membership-cta a:hover { transform: translateY(-2px); box-shadow: 0 24px 70px rgba(255,47,146,0.35); }
-</style>
