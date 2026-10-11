@@ -2,19 +2,20 @@
 layout: page
 title: "About ebiyaSG – Singapore Caridina Shrimp Specialist & Custom Tank Builder"
 permalink: /about/
-description: "Professional Caridina shrimp breeder in Singapore specializing in BOA, GALAXY, and BLUE KING KONG varieties. Custom breeding tanks designed for maximum shrimplet survival rates. Collection at 55 Changi Road, #B1-01, Singapore."
+description: "Professional Caridina shrimp breeder in Singapore breeding fancy red tigers, blue king kong, white spectra and orange boa, plus Neocaridina. Custom breeding tanks designed for maximum shrimplet survival rates. Collection at 55 Changi Road, #B1-01, Singapore."
 author: ebiyaSG
 image: /assets/images/green-tiger.png
 keywords:
   - caridina shrimp Singapore
   - shrimp breeder Singapore
   - custom shrimp tank
-  - BOA shrimp
-  - GALAXY shrimp
-  - BLUE KING KONG shrimp
+  - fancy red tiger shrimp
+  - blue king kong shrimp
+  - white spectra shrimp
+  - orange boa shrimp
+  - Neocaridina
   - caridina breeding
   - shrimp tank builder
-  - high-grade caridina
   - Singapore aquarium
   - shrimplet survival
   - 55 Changi Road Singapore
@@ -30,13 +31,16 @@ ebiyaSG started about 3 years ago as a hobby and is now a business. As a solo-ru
 
 ## What We Offer
 
-### Premium Caridina Shrimp
+### Our Shrimp
 
-ebiyaSG specializes in high-grade Caridina varieties bred for health and stability:
+ebiyaSG breeds Caridina shrimp, plus Neocaridina:
 
-- **BOA** - Bold, distinctive patterns
-- **GALAXY** - Striking celestial markings  
-- **BLUE KING KONG** - Vibrant blue coloration
+- **Fancy red tigers** - Red and white banding with bold, irregular stripes across the body.
+- **Blue king kong** - Black body with white bands that have a blue tint.
+- **Red devils** - Solid red body with large white eyes. Not for sale yet.
+- **White spectra** - Pale, cream-white body.
+- **Orange boa**
+- **Neocaridina**
 
 All shrimp are bred in-house using the same tank systems available to customers, ensuring proven performance under Singapore conditions.
 
