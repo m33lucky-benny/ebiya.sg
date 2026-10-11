@@ -34,7 +34,7 @@ author:
 
 # Social Media Links (legacy keys for your templates)
 instagram_url: "https://instagram.com/ebiyasg"
-tiktok_url: "https://tiktok.com/@fish_ah_gong"
+tiktok_url: "https://tiktok.com/@ebiya.sg"
 whatsapp_url: "https://wa.me/6589002228"
 
 # Social media profiles (for SEO cards)
@@ -72,7 +72,7 @@ minima:
   # Footer social icons
   # social_links:
   #  - { platform: instagram, user_url: "https://instagram.com/ebiyasg" }
-  #  - { platform: tiktok,    user_url: "https://tiktok.com/@fish_ah_gong" }
+  #  - { platform: tiktok,    user_url: "https://tiktok.com/@ebiya.sg" }
   #  - { platform: whatsapp,  user_url: "https://wa.me/6589002228" }
 
 # Search engine verification (replace with real codes)
