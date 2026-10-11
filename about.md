@@ -55,7 +55,7 @@ These aren't aesthetic showpieces—they're functional breeding systems designed
 
 ## How We Serve You
 
-**In-Store Pickup** is the preferred collection method, allowing for personal consultation and quality assurance. **VIP Gold members** enjoy delivery privileges as part of their membership benefits. **Shipping** options are available upon inquiry for those outside the immediate area.
+**Collection** is at the shop at 55 Changi Road, #B1-01, Singapore, by appointment. Message us on WhatsApp at +65 8900 2228 to arrange a time. **Delivery** is for members. There is no shipping.
 
 ## Why ebiyaSG Exists
 
