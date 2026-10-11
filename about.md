@@ -26,7 +26,7 @@ ebiyaSG is a Singapore-based Caridina shrimp specialist and custom tank builder 
 
 ## From Hobby to Expertise
 
-What started as a personal passion in 2018 has evolved into a professional breeding operation built on years of hands-on experience. As a solo-run business partnered with a skilled tank-building team, ebiyaSG combines the precision of specialist breeding with the practical knowledge gained from countless trial-and-error cycles. Located conveniently near Old Airport Road Food Centre, the operation focuses on what truly matters: keeping shrimp alive and breeding consistently.
+ebiyaSG started about 3 years ago as a hobby and is now a business. As a solo-run business partnered with a skilled tank-building team, ebiyaSG combines the precision of specialist breeding with the practical knowledge gained from countless trial-and-error cycles. Located conveniently near Old Airport Road Food Centre, the operation focuses on what truly matters: keeping shrimp alive and breeding consistently.
 
 ## What We Offer
 
