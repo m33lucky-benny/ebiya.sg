@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "About ebiyaSG – Singapore Caridina Shrimp Specialist & Custom Tank Builder"
+title: "About ebiyaSG – Singapore Caridina Shrimp Breeder"
 permalink: /about/
-description: "Professional Caridina shrimp breeder in Singapore breeding fancy red tigers, blue king kong, white spectra and orange boa, plus Neocaridina. Custom breeding tanks designed for maximum shrimplet survival rates. Collection at 55 Changi Road, #B1-01, Singapore."
+description: "Professional Caridina shrimp breeder in Singapore breeding fancy red tigers, blue king kong, white spectra and orange boa, plus Neocaridina. Collection at 55 Changi Road, #B1-01, Singapore."
 author: ebiyaSG
 image: /assets/images/green-tiger.png
 keywords:
@@ -23,11 +23,11 @@ keywords:
 
 # About ebiya.SG
 
-ebiyaSG is a Singapore-based Caridina shrimp specialist and custom tank builder dedicated to helping shrimp keepers succeed where others struggle.
+ebiyaSG is a Singapore-based Caridina shrimp breeder.
 
 ## From Hobby to Expertise
 
-ebiyaSG started about 3 years ago as a hobby and is now a business. As a solo-run business partnered with a skilled tank-building team, ebiyaSG combines the precision of specialist breeding with the practical knowledge gained from countless trial-and-error cycles. The shop is at 55 Changi Road, #B1-01, Singapore. The operation focuses on what truly matters: keeping shrimp alive and breeding consistently.
+ebiyaSG started about 3 years ago as a hobby and is now a business. As a solo-run business, ebiyaSG combines the precision of specialist breeding with the practical knowledge gained from countless trial-and-error cycles. The shop is at 55 Changi Road, #B1-01, Singapore. The operation focuses on what truly matters: keeping shrimp alive and breeding consistently.
 
 ## What We Offer
 
@@ -42,16 +42,14 @@ ebiyaSG breeds Caridina shrimp, plus Neocaridina:
 - **Orange boa**
 - **Neocaridina**
 
-All shrimp are bred in-house using the same tank systems available to customers, ensuring proven performance under Singapore conditions.
+### Tanks
 
-### Custom Breeding Tanks
+Tanks come in two sizes:
 
-Two meticulously designed tank sizes engineered specifically to maximize shrimplet survival rates:
+- **60×30cm**: recommended for beginners due to higher water stability
+- **45×30cm**: compact option for experienced keepers
 
-- **60×30cm** - Recommended for beginners due to higher water stability
-- **45×30cm** - Compact option for experienced keepers
-
-These aren't aesthetic showpieces—they're functional breeding systems designed from a breeder's perspective. For detailed explanations of the design philosophy and engineering principles, customers are encouraged to explore the comprehensive guides available on the [blog](/blog/).
+Message us on WhatsApp at [+65 8900 2228](https://wa.me/6589002228) for details.
 
 ## How We Serve You
 
