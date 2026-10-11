@@ -2,7 +2,7 @@
 layout: page
 title: "About ebiyaSG – Singapore Caridina Shrimp Specialist & Custom Tank Builder"
 permalink: /about/
-description: "Professional Caridina shrimp breeder in Singapore specializing in BOA, GALAXY, and BLUE KING KONG varieties. Custom breeding tanks designed for maximum shrimplet survival rates near Old Airport Road."
+description: "Professional Caridina shrimp breeder in Singapore specializing in BOA, GALAXY, and BLUE KING KONG varieties. Custom breeding tanks designed for maximum shrimplet survival rates. Collection at 55 Changi Road, #B1-01, Singapore."
 author: ebiyaSG
 image: /assets/images/green-tiger.png
 keywords:
@@ -17,7 +17,7 @@ keywords:
   - high-grade caridina
   - Singapore aquarium
   - shrimplet survival
-  - Old Airport Road
+  - 55 Changi Road Singapore
 ---
 
 # About ebiya.SG
@@ -26,7 +26,7 @@ ebiyaSG is a Singapore-based Caridina shrimp specialist and custom tank builder 
 
 ## From Hobby to Expertise
 
-ebiyaSG started about 3 years ago as a hobby and is now a business. As a solo-run business partnered with a skilled tank-building team, ebiyaSG combines the precision of specialist breeding with the practical knowledge gained from countless trial-and-error cycles. Located conveniently near Old Airport Road Food Centre, the operation focuses on what truly matters: keeping shrimp alive and breeding consistently.
+ebiyaSG started about 3 years ago as a hobby and is now a business. As a solo-run business partnered with a skilled tank-building team, ebiyaSG combines the precision of specialist breeding with the practical knowledge gained from countless trial-and-error cycles. The shop is at 55 Changi Road, #B1-01, Singapore. The operation focuses on what truly matters: keeping shrimp alive and breeding consistently.
 
 ## What We Offer
 
